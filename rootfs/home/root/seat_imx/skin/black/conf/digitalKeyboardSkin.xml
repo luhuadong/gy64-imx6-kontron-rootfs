@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<skin name="digital keyboard skin" bgfilename="/切图分类/界面/数字键区输入/数字键区输入Bg.png" rectifywidth="1" rectifyheight="0" rowtop="19" left="19" width="356" height="442" RepeatstartTime="500" RepeatTime="200" animatetime="300" historyColor="137,137,140" error="设置越界">
+	<row index="0" count="2">
+		<item index="0" type="edit" fontSize="42" bgfilename= "/切图分类/界面/数字键区输入/数字键区输入PNG/计算器显示框.png" />
+		<item index="1" type="button" funckey="0" text="del">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/回格_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/回格_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/回格_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/回格_disable.png" />
+		</item>
+	</row>
+	<row index="1" count="4">
+		<item index="0" type="button" funckey="0" text="1">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/1_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/1_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/1_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/1_disable.png" />
+		</item>
+		<item index="1" type="button" funckey="0" text="2">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/2_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/2_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/2_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/2_disable.png" />		
+		</item>
+		<item index="2" type="button" funckey="0" text="3">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/3_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/3_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/3_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/3_disable.png" />		
+		</item>
+		<item index="3" type="button" funckey="0" text="up">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/up_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/up_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/up_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/up_disable.png" />		
+		</item>
+	</row>
+	<row index="2" count="4">
+		<item index="0" type="button" funckey="0" text="4">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/4_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/4_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/4_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/4_disable.png" />
+		</item>
+		<item index="1" type="button" funckey="0" text="5">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/5_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/5_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/5_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/5_disable.png" />		
+		</item>
+		<item index="2" type="button" funckey="0" text="6">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/6_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/6_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/6_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/6_disable.png" />		
+		</item>
+		<item index="3" type="button" funckey="0" text="down">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/down_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/down_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/down_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/down_disable.png" />		
+		</item>
+	</row>
+	<row index="3" count="4">
+		<item index="0" type="button" funckey="0" text="7">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/7_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/7_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/7_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/7_disable.png" />
+		</item>
+		<item index="1" type="button" funckey="0" text="8">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/8_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/8_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/8_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/8_disable.png" />		
+		</item>
+		<item index="2" type="button" funckey="0" text="9">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/9_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/9_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/9_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/9_disable.png" />		
+		</item>
+		<item index="3" type="button" funckey="1" text="ok">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/sure_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/sure_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/sure_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/sure_disable.png" />		
+		</item>
+	</row>
+	<row index="4" count="3">
+		<item index="0" type="button" funckey="1" text="cancel">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/cancel_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/cancel_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/cancel_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/cancel_disable.png" />
+		</item>
+		<item index="1" type="button" funckey="0" text="0">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/0_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/0_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/0_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/0_disable.png" />		
+		</item>
+		<item index="2" type="button" funckey="0" text=".">
+			<none filename="/切图分类/界面/数字键区输入/数字键区输入PNG/s1_none.png" />
+			<down filename="/切图分类/界面/数字键区输入/数字键区输入PNG/s1_down.png" />
+			<focus filename="/切图分类/界面/数字键区输入/数字键区输入PNG/s1_select.png" />
+			<disable filename="/切图分类/界面/数字键区输入/数字键区输入PNG/s1_disable.png" />		
+		</item>
+	</row>
+</skin>

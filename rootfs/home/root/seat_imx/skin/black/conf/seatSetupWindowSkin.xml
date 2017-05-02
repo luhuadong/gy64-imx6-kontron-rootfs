@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<skin name="SeatSetup">
+  <mainform  left="0" top="0" width="1024" height="768" animatetime="500" background="/切图分类/界面/席位编辑/席位编辑/切图/席位编辑BG.png">
+    <pagepanel left="10" top="50" width="1004" height="50">
+      <button width="210" height="50" textsize="20" activecolor="62,99,169" />
+      <add left="0" top="0" width="60" height="50" iconsize="26,26" icon="/切图分类/界面/席位编辑/席位编辑/切图/+none.png" />
+      <radio width="200" height="50" textsize="20" text="显示电台" />
+    </pagepanel>
+    <hotkeypanel left="11" top="105" width="998" height="448" cellleft="-3" celltop="-6" cellwidth="100" cellheight="90" animatetime="500" background="/切图分类/界面/席位编辑/席位编辑/切图/格子.png">
+      <max width="204" height="187" leftborder="13" rightborder="13" topborder="13" bottomborder="15" iconsize="128,128" ltextsize="22" maxltextsize="48" rtextsize="44" maxrtextsize="48" btextsize="22" maxbtextsize="48" />
+      <middle width="204" height="97" leftborder="7" rightborder="7" topborder="7" bottomborder="7" iconsize="64,64" ltextsize="14" maxltextsize="48" rtextsize="32" maxrtextsize="48" btextsize="18" maxbtextsize="48" />
+      <min width="104" height="97" leftborder="7" rightborder="7" topborder="7" bottomborder="10" iconsize="64,64" ltextsize="14" maxltextsize="48" rtextsize="32" maxrtextsize="48" btextsize="14" maxbtextsize="48" />
+      <add left="-4" top="-1" width="104" height="94" iconsize="32,32" icon="/切图分类/界面/席位编辑/席位编辑/切图/+none.png" />
+      <foldertile scalegrid="12,12,192,172">
+        <none filename="/切图分类/界面/席位编辑/文件夹/文件夹_none.png" />
+        <down filename="/切图分类/界面/席位编辑/文件夹/文件夹_disable.png" />
+        <active filename="/切图分类/界面/席位编辑/文件夹/文件夹_down.png" />
+        <strong filename="/切图分类/界面/席位编辑/文件夹/文件夹_select.png" />
+      </foldertile>
+    </hotkeypanel>
+    <folderpanel left="11" top="105" width="998" height="448" cellleft="47" celltop="124" cellwidth="100" cellheight="90" animatetime="500" background="/切图分类/界面/席位编辑/文件夹/文件夹Tile.png">
+      <title left="0" top="45" textsize="25" textcolor="255,255,255" />
+    </folderpanel> 
+    <hintpanel left="325" top="560" width="364" height="30" scalegrid="15,0,345,30" animatetime="300" background="/切图分类/界面/席位编辑/席位编辑/切图/提示-BG.png" >
+      <text size="22" color="255,255,255" />
+    </hintpanel>
+    <toolpanel left="72" top="596" width="918" height="89" animatetime="250" background="/切图分类/界面/席位编辑/席位编辑/切图/1.png">
+      <button width="70" height="80" textsize="14"  iconsize="42,42" space="5" />
+      <pagetool>
+        <left left="22" top="5" text="左移" icon="/切图分类/界面/席位编辑/席位编辑/切图/Icon-向左.png" />
+        <right left="102" top="5" text="右移" icon="/切图分类/界面/席位编辑/席位编辑/切图/Icon-向右.png" />
+        <rename left="182" top="5" text="重命名" icon="/切图分类/界面/席位编辑/席位编辑/切图/重命名.png" />
+        <remove left="830" top="5" text="删除" icon="/切图分类/界面/席位编辑/席位编辑/切图/删除.png" />
+      </pagetool>
+      <hotkeytool>
+        <move left="22" top="5" text="移动" icon="/切图分类/界面/席位编辑/席位编辑/切图/移动.png" />
+        <edit left="102" top="5" text="编辑" icon="/切图分类/界面/席位编辑/席位编辑/切图/编辑.png" />
+        <min left="182" top="5" text="1格" icon="/切图分类/界面/席位编辑/席位编辑/切图/1格.png" />
+        <middle left="242" top="5" text="2格" icon="/切图分类/界面/席位编辑/席位编辑/切图/2格.png" />
+        <max left="302" top="5" text="4格" icon="/切图分类/界面/席位编辑/席位编辑/切图/4格.png" />
+        <copy left="382" top="5" text="复制" icon="/切图分类/界面/席位编辑/席位编辑/切图/复制.png" />
+        <openfolder left="462" top="5" text="打开文件夹" icon="/切图分类/界面/席位编辑/文件夹/打开.png" />
+        <closefolder left="462" top="5" text="关闭文件夹" icon="/切图分类/界面/席位编辑/文件夹/返回.png" />
+        <remove left="830" top="5" text="删除" icon="/切图分类/界面/席位编辑/席位编辑/切图/删除.png" />
+      </hotkeytool>
+    </toolpanel>
+    <funcpanel left="72" top="691" width="918" height="69" background="/切图分类/界面/席位编辑/席位编辑/切图/2.png" >
+      <button width="155" height="60" textsize="20">
+        <add left="120" top="5" text="新建" />
+        <reset left="290" top="5" text="复位" />
+        <save left="460" top="5" text="保存" />
+        <exit left="630" top="5" text="退出" />
+      </button>
+    </funcpanel>
+  </mainform>
+  <editform left="0" top="0" width="1024" height="768" animatetime="500" background="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+    <createform left="0" top="20" width="504" height="390" scalegrid="55,135,445,335" background="/切图分类/界面/席位编辑/新建/切图/BG-1.png">
+      <title left="0"  top="57" textsize="26" textcolor="255,255,255" text="新建" />
+      <close left="354" top="40" />
+      <info left="53" top="137" width="396" height="171" scalegrid="7,7,385,160" background="/切图分类/界面/席位编辑/新建/切图/BG-2.png" >
+        <page left="51" top="10" width="295" height="65" area="0.17" textborder="20" textsize="24" textcolor="255,255,255" text="页按键" iconsize="14,23" icon="/切图分类/界面/席位编辑/新建/切图/按键.png" />
+        <hotkey left="51" top="90" width="295" height="65" area="0.17" textborder="20" textsize="24" textcolor="255,255,255" text="快捷键" iconsize="14,23" icon="/切图分类/界面/席位编辑/新建/切图/按键.png" />
+      </info>
+    </createform>
+    <pagetypeform left="0" top="20" width="504" height="390" scalegrid="55,135,445,335" background="/切图分类/界面/席位编辑/文件夹/新建文件夹类型/BG-1.png">
+      <title left="0"  top="57" textsize="26" textcolor="255,255,255" text="新建页按键" />
+      <close left="354" top="40" />
+      <back left="53" top="45" width="90" height="55" textsize="24" textcolor="255,255,255" text="返回" />
+      <info left="53" top="137" width="396" height="171" scalegrid="7,7,385,160" background="/切图分类/界面/席位编辑/文件夹/新建文件夹类型/BG-2.png" >
+        <phone left="51" top="10" width="295" height="65" area="0.17" textborder="20" textsize="24" textcolor="255,255,255" text="电话页" iconsize="14,23" icon="/切图分类/界面/席位编辑/文件夹/新建文件夹类型/按键.png" />
+        <speak left="51" top="90" width="295" height="65" area="0.17" textborder="20" textsize="24" textcolor="255,255,255" text="通播页" iconsize="14,23" icon="/切图分类/界面/席位编辑/文件夹/新建文件夹类型/按键.png" />
+      </info>
+    </pagetypeform>
+    <pageeditform left="0" top="20" width="517" height="455" scalegrid="55,135,460,400" background="/切图分类/界面/席位编辑/文件夹/新建文件夹/BG-1.png" >
+      <title left="0"  top="57" textsize="26" textcolor="255,255,255" />
+      <close left="369" top="40" />
+      <back left="53" top="45" width="90" height="55" textsize="24" textcolor="255,255,255" text="返回" />
+      <info left="59" top="128" width="406" height="180" scalegrid="7,7,385,160" background="/切图分类/界面/席位编辑/文件夹/新建文件夹/BG-2.png" >
+        <name left="20" top="66"  textsize="24" textcolor="255,255,255" text="名称:" />
+        <edit left="82" top="50" width="305" height="64" hborder="20" textsize="24" textcolor="0,0,0" />
+      </info>
+      <button left="180" top="340" width="168" height="74" textsize="24" textcolor="255,255,255" />
+    </pageeditform>
+    <hotkeytypeform left="0" top="20" width="464" height="452" scalegrid="55,135,445,535" background="/切图分类/界面/席位编辑/席位/新建席位-1/切图/BG-1.png" >
+      <title left="0" top="57" textsize="26" textcolor="255,255,255" />
+      <close left="315" top="40" />
+      <back left="53" top="45" width="90" height="55" textsize="24" textcolor="255,255,255" text="返回" />
+      <info left="55" top="128" width="356" height="273" scalegrid="7,7,385,160" background="/切图分类/界面/席位编辑/席位/新建席位-1/切图/BG-2.png" >
+        <phone left="30" top="20" width="295" height="65" area="0.17" textborder="20" textsize="24" textcolor="255,255,255" text="电话按键" iconsize="14,23" icon="/切图分类/界面/席位编辑/文件夹/新建文件夹类型/按键.png" />
+        <contract left="30" top="95" width="295" height="65" area="0.17" textborder="20" textsize="24" textcolor="255,255,255" text="用户通迅录" iconsize="14,23" icon="/切图分类/界面/席位编辑/文件夹/新建文件夹类型/按键.png" />
+        <speak left="30" top="175" width="295" height="65" area="0.17" textborder="20" textsize="24" textcolor="255,255,255" text="通播按键" iconsize="14,23" icon="/切图分类/界面/席位编辑/文件夹/新建文件夹类型/按键.png" />
+      </info>
+    </hotkeytypeform>
+    <contractlistform left="0" top="20" width="545" height="592" scalegrid="55,135,485,505" background="/切图分类/界面/席位编辑/席位/通迅录/BG-1.png" >
+      <title left="0" top="57" textsize="26" textcolor="255,255,255" text="用户通迅录" />
+      <close left="395" top="40" />
+      <back left="53" top="45" width="90" height="55" textsize="24" textcolor="255,255,255" text="返回" />
+      <info left="55" top="128" width="436" height="413" scalegrid="7,7,385,160" background="/切图分类/界面/席位编辑/席位/通迅录/BG-2.png" >
+        <button hborder="25" vborder="12" space="0" buttoncount="6" width="340" height="65" area="0.17" textborder="20" textsize="24" textcolor="255,255,255" iconsize="14,23" icon="/切图分类/界面/席位编辑/文件夹/新建文件夹类型/按键.png" />
+        <scrollbar left="385" top="0" width="51" height="413" hastile="1" />
+      </info>
+    </contractlistform>
+    <contractdetailform left="0" top="20" width="495" height="462" scalegrid="55,135,485,505" background="/切图分类/界面/席位编辑/席位/通迅录/BG-1.png" >
+      <title left="0" top="57" textsize="26" maxwidth="245" textcolor="255,255,255" />
+      <close left="340" top="40" />
+      <back left="53" top="45" width="90" height="55" textsize="24" textcolor="255,255,255" text="返回" />
+      <info left="55" top="128" width="381" height="283" scalegrid="7,7,385,160" background="/切图分类/界面/席位编辑/席位/通迅录/BG-2.png" >
+        <button hborder="25" vborder="12" space="0" buttoncount="4" width="340" height="65" area="0.17" textborder="20" textsize="24" textcolor="255,255,255" iconsize="14,23" icon="/切图分类/界面/席位编辑/文件夹/新建文件夹类型/按键.png" />
+      </info>
+    </contractdetailform>
+    <hotkeyeditform left="0" top="20" width="706" height="736" scalegrid="55,135,645,605" background="/切图分类/界面/席位编辑/席位/新建席位-2/切图/BG-1.png">
+      <title left="0"  top="57" textsize="30" textcolor="255,255,255" />
+      <close left="555" top="40" />
+      <back left="53" top="45" width="90" height="55" textsize="24" textcolor="255,255,255"  text="返回" />
+      <info left="53" top="128" width="599" height="453" scalegrid="7,7,385,160" background="/切图分类/界面/席位编辑/席位/新建席位-2/切图/BG-2.png">
+        <view left="19" top="15" width="200" height="180" />
+        <typelabel left="230" top="26" textsize="20" textcolor="255,255,255" text="类型:" />
+        <typeedit left="290" top="16" width="280" height="42" textsize="20" textcolor="0,0,0" />
+        <codelabel left="230" top="88" textsize="20" textcolor="255,255,255" text="号码:" />
+        <codeedit left="285" top="78" width="300" height="55" textsize="20" textcolor="0,0,0" hborder="20" />
+        <sizelabel left="230" top="150" textsize="20" textcolor="255,255,255" text="尺寸:" />
+        <sizeedit left="290" top="140" width="280" height="42" textsize="20" textcolor="0,0,0" />
+        <btextlabel left="25" top="216" textsize="20" textcolor="255,255,255" text="名称:" />
+        <btextedit left="100" top="206" width="250" height="55" textsize="20" textcolor="0,0,0" hborder="20" />
+        <btextsizelabel left="380" top="216" textsize="20" textcolor="255,255,255" text="字号:" />
+        <btextsizeedit left="435" top="206" width="150" height="55" textsize="20" textcolor="0,0,0" hborder="20" />
+        <ltextlabel left="25" top="270" textsize="20" textcolor="255,255,255" text="左标题:" />
+        <ltextedit left="100" top="260" width="250" height="55" textsize="20" textcolor="0,0,0" hborder="20" />
+        <ltextsizelabel left="380" top="270" textsize="20" textcolor="255,255,255" text="字号:" />
+        <ltextsizeedit left="435" top="260" width="150" height="55" textsize="20" textcolor="0,0,0" hborder="20" />
+        <rtextlabel left="25" top="325" textsize="20" textcolor="255,255,255" text="右标题:" />
+        <rtextedit left="100" top="315" width="250" height="55" textsize="20" textcolor="0,0,0" hborder="20" />
+        <rtextsizelabel left="380" top="325" textsize="20" textcolor="255,255,255" text="字号:" />
+        <rtextsizeedit left="435" top="315" width="150" height="55" textsize="20" textcolor="0,0,0" hborder="20" />   
+        <iconfamilylabel left="25" top="385" textsize="20" textcolor="255,255,255" text="图标样式:" />			
+        <kongjunicon left="120" top="380" width="33" height="34">
+					<label left="155" top="385" textsize="20" textcolor="255,255,255"  text="空军" />
+				</kongjunicon>
+        <haijunicon left="230" top="380" width="33" height="34">
+					<label left="265" top="385" textsize="20" textcolor="255,255,255" text="海军" />
+				</haijunicon>
+        <lujunicon left="340" top="380" width="33" height="34">
+					<label left="375" top="385" textsize="20" textcolor="255,255,255" text="陆军" />
+				</lujunicon>
+      </info>
+      <button left="263" top="600" width="168" height="75" textsize="24" />
+    </hotkeyeditform>
+  </editform>
+</skin>

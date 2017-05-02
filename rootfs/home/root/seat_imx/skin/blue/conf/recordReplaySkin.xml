@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin name="replay window skin" left="0" top="0" width="1024" height="768" animatetime="500" background="/切图分类/界面/录音重演/切图/BG.png" >
+  <navigatorpanel>
+    <navigatorbutton count="1" left="3" top="2" width="128" height="75" space="0" textleft="23" texttop="20" textsize="20" textcolor="255,255,255" text="录音重演" />
+    <closebutton left="920" top="5" />
+  </navigatorpanel>
+  <channelpanel left="0" top="107" width="1024" height="160" count="4">
+    <hintitem left="20" top="0" width="975" height="19" starttext="%1 (开始时间: %2)" runningtext="%1 (当前时间: %2)" />
+    <suminfo left="48" top="35" textsize="18" textcolor="255,255,255" text="总信息" />
+    <sumbar left="125" top="25" width="550" height="55" />
+    <subinfo left="48" top="87" textsize="18" textcolor="255,255,255" text="当前信息" />
+    <subbar left="128" top="80" width="545" height="38" />
+    <recordname left="48" top="120" textsize="16" textcolor="102,100,108" text="当前记录: %1" />
+    <caller left="338" top="120" textsize="16" textcolor="102,100,108" text="主叫: %1" />
+    <callee left="538" top="120" textsize="16" textcolor="102,100,108" text="被叫: %1" />
+    <volumntext left="845" top="40" textsize="18" textcolor="255,255,255" text="音量" />
+    <volumnbox left="885" top="25" width="100" height="45" itemcount="10" textcolor="255,255,255" textsize="18" />
+    <silence left="885" top="90" width="110" height="50" textsize="18" textcolor="255,255,255" text="静音" />
+  </channelpanel>
+</skin>

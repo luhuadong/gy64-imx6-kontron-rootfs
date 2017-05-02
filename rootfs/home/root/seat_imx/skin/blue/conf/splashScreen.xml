@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<skin name="SplashScreen" left="0" top="0" width="1024" height="768" background="/切图分类/公共控件/半透明背景/半透明黑色背景.png">
+	<logo top="180" width="263" height="161" filename="/切图分类/界面/Logo启动/载入界面icon.png" />
+	<progressbar left="352" top="350" width="345" height="24" step="5" />
+	<closebutton left="0" top="420" width="150" height="100" text="退出系统" textsize="26" />
+	<info top="380" textsize="18">
+		<alreadyrunning text="另外一个席位程序正在运行" />
+		<loadlogmodule text="正在加载日志配置信息" />
+		<waitconnserver text="正在等待连接到网关" />
+		<initseatfailed text="席位初始化失败: %1" />
+		<loadhistory text="正在加载历史记录" />
+		<loadvideo text="正在加载视频模块" />
+		<startup text="初始化完成,正在启动中" />
+	</info>
+</skin>

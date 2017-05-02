@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<skin name="crypto analog dial tray skin" left="5" top="0" width="373" height="541" RepeatstartTime="500" RepeatTime="200" animatetime="300" >
+	<background scalegrid="40,40,370,620" filename="/切图分类/界面/拨号盘/红色拨号盘/kb_bg.png" />
+	<text left="150" top="12" textsize="24" textcolor="255,255,255" text="江河台" />
+	<inputbox left="21" hborder="30" top="39" vborder="36" width="330" height="105" maxlength="13" textcolor="35,35,35" historycolor="145,145,145" textsize="34" scalegrid="55,40,300,105" filename="/切图分类/界面/拨号盘/红色拨号盘/inputbox.png" />
+	<hintbox left="21" hborder="30" top="39" vborder="36" width="330" height="105" textcolor="35,35,35" textsize="26" timeout="3000" scalegrid="55,40,300,105" filename="/切图分类/界面/拨号盘/红色拨号盘/inputbox.png" />
+	<button left="35" top="128" width="100" height="54" text="incomming" funckey="1" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/btn_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/btn_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/btn_disable.png" />
+	</button>
+	<text left="67" top="173" textsize="16" textcolor="255,255,255" text="来电"/>
+	<button left="133" top="128" width="100" height="54" text="sendring" funckey="1" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/btn_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/btn_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/btn_disable.png" />
+	</button>
+	<text left="165" top="173" textsize="16" textcolor="255,255,255" text="发铃"/>
+	<button left="231" top="128" width="100" height="54" text="redial" funckey="1" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/btn_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/btn_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/btn_disable.png" />
+	</button>
+	<text left="263" top="173" textsize="16" textcolor="255,255,255" text="重拨"/>
+	<button left="35" top="200" width="98" height="73" text="1" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/kb_1_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/kb_1_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/kb_1_disable.png" />
+	</button>
+	<button left="133" top="200" width="98" height="73" text="2" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/kb_2_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/kb_2_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/kb_2_disable.png" />
+	</button>
+	<button left="231" top="200" width="98" height="73" text="3" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/kb_3_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/kb_3_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/kb_3_disable.png" />
+	</button>
+	<button left="35" top="264" width="98" height="73" text="4" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/kb_4_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/kb_4_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/kb_4_disable.png" />
+	</button>
+	<button left="133" top="264" width="98" height="73" text="5" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/kb_5_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/kb_5_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/kb_5_disable.png" />
+	</button>
+	<button left="231" top="264" width="98" height="73" text="6" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/kb_6_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/kb_6_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/kb_6_disable.png" />
+	</button>
+	<button left="35" top="328" width="98" height="73" text="7" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/kb_7_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/kb_7_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/kb_7_disable.png" />
+	</button>
+	<button left="133" top="328" width="98" height="73" text="8" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/kb_8_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/kb_8_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/kb_8_disable.png" />
+	</button>
+	<button left="231" top="328" width="98" height="73" text="9" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/kb_9_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/kb_9_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/kb_9_disable.png" />
+	</button>
+	<button left="35" top="392" width="98" height="73" text="*" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/kb_xin_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/kb_xin_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/kb_xin_disable.png" />
+	</button>
+	<button left="133" top="392" width="98" height="73" text="0" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/kb_0_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/kb_0_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/kb_0_disable.png" />
+	</button>
+	<button left="231" top="392" width="98" height="73" text="#" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/kb_jing_none.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/kb_jing_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/红色拨号盘/kb_jing_disable.png" />
+	</button>
+	<button left="43" top="463" width="99" height="55" text="zc" funckey="1" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/light_off.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/light_off_down2.png" />
+		<focus filename="/切图分类/界面/拨号盘/红色拨号盘/light_green.png" />
+	</button>
+	<text left="73" top="505" textsize="16" textcolor="255,255,255" text="明话"/>
+	<button left="141" top="463" width="99" height="55" text="js" funckey="1" >
+		<none filename="/切图分类/界面/拨号盘/红色拨号盘/light_off.png" />
+		<down filename="/切图分类/界面/拨号盘/红色拨号盘/light_off_down2.png" />
+		<focus filename="/切图分类/界面/拨号盘/红色拨号盘/light_red.png" />
+	</button>
+	<text left="174" top="505" textsize="16" textcolor="255,255,255" text="密话"/>
+</skin>

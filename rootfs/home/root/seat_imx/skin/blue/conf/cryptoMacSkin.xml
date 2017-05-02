@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<cryptomac>
+	<callpanel left="6" top="288"  width="1012" height="270" scalegrid="0,0,1024,768" background="/切图分类/公共控件/半透明背景/半透明黑色背景.png" >
+		<callitem left="0" top="-5" width="510" height="280"/>
+		<callprogress1 left="0" top="0" width="505" height="280" >
+			<tile scalegrid="9,9,295,262">
+				<none filename="/切图分类/界面/电话接听/密话/btn_green2_s1.png" />
+				<focus filename="/切图分类/界面/电话接听/密话/btn_green2_s2.png" />
+				<down filename="/切图分类/界面/电话接听/密话/btn_green2_s3.png" />
+				<disable filename="/切图分类/界面/电话接听/密话/btn_green2_s4.png" />
+			</tile>
+			<icon left="15" top="20" width="48" height="48"/>
+			<signicon left="450" top="20" width="37" height="39" />
+			<name left="0" top="90" top2="105" textsize="60" textcolor="255,255,255"/>
+			<code left="0" top="200" textsize="36" textcolor="255,255,255"/>
+		</callprogress1>	
+		<callprogress2 left="0" top="0" width="505" height="280" >
+			<tile scalegrid="9,9,295,262">
+				<none filename="/切图分类/界面/电话接听/密话/btn_red2_s1.png" />
+				<focus filename="/切图分类/界面/电话接听/密话/btn_red2_s2.png" />
+				<down filename="/切图分类/界面/电话接听/密话/btn_red2_s3.png" />
+				<disable filename="/切图分类/界面/电话接听/密话/btn_red2_s4.png" />
+			</tile>
+			<icon left="15" top="20" width="48" height="48"/>
+			<signicon left="450" top="20" width="37" height="39" />
+			<name left="0" top="90" top2="105" textsize="60" textcolor="205,98,106"/>
+			<code left="0" top="200" textsize="36" textcolor="205,98,106"/>
+		</callprogress2>	
+		<callzc left="0" top="0" width="510" height="280" >
+			<tile scalegrid="0,0,510,280">
+				<none filename="/切图分类/界面/电话接听/加密/btn_启动加密_s1.png" />
+				<focus filename="/切图分类/界面/电话接听/加密/btn_启动加密_s2.png" />
+				<down filename="/切图分类/界面/电话接听/加密/btn_启动加密_s3.png" />
+				<disable filename="/切图分类/界面/电话接听/加密/btn_启动加密_s4.png" />
+			</tile>
+			<icon left="15" top="20" width="48" height="48"/>
+			<signicon left="450" top="20" width="37" height="39" />
+			<markicon left="360" top="87" width="76" height="76" />
+			<time left="0" top="20" textsize="36" textcolor="255,255,255" text="hh:nn:ss" />
+			<name left="0" top="70" top2="90" textsize="60" textcolor="255,255,255"/>
+			<code left="0" top="145" textsize="36" textcolor="255,255,255"/>
+		</callzc>
+		<calljs left="0" top="0" width="510" height="280" >
+			<tile scalegrid="0,0,510,280">
+				<none filename="/切图分类/界面/电话接听/加密/btn_密话通话_s1.png" />
+				<focus filename="/切图分类/界面/电话接听/加密/btn_密话通话_s2.png" />
+				<down filename="/切图分类/界面/电话接听/加密/btn_密话通话_s3.png" />
+				<disable filename="/切图分类/界面/电话接听/加密/btn_密话通话_s4.png" />
+			</tile>
+			<icon left="15" top="20" width="48" height="48"/>
+			<signicon left="450" top="20" width="37" height="39" />
+			<markicon left="360" top="87" width="76" height="76" />
+			<time left="0" top="20" textsize="36" textcolor="255,255,255" text="hh:nn:ss" />
+			<name left="0" top="70" top2="90" textsize="60" textcolor="255,255,255"/>
+			<code left="0" top="145" textsize="36" textcolor="255,255,255"/>
+		</calljs>
+		<zc left="243" top="190" width="237" height="62" >
+			<tile scalegrid="28,0,206,62">
+				<none filename="/切图分类/界面/电话接听/加密/启动加密_s1.png" />
+				<focus filename="/切图分类/界面/电话接听/加密/启动加密_s2.png" />
+				<down filename="/切图分类/界面/电话接听/加密/启动加密_s3.png" />
+				<disable filename="/切图分类/界面/电话接听/加密/启动加密_s4.png" />
+			</tile>
+			<name left="0" top="16" textsize="32" textcolor="244,200,126" text="启动加密" />
+		</zc>
+		<js left="3" top="190" width="237" height="62" >
+			<name left="0" top="16" textsize="32" textcolor="205,98,106" text="密话通话" />
+		</js>
+    <backtozc left="243" top="190" width="237" height="62" >
+      <tile scalegrid="28,0,206,62">
+        <none filename="/切图分类/界面/电话接听/加密/启动加密_s1.png" />
+        <focus filename="/切图分类/界面/电话接听/加密/启动加密_s2.png" />
+        <down filename="/切图分类/界面/电话接听/加密/启动加密_s3.png" />
+        <disable filename="/切图分类/界面/电话接听/加密/启动加密_s4.png" />
+      </tile>
+      <name left="0" top="16" textsize="32" textcolor="244,200,126" text="转到明话" />
+    </backtozc>
+		<sendring left="30" top="190" width="185" height="62" >
+			<tile scalegrid="28,0,206,62">
+				<none filename="/切图分类/界面/电话接听/加密/启动加密_s1.png" />
+				<focus filename="/切图分类/界面/电话接听/加密/启动加密_s2.png" />
+				<down filename="/切图分类/界面/电话接听/加密/启动加密_s3.png" />
+				<disable filename="/切图分类/界面/电话接听/加密/启动加密_s4.png" />
+			</tile>
+			<name left="0" top="16" textsize="32" textcolor="244,200,126" text="发铃" />
+		</sendring>
+		<incrypto left="132" top="190" width="250" height="65">
+			<name left="55" top="0" textsize="30" textcolor="205,98,106" text="正在加密..." />
+		</incrypto>
+		<inring left="132" top="190" width="250" height="65">
+			<name left="55" top="0" textsize="30" textcolor="124,165,97" text="正在发铃..." />
+		</inring>
+		<digitalphoneringleft left="0" top="0" width="505" height="280" >
+			<tile scalegrid="9,9,295,262">
+				<none filename="/切图分类/界面/电话接听/密话/btn_blue2_s1.png" />
+				<focus filename="/切图分类/界面/电话接听/密话/btn_blue2_s2.png" />
+				<down filename="/切图分类/界面/电话接听/密话/btn_blue2_s3.png" />
+				<disable filename="/切图分类/界面/电话接听/密话/btn_blue2_s4.png" />
+			</tile>
+			<icon left="10" top="10" width="64" height="64"/>
+			<signicon left="450" top="20" width="37" height="39" />
+			<name left="0" top="90" textsize="60" textcolor="255,255,255"  textcolor2="111,111,111"/>
+			<code left="0" top="200" textsize="36" textcolor="255,255,255"  textcolor2="111,111,111" />
+		</digitalphoneringleft>	
+		<digitalphoneringright left="0" top="0" width="505" height="280" >
+			<tile scalegrid="9,9,295,262">
+				<none filename="/切图分类/界面/电话接听/密话/btn_green2_s1.png" />
+				<focus filename="/切图分类/界面/电话接听/密话/btn_green2_s2.png" />
+				<down filename="/切图分类/界面/电话接听/密话/btn_green2_s3.png" />
+				<disable filename="/切图分类/界面/电话接听/密话/btn_green2_s4.png" />
+			</tile>
+			<icon left="10" top="10" width="64" height="64"/>
+			<signicon left="450" top="20" width="37" height="39" />
+			<name left="0" top="90" textsize="60" textcolor="255,255,255"  textcolor2="111,111,111"/>
+			<code left="0" top="200" textsize="36" textcolor="255,255,255"  textcolor2="111,111,111" />
+		</digitalphoneringright>	
+		<digitalphonetalkleft left="0" top="0" width="505" height="280" >
+			<tile scalegrid="0,0,510,280">
+				<none filename="/切图分类/界面/电话接听/密话/btn_left_s1.png" />
+				<focus filename="/切图分类/界面/电话接听/密话/btn_left_s2.png" />
+				<down filename="/切图分类/界面/电话接听/密话/btn_left_s3.png" />
+				<disable filename="/切图分类/界面/电话接听/密话/btn_left_s4.png" />
+			</tile>
+			<icon left="10" top="10" width="64" height="64"/>
+			<signicon left="450" top="20" width="37" height="39" />
+			<markicon left="360" top="87" width="76" height="76" />
+			<time left="0" top="20" textsize="36" textcolor="255,255,255" text="hh:nn:ss" />
+			<name left="0" top="70" top2="90" textsize="60" textcolor="255,255,255"/>
+			<code left="0" top="145" top2="200" textsize="36" textcolor="255,255,255"/>
+		</digitalphonetalkleft>		
+		<digitalphonetalkright left="0" top="0" width="505" height="280" >
+			<tile scalegrid="0,0,510,280">
+				<none filename="/切图分类/界面/电话接听/加密/btn_启动加密_s1.png" />
+				<focus filename="/切图分类/界面/电话接听/加密/btn_启动加密_s2.png" />
+				<down filename="/切图分类/界面/电话接听/加密/btn_启动加密_s3.png" />
+				<disable filename="/切图分类/界面/电话接听/加密/btn_启动加密_s4.png" />
+			</tile>
+			<icon left="10" top="10" width="64" height="64"/>
+			<signicon left="450" top="20" width="37" height="39" />
+			<markicon left="360" top="87" width="76" height="76" />
+			<time left="0" top="20" textsize="36" textcolor="255,255,255" text="hh:nn:ss" />
+			<name left="0" top="70" top2="90" textsize="60" textcolor="255,255,255"/>
+			<code left="0" top="145" top2="200" textsize="36" textcolor="255,255,255"/>
+		</digitalphonetalkright>		
+		<video left="105" top="190" width="300" height="62" >
+			<tile scalegrid="28,0,206,62">
+				<none filename="/切图分类/界面/电话接听/加密/启动加密_s1.png" />
+				<focus filename="/切图分类/界面/电话接听/加密/启动加密_s2.png" />
+				<down filename="/切图分类/界面/电话接听/加密/启动加密_s3.png" />
+				<disable filename="/切图分类/界面/电话接听/加密/启动加密_s4.png" />
+			</tile>
+			<name left="95" top="13" textsize="32" textcolor="244,200,126" text="视频通话" />
+			<code left="65" top="13" textsize="36" textcolor="255,255,255" text="等待对方应答" />
+			<icon left="30" top="15" width="32" height="35"/>
+		</video>
+	</callpanel>
+	<icon>
+		<callin filename="/切图分类/界面/电话接听/密话/icon_呼入.png" />
+		<callout filename="/切图分类/界面/电话接听/密话/icon_呼出.png" />
+		<analog filename="/切图分类/界面/电话接听/加密/人工台_icon.png" />
+		<digital filename="/切图分类/界面/电话接听/加密/电话机_icon.png" />
+		<analogsign filename="/切图分类/界面/电话接听/密话/icon_人工机_small.png" />
+		<digitalsign filename="/切图分类/界面/电话接听/密话/icon_电话机_small.png" />
+		<hold filename="/切图分类/icon_mark/通话中_1.png" />
+		<seat filename="/切图分类/icon_small/a13.png"/>
+		<telephone filename="/切图分类/icon_small/a12.png" />
+		<video filename="/切图分类/icon/摄像头.png" />
+	</icon>
+	<string>
+		<string name="startjs" string="启动加密" />
+		<string name="injs" string="正在加密" />
+		<string name="jstalk" string="密话通话" />
+    <string name="talkbackzc" string="转到明话" />
+    <string name="startring" string="发铃" />
+    <string name="inring" string="正在发铃" />
+    <string name="callend" string="呼叫结束" />
+	</string>
+	<animation>
+		<sendring name="send_ring" left="0" top="40" width="250" height="25" />
+		<incrypto name="in_crypto" left="0" top="40" width="250" height="25" />
+		<calljs fps="4" >
+			<frame filename="/切图分类/界面/电话接听/加密/密话通话_1.png" />
+			<frame filename="/切图分类/界面/电话接听/加密/密话通话_2.png" />
+			<frame filename="/切图分类/界面/电话接听/加密/密话通话_3.png" />
+			<frame filename="/切图分类/界面/电话接听/加密/密话通话_4.png" />
+			<frame filename="/切图分类/界面/电话接听/加密/密话通话_5.png" />
+			<frame filename="/切图分类/界面/电话接听/加密/密话通话_6.png" />
+			<frame filename="/切图分类/界面/电话接听/加密/密话通话_7.png" />
+			<frame filename="/切图分类/界面/电话接听/加密/密话通话_8.png" />
+		</calljs>
+	</animation>
+	<cryptochoice left="0" top="0" width="186" height="98" background="/切图分类/公共控件/密话选择/bg_1.png" scalegrid="5,6,180,90" >
+		<choice width="90" height="91" none="/切图分类/公共控件/密话选择/xuanzhong_1.png" down="/切图分类/公共控件/密话选择/xuanzhong_2.png" scalegrid="5,5,85,86" />
+		<analog left="3" top="3" text="江河台" text2="一号机" iconsize="42,42" icon="/切图分类/icon/人工台_icon.png" />
+		<digital left="94" top="3" text="密话机" text2="密话机" iconsize="42,42" icon="/切图分类/icon/电话机_icon.png" />
+	</cryptochoice>
+</cryptomac>

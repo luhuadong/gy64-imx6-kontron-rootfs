@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<skin name="crypto digital dial tray skin" left="5" top="0" width="357" height="541" RepeatstartTime="500" RepeatTime="200" animatetime="300" >
+	<background scalegrid="40,40,370,620" filename="/切图分类/界面/拨号盘/密话拨号盘/bg_ptdht.png" />
+	<text left="150" top="15" textsize="24" textcolor="255,255,255" text="密话机" />
+	<inputbox left="21" hborder="40" top="90" vborder="36" width="330" height="105" maxlength="13" textcolor="35,35,35" historycolor="145,145,145" textsize="34" scalegrid="55,40,300,105" filename="/切图分类/界面/拨号盘/密话拨号盘/inputbox.png" />
+	<hintbox left="21" hborder="40" top="90" vborder="36" width="330" height="105" textcolor="35,35,35" textsize="26" timeout="3000" scalegrid="55,40,300,105" filename="/切图分类/界面/拨号盘/密话拨号盘/inputbox.png" />
+	<button left="22" top="270" width="79" height="57" text="1" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/No_1_none.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/No_1_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/No_1_disable.png" />
+	</button>
+	<button left="101" top="270" width="79" height="57" text="2" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/No_2_none.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/No_2_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/No_2_disable.png" />
+	</button>
+	<button left="180" top="270" width="79" height="57" text="3" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/No_3_none.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/No_3_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/No_3_disable.png" />
+	</button>
+	<button left="260" top="272" width="76" height="52" text="" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/key_kong.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/key_kong.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/key_kong.png" />
+	</button>
+	<button left="22" top="330" width="79" height="57" text="4" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/No_4_none.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/No_4_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/No_4_disable.png" />
+	</button>
+	<button left="101" top="330" width="79" height="57" text="5" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/No_5_none.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/No_5_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/No_5_disable.png" />
+	</button>
+	<button left="180" top="330" width="79" height="57" text="6" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/No_6_none.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/No_6_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/No_6_disable.png" />
+	</button>
+	<button left="260" top="332" width="76" height="52" text="" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/key_kong.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/key_kong.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/key_kong.png" />
+	</button>
+	<button left="22" top="390" width="79" height="57" text="7" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/No_7_none.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/No_7_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/No_7_disable.png" />
+	</button>
+	<button left="101" top="390" width="79" height="57" text="8" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/No_8_none.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/No_8_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/No_8_disable.png" />
+	</button>
+	<button left="180" top="390" width="79" height="57" text="9" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/No_9_none.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/No_9_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/No_9_disable.png" />
+	</button>
+	<button left="260" top="392" width="76" height="52" text="" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/key_kong.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/key_kong.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/key_kong.png" />
+	</button>
+	<button left="22" top="450" width="79" height="57" text="*" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/No_xin_none.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/No_xin_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/No_xin_disable.png" />
+	</button>
+	<button left="101" top="450" width="79" height="57" text="0" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/No_0_none.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/No_0_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/No_0_disable.png" />
+	</button>
+	<button left="180" top="450" width="79" height="57" text="#" funckey="0" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/No_#_none.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/No_#_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/No_#_disable.png" />
+	</button>
+	<button left="259" top="450" width="79" height="57" text="redial" funckey="1" >
+		<none filename="/切图分类/界面/拨号盘/密话拨号盘/No_cb_none.png" />
+		<down filename="/切图分类/界面/拨号盘/密话拨号盘/No_cb_down.png" />
+		<disable filename="/切图分类/界面/拨号盘/密话拨号盘/No_cb_disable.png" />
+	</button>
+</skin>

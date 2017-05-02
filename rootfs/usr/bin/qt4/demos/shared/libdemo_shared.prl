@@ -1,0 +1,6 @@
+QMAKE_PRL_BUILD_DIR = /home/grant/fsl-community-bsp/build/tmp/work/smarc_samx6i-poky-linux-gnueabi/qt4-x11-free/4.8.5-r0/qt-everywhere-opensource-src-4.8.5/demos/shared/
+QMAKE_PRO_INPUT = shared.pro
+QMAKE_PRL_TARGET = libdemo_shared.a
+QMAKE_PRL_CONFIG = lex yacc warn_on uic resources qt warn_on release incremental link_prl gdb_dwarf_index rpath_libdirs def_files_disabled exceptions no_mocdepend release stl qt_no_framework silent system-sqlite release largefile stl neon dylib create_prl link_prl depend_includepath fix_output_dirs QTDIR_build nostrip static staticlib static moc thread opengl
+QMAKE_PRL_VERSION = 1.0.0
+QMAKE_PRL_LIBS = -L/home/grant/fsl-community-bsp/build/tmp/sysroots/smarc-samx6i/usr/lib -L/home/grant/fsl-community-bsp/build/tmp/work/smarc_samx6i-poky-linux-gnueabi/qt4-x11-free/4.8.5-r0/qt-everywhere-opensource-src-4.8.5/lib  -L/home/grant/fsl-community-bsp/build/tmp/sysroots/smarc-samx6i/usr/lib -lQtOpenGL -L/home/grant/fsl-community-bsp/build/tmp/work/smarc_samx6i-poky-linux-gnueabi/qt4-x11-free/4.8.5-r0/qt-everywhere-opensource-src-4.8.5/lib -DLINUX=1 -DEGL_API_FB=1 -DLINUX=1 -DEGL_API_FB=1 -lQtGui -DLINUX=1 -DEGL_API_FB=1 -lQtCore -lGLESv2 -lGAL -lEGL -DLINUX=1 -DEGL_API_FB=1 -lpthread  

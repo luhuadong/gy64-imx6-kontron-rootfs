@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin name="turn window skin">
+	<window left="0" top="0" width="1024" height="768" animatetime="500" bgfilename="/切图分类/公共控件/半透明背景/半透明黑色背景.png" />
+	<tunebutton width="108" height="78" unicodesize="18" asciisize="44" />
+	<tuneinfo width="595" height="19" scalegrid="60,0,432,19" bgfilename="/切图分类/界面/铃声调节/03.png" textleft="25" texttop="0" textsize="16" />
+	<mainpanel left="257" top="122" scalegrid="55,130,485,525" bgfilename="/切图分类/界面/铃声调节/音量Bg.png" />
+	<nagivatorpanel left="41" top="37" width="424" height="75" >
+		<nagivatorbutton count="3" width="168" height="75" space="0" iconleft="14" icontop="15" iconwidth="38" iconheight="38" textleft="64" texttop="22" textsize="20" >
+      <ring width="128"  text="铃声" icon="/切图分类/icon/icon_铃声.png" />
+      <phone width="128"  text="话筒" icon="/切图分类/icon/icon_音量.png" />
+      <speak width="128"  text="通播" icon="/切图分类/icon/icon_音量.png" />
+      <radio width="128"  text="电台" icon="/切图分类/icon/icon_音量.png" />
+			<bright width="128"  text="亮度" icon="/切图分类/icon/icon_亮度.png" />
+      <microphone width="128" text="耳麦" icon="/切图分类/icon/耳麦.png" />
+      <listenvoc width="168" closeleft="290" text="上传话音" icon="/切图分类/icon/上传话音_启动.png" />
+		</nagivatorbutton>
+		<closebutton left="560" top="37" space ="50" />
+	</nagivatorpanel>
+  <volumncommon>
+    <decrease left="-4" top="25" text="减小" />
+    <increase left="376" top="25" text="增加" />
+    <default left="486" top="25" text="默认值" />
+    <volumn left="110" top="48" width="265" height="33" />
+  </volumncommon>
+  <volumnpanel>
+		<phonepanel_normal left="56" top="132" width="595" height="250" windowwidth="706" windowheight="410">
+			<panel chnlno="0" left="0" top="0" infotext="左听筒音量" default="25" />
+    	<panel chnlno="1" left="0" top="120" infotext="右听筒音量" default="25" />
+		</phonepanel_normal>
+  	<phonepanel_leader left="56" top="132" width="595" height="110" windowwidth="706" windowheight="290">
+    	<panel chnlno="0" left="0" top="0" infotext="听筒音量" default="25" />
+  	</phonepanel_leader>
+  	<phonepanel_tpd4391 left="56" top="132" width="595" height="110" windowwidth="706" windowheight="290">
+    	<panel chnlno="0" left="0" top="0" infotext="听筒音量" default="21" />
+  	</phonepanel_tpd4391>
+  	<phonepanel_cryptomac left="56" top="132" width="595" height="110" windowwidth="706" windowheight="290">
+    	<panel chnlno="1" left="0" top="0" infotext="右听筒音量" default="25" />
+  	</phonepanel_cryptomac>
+  	<speakpanel_normal left="56" top="132" width="595" height="110" windowwidth="706" windowheight="290">
+    	<panel chnlno="2" left="0" top="0" infotext="通播音量" default="21" />
+  	</speakpanel_normal>
+  	<speakpanel_leader left="56" top="132" width="595" height="110" windowwidth="706" windowheight="290">
+    	<panel chnlno="2" left="0" top="0" infotext="通播音量" default="21" />
+  	</speakpanel_leader>
+  	<speakpanel_tpd4391 left="56" top="132" width="595" height="110" windowwidth="706" windowheight="290">
+    	<panel chnlno="2" left="0" top="0" infotext="通播音量" default="25" />
+  	</speakpanel_tpd4391>
+  	<radiopanel_normal left="56" top="132" width="595" height="110" windowwidth="706" windowheight="290">
+    	<panel chnlno="3" left="0" top="0" infotext="电台音量" default="21" />
+  	</radiopanel_normal>
+  	<radiopanel_leader left="56" top="132" width="595" height="110" windowwidth="706" windowheight="290">
+    	<panel chnlno="3" left="0" top="0" infotext="电台音量" default="21" />
+  	</radiopanel_leader>
+  	<radiopanel_tpd4391 left="56" top="132" width="595" height="110" windowwidth="706" windowheight="290">
+    	<panel chnlno="3" left="0" top="0" infotext="电台音量" default="25" />
+  	</radiopanel_tpd4391>
+  </volumnpanel>
+	<ringpanel left="56" top="132" width="595" height="250" windowwidth="706" windowheight="410" >
+		<mode_normal left="0" top="0" height="120" infotext="振铃模式">
+      <all left="-4" top="25"  text="全振铃" />
+      <left left="160" top="25" text="左振铃" />
+      <right left="324" top="25" text="右振铃" />
+      <silent left="488" top="25" text="静音" />
+		</mode_normal>
+    <mode_leader left="0" top="0" height="120" infotext="振铃模式">
+      <left left="128" top="25" text="振铃" />
+      <silent left="364" top="25" text="静音" />
+    </mode_leader>
+		<volumn left="0" top="120" height="120" infotext="铃声音量">
+			<decrease left="-4" top="25" text="减小" />
+			<increase left="486" top="25" text="增加" />
+			<volumn left="110" top="48" width="375" height="33" />
+		</volumn>
+    <phonevolumn left="0" top="120" height="120" infotext="电话铃声音量">
+      <decrease left="-4" top="25" text="减小" />
+      <increase left="486" top="25" text="增加" />
+      <volumn left="110" top="48" width="375" height="33" />
+    </phonevolumn>
+    <speakvolumn left="0" top="240" height="120" infotext="通播铃声音量">
+      <decrease left="-4" top="25" text="减小" />
+      <increase left="486" top="25" text="增加" />
+      <volumn left="110" top="48" width="375" height="33" />
+    </speakvolumn>
+    <cryptomacvolumn left="0" top="240" height="120" infotext="江河台铃声音量">
+      <decrease left="-4" top="25" text="减小" />
+      <increase left="486" top="25" text="增加" />
+      <volumn left="110" top="48" width="375" height="33" />
+    </cryptomacvolumn>
+	</ringpanel>
+	<brightpanel left="56" top="132" width="595" height="130" windowwidth="706" windowheight="410">
+		<bright left="0" top="0" infotext="亮度" >
+			<decrease left="-4" top="25" text="弱" />
+			<increase left="486" top="25" text="强" />
+			<bright left="110" top="48" width="375" height="33" />
+		</bright>
+		<info top="100" textsize="18" textcolor="237,149,0" />
+    <brightdefault left="0" top="130" infotext="预设亮度">
+      <night left="-4" top="25"  text="夜晚" value="4" />
+      <sunshine left="160" top="25" text="晴天" value="16" />
+      <cloudy left="324" top="25" text="阴天" value="8" />
+      <default left="488" top="25" text="默认值" value="10" />
+    </brightdefault>
+	</brightpanel>
+  <microphonepanel left="56" top="132" width="595" height="130" windowwidth="706" windowheight="310">
+    <microphone_normal left="0" top="0" infotext="耳麦设置" >
+      <leftphone left="-4" top="35"  text="左耳麦" />
+      <rightphone left="160" top="35" text="右耳麦" />
+      <speak left="324" top="35" text="通播耳麦" />
+      <radio left="488" top="35" text="电台耳麦" />
+    </microphone_normal>
+    <microphone_leader left="0" top="0" infotext="耳麦设置" >
+      <leftphone left="69" top="35"  text="电话耳麦" />
+      <speak left="246" top="35" text="通播耳麦" />
+      <radio left="423" top="35" text="电台耳麦" />
+    </microphone_leader>
+    <microphone_tpd4391 left="0" top="0" infotext="耳麦设置" >
+      <leftphone left="60" top="35"  text="电话耳麦" />
+      <speak left="237" top="35" text="通播耳麦" />
+      <radio left="414" top="35" text="电台耳麦" />
+    </microphone_tpd4391>
+  </microphonepanel>
+  <listenvocpanel left="56" top="132" width="326" height="262" windowwidth="436" windowheight="424" >
+    <listenphone left="0" top="0" infotext="电话话音" >
+      <forbit left="-4" top="30"  text="禁止" />
+      <auto left="110" top="30" text="自动" />
+      <manual left="223" top="30" text="手动" />
+    </listenphone>
+    <listenspeak left="0" top="130" infotext="通播话音" >
+      <forbit left="-4" top="30"  text="禁止" />
+      <auto left="110" top="30" text="自动" />
+      <manual left="223" top="30" text="手动" />
+    </listenspeak>
+  </listenvocpanel>	
+</skin>

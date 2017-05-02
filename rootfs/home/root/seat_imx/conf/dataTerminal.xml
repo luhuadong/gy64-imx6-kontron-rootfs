@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<terminal name="terminal param">
+    <functions name="seat functions param">
+        <function name="phone">
+            <page index="0" text="常用电话">
+                <key index="178" type="3" iconfamily="kongjun" code="16153404006" row="1" col="0" size="middling" authority="video;breakin;forcerelease" btext="广州六分队" />
+                <key index="179" type="12" iconfamily="kongjun" code="16153404007" row="1" col="2" size="middling" authority="video;breakin;forcerelease" btext="广州七分队" />
+                <key index="181" type="3" iconfamily="kongjun" code="16153404009" row="1" col="6" size="middling" authority="video;breakin;forcerelease" btext="广州九分队" nightsvrcode="1" />
+                <key index="182" type="3" iconfamily="kongjun" code="16153404010" row="1" col="8" size="middling" authority="video;breakin;forcerelease" btext="广州十分队" />
+                <key index="377" type="4" iconfamily="kongjun" code="P34D300036@6.24.34.93" row="2" col="0" size="middling" authority="video;breakin;forcerelease" ltext="环路P+" ltextsize="18" btext="300036" btextsize="14" rtext="P34" rtextsize="18" observerindex="34" />
+                <key index="41470" type="4" iconfamily="kongjun" code="350036" row="2" col="2" size="middling" authority="video;breakin;forcerelease" ltext="环路重发" ltextsize="18" btext="300036" btextsize="14" rtext="P34" rtextsize="18" observerindex="34" />
+                <key index="21996" type="4" iconfamily="kongjun" code="320036" row="3" col="4" size="middling" authority="video;breakin;forcerelease" ltext="ISDN" btext="300036" rtext="93@" observerindex="0" />
+                <key index="20212" type="4" iconfamily="kongjun" code="330036" row="3" col="6" size="middling" authority="video;breakin;forcerelease" ltext="CAS" btext="300036" rtext="93@" observerindex="0" />
+                <key index="39087" type="13" iconfamily="kongjun" row="2" col="7" size="min" authority="video;breakin;forcerelease" btext="111111111">
+                    <key index="2616" type="1" iconfamily="kongjun" code="16353404008" row="0" col="0" size="min" authority="video;breakin;forcerelease" btext="16353404008" />
+                    <key index="41689" type="1" iconfamily="kongjun" code="16353404011" row="0" col="1" size="min" authority="video;breakin;forcerelease" btext="11" />
+                    <key index="15350" type="1" iconfamily="kongjun" code="16353464016" row="0" col="2" size="min" authority="video;breakin;forcerelease" btext="16353464016" />
+                </key>
+                <key index="3897" type="4" iconfamily="kongjun" code="P34@6.24.34.93" row="2" col="4" size="min" authority="video;breakin;forcerelease" ltext="P34" btext="二次拨号" popdialtray="1" observerindex="34" />
+                <key index="56468" type="3" iconfamily="kongjun" code="16153404001" row="0" col="0" size="middling" authority="video;breakin;forcerelease" btext="广州一分队" nightsvrcode="2" />
+                <key index="38512" type="3" iconfamily="haijun" code="16153404002" row="0" col="2" size="middling" authority="video;breakin;forcerelease" btext="广州二分队" nightsvrcode="3" />
+                <key index="58499" type="3" iconfamily="lujun" code="16153404003" row="0" col="4" size="middling" authority="video;breakin;forcerelease" btext="广州三分队" nightsvrcode="4" />
+                <key index="10655" type="3" iconfamily="kongjun" code="16153404004" row="0" col="6" size="middling" authority="video;breakin;forcerelease" btext="广州四分队" />
+                <key index="22256" type="1" iconfamily="kongjun" code="16153404005" row="0" col="8" size="middling" authority="video;breakin;forcerelease" btext="广州五分队" />
+                <key index="34100" type="1" iconfamily="kongjun" code="16353404072" row="2" col="8" size="middling" authority="video;breakin;forcerelease" btext="16353404072" observerindex="5" />
+                <key index="56900" type="4" iconfamily="kongjun" code="300036" row="3" col="0" size="middling" authority="video;breakin;forcerelease" ltext="TUP" btext="300036" rtext="93@" observerindex="0" />
+                <key index="5816" type="4" iconfamily="kongjun" code="310036" row="3" col="2" size="middling" authority="video;breakin;forcerelease" ltext="ISUP" btext="310036" rtext="93@" observerindex="0" />
+                <key index="14192" type="3" iconfamily="kongjun" code="16153404008" row="1" col="4" size="middling" authority="video;breakin;forcerelease" btext="广州八分队" />
+                <key index="57881" type="1" iconfamily="kongjun" code="16353426010" row="3" col="8" size="middling" authority="video;breakin;forcerelease" btext="16353426010" />
+                <key index="9715" type="4" iconfamily="kongjun" code="P35D300036@6.24.34.93" row="4" col="0" size="middling" authority="video;breakin;forcerelease" ltext="环路P+" ltextsize="18" btext="300036" btextsize="14" rtext="P35" rtextsize="18" observerindex="35" />
+                <key index="22926" type="4" iconfamily="kongjun" code="350036" row="4" col="2" size="middling" authority="video;breakin;forcerelease" ltext="环路重发" ltextsize="18" btext="300036" btextsize="14" rtext="P34" rtextsize="18" observerindex="34" />
+                <key index="37416" type="4" iconfamily="kongjun" code="P35@6.24.34.93" row="4" col="4" size="middling" authority="video;breakin;forcerelease" ltext="P35" btext="二次拨号" popdialtray="1" observerindex="35" />
+                <key index="10763" type="4" iconfamily="kongjun" code="P3@6.24.34.93" row="4" col="6" size="min" authority="video;breakin;forcerelease" ltext="P3" btext="二次拨号" popdialtray="1" observerindex="3" />
+                <key index="11035" type="6" iconfamily="kongjun" code="522885" row="4" col="7" size="min" authority="video;breakin;forcerelease" btext="522885" />
+                <key index="43695" type="2" iconfamily="kongjun" code="16353427026" row="2" col="5" size="min" authority="video;breakin;forcerelease" ltext="4" btext="7026" />
+                <key index="42584" type="2" iconfamily="kongjun" code="16353427027" row="2" col="6" size="min" authority="video;breakin;forcerelease" ltext="4" btext="7027" />
+                <key index="13310" type="1" iconfamily="haijun" code="811004" row="4" col="8" size="min" authority="video;breakin;forcerelease" btext="811004" />
+                <key index="2709" type="1" iconfamily="haijun" code="821004" row="4" col="9" size="min" authority="video;breakin;forcerelease" btext="821004" />
+            </page>
+            <page index="1" text="磁石测试">
+                <key index="317" type="2" iconfamily="kongjun" code="16153427021" row="0" col="6" size="max" authority="video;breakin;forcerelease" btext="7021" observerindex="21" />
+                <key index="318" type="2" iconfamily="kongjun" code="16153427022" row="0" col="8" size="max" authority="video;breakin;forcerelease" btext="7022" observerindex="22" />
+                <key index="319" type="2" iconfamily="kongjun" code="16153427023" row="2" col="0" size="middling" authority="video;breakin;forcerelease" ltext="4" btext="7023" observerindex="23" />
+                <key index="320" type="2" iconfamily="kongjun" code="16153427024" row="2" col="2" size="middling" authority="video;breakin;forcerelease" ltext="4" btext="7024" observerindex="24" />
+                <key index="321" type="2" iconfamily="kongjun" code="16153427025" row="2" col="4" size="middling" authority="video;breakin;forcerelease" ltext="4" btext="7025" observerindex="25" />
+                <key index="322" type="2" iconfamily="kongjun" code="16153427026" row="2" col="6" size="middling" authority="video;breakin;forcerelease" ltext="4" btext="7026" observerindex="26" />
+                <key index="323" type="2" iconfamily="kongjun" code="16153427027" row="2" col="8" size="middling" authority="video;breakin;forcerelease" ltext="4" btext="7027" observerindex="27" />
+                <key index="327" type="2" iconfamily="kongjun" code="16153427031" row="3" col="6" size="middling" authority="video;breakin;forcerelease" ltext="4" btext="7031" observerindex="31" />
+                <key index="29374" type="2" iconfamily="kongjun" code="16153427019" row="0" col="2" size="max" authority="video;breakin;forcerelease" btext="7019" observerindex="19" />
+                <key index="14430" type="2" iconfamily="kongjun" code="16153427020" row="0" col="4" size="max" authority="video;breakin;forcerelease" btext="7020" observerindex="20" />
+                <key index="32528" type="2" iconfamily="kongjun" code="16153427028" row="3" col="0" size="middling" authority="video;breakin;forcerelease" ltext="4" btext="7028" observerindex="28" />
+                <key index="53881" type="2" iconfamily="kongjun" code="16153427029" row="3" col="2" size="middling" authority="video;breakin;forcerelease" ltext="4" btext="7029" observerindex="29" />
+                <key index="60940" type="2" iconfamily="kongjun" code="16153427030" row="3" col="4" size="middling" authority="video;breakin;forcerelease" ltext="4" btext="7030" observerindex="30" />
+                <key index="3469" type="2" iconfamily="kongjun" code="16153427018" row="0" col="0" size="max" authority="video;breakin;forcerelease" btext="7018" observerindex="18" />
+            </page>
+            <page index="2" text="中继测试">
+                <key index="6929" type="1" iconfamily="kongjun" code="300034" row="0" col="0" size="max" authority="video;breakin;forcerelease" ltext="ISUP" btext="300034" />
+                <key index="13038" type="1" iconfamily="kongjun" code="320035" row="0" col="2" size="max" authority="video;breakin;forcerelease" ltext="DSS1" btext="320035" />
+                <key index="2912" type="4" iconfamily="kongjun" code="90" row="2" col="2" size="max" authority="video;breakin;forcerelease" ltext="环路" ltextsize="22" btext="二次拔号" btextsize="22" rtext="13" rtextsize="30" popdialtray="1" observerindex="13" />
+                <key index="25516" type="4" iconfamily="kongjun" code="P13@6.24.34.239" row="2" col="4" size="max" authority="video;breakin;forcerelease" ltext=" 环路" ltextsize="22" btext="P13+二次拔号" btextsize="22" rtext="13" rtextsize="30" popdialtray="1" observerindex="13" />
+                <key index="30559" type="1" iconfamily="kongjun" code="P3@6.24.34.93" row="4" col="9" size="min" authority="video;breakin;forcerelease" btext="P3@6.24.34.93" />
+                <key index="62170" type="4" iconfamily="kongjun" code="9153404009" row="2" col="0" size="max" authority="video;breakin;forcerelease" ltext="环路直拨" ltextsize="22" btext="16153404009" btextsize="22" rtext="13" rtextsize="30" observerindex="13" />
+                <key index="59165" type="4" iconfamily="haijun" code="P13S9153404009@6.24.34.239" row="2" col="6" size="max" authority="video;breakin;forcerelease" ltext=" 环路直拔" ltextsize="22" btext="P13+16153404009" btextsize="22" rtext="13" rtextsize="30" popdialtray="1" observerindex="13" />
+            </page>
+        </function>
+        <function name="speak">
+            <page index="3" text="通播">
+                <key index="0" type="2" iconfamily="haijun" code="S0001" row="0" col="0" size="max" group="0" channel="2" grouporganize="0" ltext="本地" btext="S0001" observerindex="2" />
+                <key index="14214" type="0" iconfamily="kongjun" code="16353410001" row="2" col="8" size="max" group="0" channel="2" grouporganize="0" btext="16353410001" />
+                <key index="19202" type="0" iconfamily="kongjun" code="DJ1004" row="4" col="0" size="middling" group="0" channel="2" grouporganize="0" btext="DJ1004" observerindex="4" />
+                <key index="22433" type="0" iconfamily="kongjun" code="DJ1003" row="4" col="2" size="middling" group="0" channel="2" grouporganize="0" btext="DJ1003" observerindex="3" />
+                <key index="9557" type="0" iconfamily="kongjun" code="S1026" row="2" col="6" size="max" group="0" channel="2" grouporganize="0" btext="S1026" />
+                <key index="1679" type="0" iconfamily="kongjun" code="S9907" row="4" col="5" size="min" group="0" channel="2" grouporganize="0" btext="S9907" />
+                <key index="29343" type="0" iconfamily="kongjun" code="S9908" row="4" col="6" size="min" group="0" channel="2" grouporganize="0" btext="S9908" />
+                <key index="4103" type="0" iconfamily="kongjun" code="S9909" row="4" col="7" size="min" group="0" channel="2" grouporganize="0" btext="S9909" />
+                <key index="31896" type="0" iconfamily="kongjun" code="S9999" row="4" col="8" size="min" group="0" channel="2" grouporganize="0" btext="S9999" />
+                <key index="18978" type="0" iconfamily="kongjun" code="S9906" row="3" col="0" size="min" group="0" channel="2" grouporganize="0" btext="S9906" />
+                <key index="5235" type="0" iconfamily="kongjun" code="S0072" row="3" col="1" size="min" group="0" channel="2" grouporganize="0" btext="S0072" />
+                <key index="22791" type="0" iconfamily="haijun" code="S0002" row="4" col="9" size="min" group="0" channel="2" grouporganize="0" btext="S0002" />
+                <key index="787" type="0" iconfamily="haijun" code="S23901" row="0" col="2" size="max" group="0" channel="2" grouporganize="0" ltext="30" btext="会议端口" observerindex="30" />
+                <key index="266" type="0" iconfamily="haijun" code="S23901" row="0" col="4" size="max" group="0" channel="2" grouporganize="0" ltext="31" btext="会议端口" observerindex="31" />
+            </page>
+            <page index="4" text="对讲页">
+                <key index="26418" type="0" iconfamily="kongjun" code="S9907" row="1" col="4" size="middling" group="9" channel="2" grouporganize="0" btext="S9907" />
+                <key index="23804" type="0" iconfamily="kongjun" code="S9914" row="2" col="8" size="middling" group="9" channel="2" grouporganize="0" btext="S9914" />
+                <key index="1566" type="0" iconfamily="kongjun" code="S9909" row="1" col="8" size="middling" group="9" channel="2" grouporganize="0" btext="S9909" />
+                <key index="25466" type="0" iconfamily="kongjun" row="0" col="0" size="middling" group="9" channel="2" grouporganize="1" btext="总通播" />
+                <key index="1045" type="0" iconfamily="kongjun" code="S9911" row="2" col="2" size="middling" group="9" channel="2" grouporganize="0" btext="S9911" />
+                <key index="1373" type="0" iconfamily="kongjun" code="S9901" row="0" col="2" size="middling" group="9" channel="2" grouporganize="0" btext="S9901" />
+                <key index="27665" type="0" iconfamily="kongjun" code="S9902" row="0" col="4" size="middling" group="9" channel="2" grouporganize="0" btext="S9902" />
+                <key index="17765" type="0" iconfamily="kongjun" code="S9903" row="0" col="6" size="middling" group="9" channel="2" grouporganize="0" btext="S9903" />
+                <key index="21295" type="0" iconfamily="kongjun" code="S9904" row="0" col="8" size="middling" group="9" channel="2" grouporganize="0" btext="S9904" />
+                <key index="25108" type="0" iconfamily="kongjun" code="S9905" row="1" col="0" size="middling" group="9" channel="2" grouporganize="0" btext="S9905" />
+                <key index="12398" type="0" iconfamily="kongjun" code="S9906" row="1" col="2" size="middling" group="9" channel="2" grouporganize="0" btext="S9906" />
+                <key index="16648" type="0" iconfamily="kongjun" code="S9910" row="2" col="0" size="middling" group="9" channel="2" grouporganize="0" btext="S9910" />
+                <key index="31898" type="0" iconfamily="kongjun" code="S1101" row="3" col="0" size="middling" group="0" channel="2" grouporganize="0" btext="S1101" />
+                <key index="13258" type="0" iconfamily="kongjun" code="S1102" row="3" col="2" size="middling" group="0" channel="2" grouporganize="0" btext="S1102" />
+                <key index="28025" type="0" iconfamily="kongjun" code="S1103" row="3" col="4" size="middling" group="0" channel="2" grouporganize="0" btext="S1103" />
+                <key index="25442" type="0" iconfamily="kongjun" code="S1104" row="3" col="6" size="middling" group="0" channel="2" grouporganize="0" btext="S1104" />
+                <key index="25036" type="0" iconfamily="kongjun" code="S1105" row="3" col="8" size="middling" group="0" channel="2" grouporganize="0" btext="S1105" />
+                <key index="17001" type="0" iconfamily="kongjun" code="S1106" row="4" col="0" size="middling" group="0" channel="2" grouporganize="0" btext="S1106" />
+                <key index="3847" type="0" iconfamily="kongjun" code="S1107" row="4" col="2" size="middling" group="0" channel="2" grouporganize="0" btext="S1107" />
+                <key index="802" type="0" iconfamily="kongjun" code="S9912" row="2" col="4" size="middling" group="9" channel="2" grouporganize="0" btext="S9912" />
+                <key index="24327" type="0" iconfamily="kongjun" code="S9908" row="1" col="6" size="middling" group="9" channel="2" grouporganize="0" btext="S9908" />
+                <key index="9771" type="0" iconfamily="kongjun" code="S9913" row="2" col="6" size="middling" group="9" channel="2" grouporganize="0" btext="S9913" />
+                <key index="32639" type="0" iconfamily="kongjun" code="S9920" row="4" col="4" size="min" group="9" channel="2" grouporganize="0" btext="S9920" />
+            </page>
+        </function>
+        <function name="radio">
+            <page index="5">
+                <key index="1" type="1" iconfamily="kongjun" code="R9502" position="1" authority="shared" name="R9502" site="local" channel="3" />
+                <key index="2" type="0" iconfamily="kongjun" code="R9503" position="2" authority="shared" name="R9503" site="local" channel="3" />
+                <key index="3" type="1" iconfamily="kongjun" code="R9504" position="3" authority="shared" name="R9504" site="local" channel="3" />
+                <key index="15" type="0" iconfamily="kongjun" code="R9506" position="5" authority="shared" name="R9506" site="local" channel="3" />
+                <key index="154" type="0" iconfamily="kongjun" code="R9505" position="4" authority="shared" name="R9505" site="local" channel="3" />
+                <key index="95" type="0" iconfamily="kongjun" code="R9501" position="0" authority="shared" name="R9501" site="local" channel="3" />
+            </page>
+            <page index="6">
+                <key index="233" type="0" iconfamily="kongjun" code="R9507" position="0" authority="shared" name="R9507" site="local" channel="3" />
+                <key index="195" type="0" iconfamily="kongjun" code="R9508" position="1" authority="shared" name="R9508" site="local" channel="3" />
+                <key index="149" type="0" iconfamily="kongjun" code="R9509" position="2" authority="shared" name="R9509" site="local" channel="3" />
+                <key index="8" type="0" iconfamily="kongjun" code="R9510" position="3" authority="shared" name="R9510" site="local" channel="3" />
+                <key index="48" type="0" iconfamily="kongjun" code="R9511" position="4" authority="shared" name="R9511" site="local" channel="3" />
+                <key index="112" type="0" iconfamily="kongjun" code="R9512" position="5" authority="shared" name="R9512" site="local" channel="3" />
+            </page>
+            <page index="7">
+                <key index="50" type="0" iconfamily="kongjun" code="R9513" position="0" authority="shared" name="R9513" site="local" channel="3" />
+                <key index="210" type="0" iconfamily="kongjun" code="R9514" position="1" authority="shared" name="R9514" site="local" channel="3" />
+                <key index="160" type="0" code="R9515" position="2" authority="shared" name="R9515" site="local" channel="3" />
+                <key index="179" type="0" code="R9516" position="3" authority="shared" name="R9516" site="local" channel="3" />
+                <key index="166" type="0" code="R9517" position="4" authority="shared" name="R9517" site="local" channel="3" />
+                <key index="182" type="0" code="R9518" position="5" authority="shared" name="R9518" site="local" channel="3" />
+            </page>
+            <page index="8">
+                <key index="5" type="0" code="R9519" position="0" authority="shared" name="R9519" site="local" channel="3" />
+                <key index="91" type="0" code="R9520" position="1" authority="shared" name="R9520" site="local" channel="3" />
+                <key index="247" type="0" code="R9521" position="2" authority="shared" name="R9521" site="local" channel="3" />
+                <key index="85" type="0" code="R9522" position="3" authority="shared" name="R9522" site="local" channel="3" />
+                <key index="158" type="0" code="R9523" position="4" authority="shared" name="R9523" site="local" channel="3" />
+                <key index="246" type="0" code="R9524" position="5" authority="shared" name="R9524" site="local" channel="3" />
+            </page>
+            <page index="9">
+                <key index="189" type="0" code="NR4001" position="0" authority="shared" name="组网电台" site="remote" channel="3" />
+            </page>
+        </function>
+    </functions>
+    <params>
+        <basic seatname="广州空军:六分队" usercode="" phonevideoauthority="1" speakvideoauthority="1" videoprivilege="1" showcommonaddr="1" phonevideotype="sendreceive" seatprivilege="0" phonevideoswitch="0" recordsearch="1" seatcontract="1" dynamicspeak="0" handfree="0" nightserverinput="0" ringcloseanimation="1" speakvoicevadtext="1" radiovoicevadtext="1" dispatchvoicevadtext="0" microphoneenable="1" missedtalkclickedpopup="0" missedtalkautopopup="0" videochangesendsize="0" dispatchenable="0" cryptomacenable="0" deltalklogenable="1" usedefseatsetuppwd="0" twocryptomac="0" screensavertime="0" screenlocktime="0" rotatevideo="0" seatsetuppassword="MTIzNA==" seattype="haijun" screensaverpassword="MTIzNA==" hotkeypageshowmode="morepage" />
+    </params>
+</terminal>

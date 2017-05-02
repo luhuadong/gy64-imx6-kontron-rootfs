@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Fotowall
+GenericName=Fotowall
+Comment=Photo collection creativity tool
+Exec=fotowall
+Icon=fotowall
+Terminal=false
+Type=Application
+Categories=Graphics;Publishing;

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin name="record player skin">
+	<form left="0" top="0" width="1024" height="768" animatetime="500" background="/切图分类/界面/录音检索/录音检索Bg.png" />
+	<navigator left="0" top="0">
+		<record left="6" top="2" width="172" height="72" >
+			<text left="66" top="20" size="18" color="255,255,255" text="录音检索" />
+			<icon left="12" top="13" width="36" height="36" icon="/切图分类/icon/icon_录音检索.png" />
+		</record>
+		<close left="917" top="2" />
+	</navigator>
+	<input left="0" top="82" labelcolor="255,255,255" editcolor="255,255,255" textsize="18" editsize="20">
+		<starttime left="28" top="30" text="开始">
+			<year>
+				<edit left="75" top="13" width="100" height="55" />
+				<label left="177" top="30" text="年" />
+			</year>
+			<month>
+				<edit left="195" top="13" width="70" height="55" />
+				<label left="266" top="30" text="月" />
+			</month>
+			<day>
+				<edit left="285" top="13" width="70" height="55" />
+				<label left="359" top="30" text="日" />
+			</day>
+			<hour>
+				<edit left="375" top="13" width="70" height="55" />
+				<label left="446" top="30" text="时" />
+			</hour>
+			<minute>
+				<edit left="465" top="13" width="70" height="55" />
+				<label left="537" top="30" text="分" />
+			</minute>
+			<second>
+				<edit left="555" top="13" width="70" height="55" />
+				<label left="626" top="30" text="秒" />
+			</second>
+		</starttime>
+		<stoptime left="28" top="90" text="结束">
+			<year>
+				<edit left="75" top="72" width="100" height="55" />
+				<label left="177" top="90" text="年" />
+			</year>
+			<month>
+				<edit left="195" top="72" width="70" height="55" />
+				<label left="266" top="90" text="月" />
+			</month>
+			<day>
+				<edit left="285" top="72" width="70" height="55" />
+				<label left="359" top="90" text="日" />
+			</day>
+			<hour>
+				<edit left="375" top="72" width="70" height="55" />
+				<label left="446" top="90" text="时" />
+			</hour>
+			<minute>
+				<edit left="465" top="72" width="70" height="55" />
+				<label left="537" top="90" text="分" />
+			</minute>
+			<second>
+				<edit left="555" top="72" width="70" height="55" />
+				<label left="626" top="90" text="秒" />
+			</second>
+		</stoptime>
+		<searchchannel left="670" top="15" width="189" height="41" />
+		<datetimeinput left="670" top="75" width="189" height="41" default="default" maxday="7">
+			<item name="oneday" text="前一天" />
+			<item name="oneweek" text="前一周" />
+      <!--item name="onemonth" text="前一月" />
+			<item name="oneyear" text="前一年" /-->
+			<item name="default" text="默认值" />
+			<!--item name="userinput" text="自定义" -->
+		</datetimeinput>
+		<searchbutton left="887" top="15" width="115" height="109" text="开始" />
+	</input>
+	<view left="20" top="213" width="983" showitems="9">
+		<column index="0" width="85" sort="1" type="id" text="序号" datatype="int" format="%1" />
+		<column index="1" width="240" sort="1" type="datetime" text="开始时间" datatype="string" format="yyyy-MM-dd hh:mm:ss" />
+		<column index="2" width="95" sort="1" type="recordlength" text="时长" datatype="string" format="%1秒" />
+		<column index="3" width="200" sort="1" type="callername" text="主叫" datatype="string" format="%1" />
+		<column index="4" width="200" sort="1" type="calleename" text="被叫" datatype="string" format="%1" />
+		<column index="5" width="110" sort="1" type="flag" text="录音" datatype="string" format="无" />
+		<playbutton width="90" height="39" textsize="18" play="播放" pause="暂停" />
+	</view>
+	<play left="0" top="623">
+		<playbar left="20" top="12" width="665" height="39" />
+		<time left="20" top="63" width="332" height="59" textsize="30" textcolor="255,255,255" format="yyyy-MM-dd hh:mm:ss" background="/切图分类/界面/录音检索/显示框.png" scalegrid="7,7,325,50" />
+		<playbutton left="355" top="60" width="148" height="65" playicon="/切图分类/界面/录音检索/Play.png" pauseicon="/切图分类/界面/录音检索/pause.png" />
+		<stepback left="508" top="60" width="91" height="65" step="5" icon="/切图分类/界面/录音检索/Before.png" />
+		<stepahead left="598" top="60" width="91" height="65" step="5" icon="/切图分类/界面/录音检索/After.png" />
+		<channel>
+			<label left="710" top="30" textsize="18" textcolor="255,255,255" text="放音通道:" />
+			<combobox left="810" top="16" width="189" height="42" textSize="18" textColor="255,255,255" />
+		</channel>
+		<volumn>
+			<label left="710" top="90" textsize="18" textcolor="255,255,255" text="放音音量:" />
+			<combobox left="810" top="74" width="189" height="42" textSize="18" textColor="255,255,255" />
+		</volumn>
+	</play>
+  <searchprogress timeout="10" infoformat="正在检索中, 已接收 %1 条记录" buttontext="停止" />
+	<showprogress left="21" top="213" width="983" height="402" showstep="2" animatetime="500" background="/切图分类/界面/录音检索/录音检索中/黑色Bg.png" >
+		<progressbar left="0" top="170" width="700" height="24"/>
+		<info left="0" top="210" textsize="20" textformat="正在构建显示列表: %1/%2" />
+	</showprogress>
+</skin>

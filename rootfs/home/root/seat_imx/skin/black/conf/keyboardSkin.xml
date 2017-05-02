@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin name="keyboard skins" width="1024" height="346" bgfilename="/切图分类/界面/键盘/键盘Bg.png" rectifywidth="-1" rectifyheight="-1" rowtop="13" RepeatstartTime="500" RepeatTime="200" animatetime="400" >
+  <hint width="80" height="80" textsize="48" time="200" scalegrid="10,10,190,85" background="/切图分类/公共控件/半透明背景/键盘显示.png"/>
+  <button texttop="37" textsize="22" textcount="4" />
+  <imepanel width="1024" height="53" bgfilename="/切图分类/界面/键盘/切图/BG.png">
+    <previtem left="10" top="0" width="80" height="53" textsize="16" text="前一项" />
+    <nextitem left="98" top="0" width="80" height="53" textsize="16" text="后一项" />
+    <prevpage border="20"  width="45" height="53" iconsize="11,14" >
+      <none icon="/切图分类/界面/键盘/切图/pageleft-none.png" />
+      <down icon="/切图分类/界面/键盘/切图/pageleft-down.png" />
+      <focus icon="/切图分类/界面/键盘/切图/pageleft-select.png" />
+      <disable icon="/切图分类/界面/键盘/切图/pageleft-disable.png" />
+    </prevpage>
+    <nextpage border="20" width="39" height="53" iconsize="11,14">
+      <none icon="/切图分类/界面/键盘/切图/pageright-none.png" />
+      <down icon="/切图分类/界面/键盘/切图/pageright-down.png" />
+      <focus icon="/切图分类/界面/键盘/切图/pageright-select.png" />
+      <disable icon="/切图分类/界面/键盘/切图/pageright-disable.png" />
+    </nextpage>
+    <content border="20" height="53" textsize="20" space="0" />
+  </imepanel>
+	<row index="0" left="7" keycount="14">
+		<key index="0"  funckey="0">
+			<default text="`">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_z1_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_z1_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_z1_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_z1_disable.png" />
+			</default>
+			<shift text="~">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z1_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z1_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z1_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z1_disable.png" /> 
+			</shift>
+		</key>
+		<key index="1"  funckey="0">
+			<default text="1">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_1_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_1_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_1_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_1_disable.png" />
+			</default>
+			<shift text="!">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z2_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z2_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z2_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z2_disable.png" /> 
+			</shift>
+		</key>
+		<key index="2"  funckey="0">
+			<default text="2">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_2_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_2_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_2_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_2_disable.png" />
+			</default>
+			<shift text="@">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z3_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z3_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z3_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z3_disable.png" /> 
+			</shift>
+		</key>
+		<key index="3"  funckey="0">
+			<default text="3">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_3_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_3_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_3_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_3_disable.png" />
+			</default>
+			<shift text="#">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z4_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z4_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z4_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z4_disable.png" /> 
+			</shift>
+		</key>
+		<key index="4"  funckey="0">
+			<default text="4">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_4_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_4_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_4_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_4_disable.png" />
+			</default>
+			<shift text="$">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z5_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z5_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z5_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z5_disable.png" /> 
+			</shift>
+		</key>
+		<key index="5"  funckey="0">
+			<default text="5">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_5_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_5_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_5_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_5_disable.png" />
+			</default>
+			<shift text="%">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z6_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z7_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z6_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z6_disable.png" /> 
+			</shift>
+		</key>
+		<key index="6"  funckey="0">
+			<default text="6">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_6_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_6_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_6_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_6_disable.png" />
+			</default>
+			<shift text="^">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z7_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z6_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z7_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z7_disable.png" /> 
+			</shift>
+		</key>
+		<key index="7"  funckey="0">
+			<default text="7">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_7_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_7_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_7_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_7_disable.png" />
+			</default>
+			<shift text="&amp;">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z8_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z8_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z8_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z8_disable.png" /> 
+			</shift>
+		</key>
+		<key index="8"  funckey="0">
+			<default text="8">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_8_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_8_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_8_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_8_disable.png" />
+			</default>
+			<shift text="*">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z9_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z9_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z9_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z9_disable.png" /> 
+			</shift>
+		</key>
+		<key index="9"  funckey="0">
+			<default text="9">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_9_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_9_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_9_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_9_disable.png" />
+			</default>
+			<shift text="(">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z10_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z10_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z10_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z10_disable.png" /> 
+			</shift>
+		</key>
+		<key index="10"  funckey="0">
+			<default text="0">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_0_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_0_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_0_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_0_disable.png" />
+			</default>
+			<shift text=")">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z11_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z11_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z11_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z11_disable.png" /> 
+			</shift>
+		</key>
+		<key index="11"  funckey="0">
+			<default text="-">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_z2_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_z2_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_z2_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_z1_disable-51.png.png" />
+			</default>
+			<shift text="_">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z12_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z12_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z12_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z12_disable.png" /> 
+			</shift>
+		</key>
+		<key index="12"  funckey="0">
+			<default text="=">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_z3_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_z3_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_z3_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_z2_disable.png" />
+			</default>
+			<shift text="+">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z13_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z13_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z13_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z13_disable.png" /> 
+			</shift>
+		</key>
+		<key index="13"  funckey="0">
+			<default text="del">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/回格_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/回格_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/回格_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/回格_disable.png" />
+			</default>
+			<shift text="del">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/回格_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/回格_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/回格_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/回格_disable.png" />
+			</shift>
+		</key>
+	</row>
+	<row index="1" left="43" keycount="13">
+		<key index="0"  funckey="0">
+      <default text="q">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_q_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_q_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_q_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_q_disable.png" /> 
+			</default>
+      <shift text="Q">
+        <none filename="/切图分类/界面/键盘/键盘1PNG/kb_Q_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘1PNG/kb_Q_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘1PNG/kb_Q_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘1PNG/kb_Q_disable.png" />
+      </shift>
+		</key>
+		<key index="1"  funckey="0">
+      <default text="w">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_w_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_w_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_w_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_w_disable.png" />
+      </default>
+        <shift text="W">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_W_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_W_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_W_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_W_disable.png" />
+			</shift>
+		</key>
+		<key index="2"  funckey="0">
+      <default text="e">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_e_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_e_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_e_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_e_disable.png" />
+      </default>
+        <shift text="E">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_E_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_E_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_E_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_E_disable.png" />
+			</shift>
+		</key>
+		<key index="3"  funckey="0">
+      <shift text="R">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_R_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_R_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_R_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_R_disable.png" />
+			</shift>
+			<default text="r">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_r_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_r_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_r_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_r_disable.png" /> 
+			</default>
+		</key>
+		<key index="4"  funckey="0">
+      <default text="t">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_t_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_t_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_t_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_t_disable.png" />
+      </default>
+			<shift text="T">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_T_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_T_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_T_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_T_disable.png" />
+			</shift>
+		</key>
+		<key index="5"  funckey="0">
+      <default text="y">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_y_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_y_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_y_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_y_disable.png" />
+      </default>
+			<shift text="Y">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_Y_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_Y_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_Y_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_Y_disable.png" />
+			</shift>
+		</key>
+		<key index="6"  funckey="0">
+      <default text="u">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_u_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_u_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_u_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_u_disable.png" />
+      </default>
+        <shift text="U">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_U_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_U_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_U_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_U_disable.png" />
+			</shift>
+		</key>
+		<key index="7"  funckey="0">
+      <default text="i">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_i_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_i_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_i_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_i_disable.png" />
+      </default>
+      <shift text="I">
+        <none filename="/切图分类/界面/键盘/键盘1PNG/kb_I_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘1PNG/kb_I_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘1PNG/kb_I_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘1PNG/kb_I_disable.png" />
+      </shift>
+		</key>
+		<key index="8"  funckey="0">
+      <default text="o">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_o_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_o_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_o_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_o_disable.png" />
+      </default>
+        <shift text="O">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_O_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_O_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_O_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_O_disable.png" />
+			</shift>
+		</key>
+		<key index="9"  funckey="0">
+      <default text="p">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_p_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_p_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_p_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_p_disable.png" />
+      </default>
+        <shift text="P">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_P_none_10.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_P_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_P_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_P_disable.png" />
+			</shift>
+		</key>
+		<key index="10"  funckey="0">
+			<default text="[">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_z4_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_z4_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_z4_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_z4_disable.png" />
+			</default>
+			<shift text="{">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z14_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z14_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z14_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z14_disable.png" /> 
+			</shift>
+		</key>
+		<key index="11"  funckey="0">
+			<default text="]">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_z5_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_z5_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_z5_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_z5_disable.png" />
+			</default>
+			<shift text="}">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z15_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z15_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z15_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z15_disable.png" /> 
+			</shift>
+		</key>
+		<key index="12"  funckey="0">
+			<default text="\">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_z6_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_z6_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_z6_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_z6_disable.png" />
+			</default>
+			<shift text="|">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z16_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z16_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z16_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z16_disable.png" /> 
+			</shift>
+		</key>
+	</row>
+	<row index="2" left="7" keycount="13">
+    <key index="0"  funckey="1">
+      <default text="shift">
+        <none filename="/切图分类/界面/键盘/切图/shift_none.png" />
+        <down filename="/切图分类/界面/键盘/切图/shift_down.png" />
+        <focus filename="/切图分类/界面/键盘/切图/shift_select.png" />
+        <disable filename="/切图分类/界面/键盘/切图/shift_disable.png" />
+      </default>
+      <shift text="shift">
+        <none filename="/切图分类/界面/键盘/切图/shift_none.png" />
+        <down filename="/切图分类/界面/键盘/切图/shift_down.png" />
+        <focus filename="/切图分类/界面/键盘/切图/shift_select.png" />
+        <disable filename="/切图分类/界面/键盘/切图/shift_disable.png" />
+      </shift>
+    </key>
+		<key index="1"  funckey="0">
+      <default text="a">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_a_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_a_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_a_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_a_disable.png" />
+      </default>
+      <shift text="A">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_A_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_A_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_A_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_A_disable.png" />
+			</shift>
+		</key>
+		<key index="2"  funckey="0">
+      <default text="s">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_s_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_s_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_s_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_s_disable.png" />
+      </default>
+        <shift text="S">
+        <none filename="/切图分类/界面/键盘/键盘1PNG/kb_S_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘1PNG/kb_S_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘1PNG/kb_S_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘1PNG/kb_S_disable.png" />
+      </shift>
+		</key>
+		<key index="3"  funckey="0">
+      <default text="d">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_d_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_d_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_d_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_d_disable.png" />
+      </default>
+        <shift text="D">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_D_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_D_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_D_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_D_disable.png" />
+			</shift>
+		</key>
+		<key index="4"  funckey="0">
+      <default text="f">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_f_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_f_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_f_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_f_disable.png" />
+      </default>
+      <shift text="F">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_F_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_F_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_F_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_F_disable.png" />
+			</shift>
+		</key>
+		<key index="5"  funckey="0">
+      <default text="g">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_g_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_g_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_g_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_g_disable.png" />
+      </default>
+        <shift text="G">
+        <none filename="/切图分类/界面/键盘/键盘1PNG/kb_G_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘1PNG/kb_G_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘1PNG/kb_G_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘1PNG/kb_G_disable.png" />
+      </shift>
+		</key>
+		<key index="6"  funckey="0">
+      <default text="h">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_h_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_h_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_h_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_h_disable.png" />
+      </default>
+        <shift text="H">
+        <none filename="/切图分类/界面/键盘/键盘1PNG/kb_H_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘1PNG/kb_H_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘1PNG/kb_H_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘1PNG/kb_H_disable.png" />
+      </shift>
+		</key>
+		<key index="7"  funckey="0">
+      <default text="j">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_j_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_j_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_j_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_j_disable.png" />
+      </default>
+      <shift text="J">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_J_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_J_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_J_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_J_disable.png" />
+			</shift>
+		</key>
+		<key index="8"  funckey="0">
+      <default text="k">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_k_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_k_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_k_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_k_disable.png" />
+      </default>
+        <shift text="K">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_K_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_K_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_K_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_K_disable.png" />
+			</shift>
+		</key>
+		<key index="9"  funckey="0">
+      <default text="l">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_l_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_l_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_l_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_l_disable.png" />
+      </default>
+      <shift text="L">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_L_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_L_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_L_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_L_disable.png" />
+			</shift>
+		</key>
+		<key index="10"  funckey="0">
+			<default text=";">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_z7_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_z7_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_z7_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_z7_disable.png" />
+			</default>
+			<shift text=":">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z17_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z17_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z17_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z17_disable.png" /> 
+			</shift>
+		</key>
+		<key index="11"  funckey="0">
+			<default text="'">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_z8_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_z8_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_z8_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_z8_disable.png" />
+			</default>
+			<shift text="&quot;">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z18_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z18_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z18_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z18_disable.png" /> 
+			</shift>
+		</key>
+		<key index="12"  funckey="1">
+			<default text="enter">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/sure_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/sure_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/sure_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/sure_disable.png" />
+			</default>
+			<shift text="enter">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/sure_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/sure_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/sure_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/sure_disable.png" />
+			</shift>
+		</key>
+	</row>
+	<row index="3" left="8" keycount="13">
+		<key index="0"  funckey="1">
+			<default text="ime">
+				<none filename="/切图分类/界面/键盘/切图/输入法_none.png" />
+				<down filename="/切图分类/界面/键盘/切图/输入法_down.png" />
+				<focus filename="/切图分类/界面/键盘/切图/输入法_select.png" />
+				<disable filename="/切图分类/界面/键盘/切图/输入法_disable.png" />
+			</default>
+			<shift text="ime">
+				<none filename="/切图分类/界面/键盘/切图/输入法_none.png" />
+				<down filename="/切图分类/界面/键盘/切图/输入法_down.png" />
+				<focus filename="/切图分类/界面/键盘/切图/输入法_select.png" />
+				<disable filename="/切图分类/界面/键盘/切图/输入法_disable.png" />
+			</shift>
+		</key>
+		<key index="1"  funckey="0">
+      <default text="z">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_z_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_z_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z_disable.png" />
+      </default>
+      <shift text="Z">
+        <none filename="/切图分类/界面/键盘/键盘1PNG/kb_Z_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘1PNG/kb_Z_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘1PNG/kb_Z_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘1PNG/kb_Z_disable.png" />
+      </shift>
+		</key>
+		<key index="2"  funckey="0">
+      <default text="x">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_x_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_x_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_x_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_x_disable.png" />
+        </default>
+        <shift text="X">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_X_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_X_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_X_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_X_disable.png" />
+			</shift>
+		</key>
+		<key index="3"  funckey="0">
+      <default text="c">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_c_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_c_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_c_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_c_disable.png" />
+      </default>
+        <shift text="C">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_C_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_C_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_C_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_C_disable.png" />
+			</shift>
+		</key>
+		<key index="4"  funckey="0">
+      <default text="v">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_v_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_v_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_v_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_v_disable.png" />
+      </default>
+        <shift text="V">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_V_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_V_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_V_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_V_disable.png" />
+			</shift>
+		</key>
+		<key index="5"  funckey="0">
+      <default text="b">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_b_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_b_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_b_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_b_disable.png" />
+        </default>
+        <shift text="B">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_B_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_B_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_B_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_B_disable.png" />
+			</shift>
+		</key>
+		<key index="6"  funckey="0">
+      <default text="n">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_n_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_n_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_n_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_n_disable.png" />
+      </default>
+        <shift text="N">
+        <none filename="/切图分类/界面/键盘/键盘1PNG/kb_N_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘1PNG/kb_N_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘1PNG/kb_N_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘1PNG/kb_N_disable.png" />
+      </shift>
+		</key>
+		<key index="7"  funckey="0">
+      <default text="m">
+        <none filename="/切图分类/界面/键盘/键盘2PNG/kb_m_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘2PNG/kb_m_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘2PNG/kb_m_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘2PNG/kb_m_disable.png" />
+      </default>
+        <shift text="M">
+        <none filename="/切图分类/界面/键盘/键盘1PNG/kb_M_none.png" />
+        <down filename="/切图分类/界面/键盘/键盘1PNG/kb_M_down.png" />
+        <focus filename="/切图分类/界面/键盘/键盘1PNG/kb_M_select.png" />
+        <disable filename="/切图分类/界面/键盘/键盘1PNG/kb_M_disable.png" />
+      </shift>
+		</key>
+		<key index="8"  funckey="0">
+			<default text="&apos;">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_z9_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_z9_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_z9_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_z9_disable.png" />
+			</default>
+			<shift text="&lt;">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z19_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z19_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z19_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z19_disable.png" /> 
+			</shift>
+		</key>
+		<key index="9"  funckey="0">
+			<default text=".">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_z10_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_z10_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_z10_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_z10_disable.png" />
+			</default>
+			<shift text="&gt;">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z20_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z20_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z20_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z20_disable.png" /> 
+			</shift>
+		</key>
+		<key index="10"  funckey="0">
+			<default text="/">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/kb_z11_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/kb_z11_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/kb_z11_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/kb_z11_disable.png" />
+			</default>
+			<shift text="?">
+				<none filename="/切图分类/界面/键盘/键盘2PNG/kb_z21_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘2PNG/kb_z21_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘2PNG/kb_z21_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘2PNG/kb_z21_disable.png" /> 
+			</shift>
+		</key>
+		<key index="11"  funckey="0">
+			<default text=" ">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/空格_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/空格_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/空格_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/空格_disable.png" />
+			</default>
+			<shift text=" ">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/空格_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/空格_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/空格_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/空格_disable.png" />
+			</shift>
+		</key>
+		<key index="12"  funckey="1">
+			<default text="close">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/key_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/key_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/key_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/key_disable.png" />
+			</default>
+			<shift text="close">
+				<none filename="/切图分类/界面/键盘/键盘1PNG/key_none.png" />
+				<down filename="/切图分类/界面/键盘/键盘1PNG/key_down.png" />
+				<focus filename="/切图分类/界面/键盘/键盘1PNG/key_select.png" />
+				<disable filename="/切图分类/界面/键盘/键盘1PNG/key_disable.png" /> 
+			</shift>
+		</key>
+	</row>
+</skin>

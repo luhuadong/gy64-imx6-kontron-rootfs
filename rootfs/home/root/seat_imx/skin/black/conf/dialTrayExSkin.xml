@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<skin name="dial tray skin" rectifywidth="1" rectifyheight="0" rowtop="32" left="30" width="374" height="539" RepeatstartTime="500" RepeatTime="200" animatetime="700" historyColor="70,70,70" >
+	<background scalegrid="30,30,340,425">
+		<leftphone  filename="/切图分类/界面/拨号盘/切图/左-BG.png" />
+		<rightphone  filename="/切图分类/界面/拨号盘/切图/右-BG.png" />
+	</background>
+	<movebutton>
+		<leftphone>
+			<left>
+				<none filename="/切图分类/界面/拨号盘/right_none_2.png" />
+				<down filename="/切图分类/界面/拨号盘/right_down_2.png" />
+			</left>
+			<right>
+				<none filename="/切图分类/界面/拨号盘/right_none.png" />
+				<down filename="/切图分类/界面/拨号盘/right_down.png" />
+			</right>
+		</leftphone>
+		<rightphone>
+			<left>
+				<none filename="/切图分类/界面/拨号盘/left_none.png" />
+				<down filename="/切图分类/界面/拨号盘/left_down.png" />
+			</left>
+			<right>
+				<none filename="/切图分类/界面/拨号盘/left_none_1.png" />
+				<down filename="/切图分类/界面/拨号盘/left_down_1.png" />
+			</right>
+		</rightphone>
+		<mutual>
+			<left>
+				<none filename="/切图分类/界面/拨号盘/mutual_none.png" />
+				<down filename="/切图分类/界面/拨号盘/mutual_down.png" />
+			</left>
+			<right>
+				<none filename="/切图分类/界面/拨号盘/mutual_none.png" />
+				<down filename="/切图分类/界面/拨号盘/mutual_down.png" />
+			</right>
+		</mutual>
+	</movebutton>
+	<callitem>
+    <leftaudio row="2" index="3" type="button" funckey="1" text="audio">
+      <none filename="/切图分类/界面/拨号盘/切图/左音频_none.png" />
+      <down filename="/切图分类/界面/拨号盘/切图/左音频_down.png" />
+      <focus filename="/切图分类/界面/拨号盘/切图/左音频_select.png" />
+      <disable filename="/切图分类/界面/拨号盘/切图/左音频_disable.png" />
+    </leftaudio>
+    <rightaudio row="2" index="3" type="button" funckey="1" text="audio">
+      <none filename="/切图分类/界面/拨号盘/切图/右音频_none.png" />
+      <down filename="/切图分类/界面/拨号盘/切图/右音频_down.png" />
+      <focus filename="/切图分类/界面/拨号盘/切图/右音频_select.png" />
+      <disable filename="/切图分类/界面/拨号盘/切图/右音频_disable.png" />
+    </rightaudio>
+    <leftvideo row="4" index="3" type="button" funckey="1" text="video">
+      <none filename="/切图分类/界面/拨号盘/切图/左音视频_none.png" />
+      <down filename="/切图分类/界面/拨号盘/切图/左音视频_down.png" />
+      <focus filename="/切图分类/界面/拨号盘/切图/左音视频_select.png" />
+      <disable filename="/切图分类/界面/拨号盘/切图/左音视频_disable.png" />
+    </leftvideo>
+    <rightvideo row="4" index="3" type="button" funckey="1" text="video">
+      <none filename="/切图分类/界面/拨号盘/切图/右音视频_none.png" />
+      <down filename="/切图分类/界面/拨号盘/切图/右音视频_down.png" />
+      <focus filename="/切图分类/界面/拨号盘/切图/右音视频_select.png" />
+      <disable filename="/切图分类/界面/拨号盘/切图/右音视频_disable.png" />
+    </rightvideo>
+	</callitem>
+	<row index="0" count="1">
+		<item index="0" type="combobox" fontSize="42" itemcount="5" iconarea="0.15" iconsize="24,13" icon="/切图分类/界面/拨号盘/下拉箭头.png" bgfilename= "/切图分类/界面/拨号盘/显示框.png" />
+	</row>
+	<row index="1" count="4">
+		<item index="0" type="button" funckey="0" text="1">
+			<none filename="/切图分类/界面/拨号盘/数字键/1_none.png" />
+			<down filename="/切图分类/界面/拨号盘/数字键/1_down.png" />
+			<focus filename="/切图分类/界面/拨号盘/数字键/1_select.png" />
+			<disable filename="/切图分类/界面/拨号盘/数字键/1_disable.png" />
+		</item>
+		<item index="1" type="button" funckey="0" text="2">
+			<none filename="/切图分类/界面/拨号盘/数字键/2_none.png" />
+			<down filename="/切图分类/界面/拨号盘/数字键/2_down.png" />
+			<focus filename="/切图分类/界面/拨号盘/数字键/2_select.png" />
+			<disable filename="/切图分类/界面/拨号盘/数字键/2_disable.png" />		
+		</item>
+		<item index="2" type="button" funckey="0" text="3">
+			<none filename="/切图分类/界面/拨号盘/数字键/3_none.png" />
+			<down filename="/切图分类/界面/拨号盘/数字键/3_down.png" />
+			<focus filename="/切图分类/界面/拨号盘/数字键/3_select.png" />
+			<disable filename="/切图分类/界面/拨号盘/数字键/3_disable.png" />		
+		</item>
+		<item index="3" type="button" funckey="0" text="del">
+			<none filename="/切图分类/界面/拨号盘/数字键/回格_none.png" />
+			<down filename="/切图分类/界面/拨号盘/数字键/回格_down.png" />
+			<focus filename="/切图分类/界面/拨号盘/数字键/回格_select.png" />
+			<disable filename="/切图分类/界面/拨号盘/数字键/回格_disable.png" />		
+		</item>
+	</row>
+	<row index="2" count="4">
+		<item index="0" type="button" funckey="0" text="4">
+			<none filename="/切图分类/界面/拨号盘/数字键/4_none.png" />
+			<down filename="/切图分类/界面/拨号盘/数字键/4_down.png" />
+			<focus filename="/切图分类/界面/拨号盘/数字键/4_select.png" />
+			<disable filename="/切图分类/界面/拨号盘/数字键/4_disable.png" />
+		</item>
+		<item index="1" type="button" funckey="0" text="5">
+			<none filename="/切图分类/界面/拨号盘/数字键/5_none.png" />
+			<down filename="/切图分类/界面/拨号盘/数字键/5_down.png" />
+			<focus filename="/切图分类/界面/拨号盘/数字键/5_select.png" />
+			<disable filename="/切图分类/界面/拨号盘/数字键/5_disable.png" />		
+		</item>
+		<item index="2" type="button" funckey="0" text="6">
+			<none filename="/切图分类/界面/拨号盘/数字键/6_none.png" />
+			<down filename="/切图分类/界面/拨号盘/数字键/6_down.png" />
+			<focus filename="/切图分类/界面/拨号盘/数字键/6_select.png" />
+			<disable filename="/切图分类/界面/拨号盘/数字键/6_disable.png" />		
+		</item>
+	</row>
+	<row index="3" count="3">
+		<item index="0" type="button" funckey="0" text="7">
+			<none filename="/切图分类/界面/拨号盘/数字键/7_none.png" />
+			<down filename="/切图分类/界面/拨号盘/数字键/7_down.png" />
+			<focus filename="/切图分类/界面/拨号盘/数字键/7_select.png" />
+			<disable filename="/切图分类/界面/拨号盘/数字键/7_disable.png" />
+		</item>
+		<item index="1" type="button" funckey="0" text="8">
+			<none filename="/切图分类/界面/拨号盘/数字键/8_none.png" />
+			<down filename="/切图分类/界面/拨号盘/数字键/8_down.png" />
+			<focus filename="/切图分类/界面/拨号盘/数字键/8_select.png" />
+			<disable filename="/切图分类/界面/拨号盘/数字键/8_disable.png" />		
+		</item>
+		<item index="2" type="button" funckey="0" text="9">
+			<none filename="/切图分类/界面/拨号盘/数字键/9_none.png" />
+			<down filename="/切图分类/界面/拨号盘/数字键/9_down.png" />
+			<focus filename="/切图分类/界面/拨号盘/数字键/9_select.png" />
+			<disable filename="/切图分类/界面/拨号盘/数字键/9_disable.png" />		
+		</item>
+	</row>
+	<row index="4" count="4">
+		<item index="0" type="button" funckey="0" text="*">
+			<none filename="/切图分类/界面/拨号盘/数字键/#_none.png" />
+			<down filename="/切图分类/界面/拨号盘/数字键/#_down.png" />
+			<focus filename="/切图分类/界面/拨号盘/数字键/#_select.png" />
+			<disable filename="/切图分类/界面/拨号盘/数字键/#_disable.png" />
+		</item>
+		<item index="1" type="button" funckey="0" text="0">
+			<none filename="/切图分类/界面/拨号盘/数字键/0_none.png" />
+			<down filename="/切图分类/界面/拨号盘/数字键/0_down.png" />
+			<focus filename="/切图分类/界面/拨号盘/数字键/0_select.png" />
+			<disable filename="/切图分类/界面/拨号盘/数字键/0_disable.png" />		
+		</item>
+		<item index="2" type="button" funckey="0" text="#">
+			<none filename="/切图分类/界面/拨号盘/数字键/#_-none.png" />
+			<down filename="/切图分类/界面/拨号盘/数字键/#_-down.png" />
+			<focus filename="/切图分类/界面/拨号盘/数字键/#_-select.png" />
+			<disable filename="/切图分类/界面/拨号盘/数字键/#_-disable.png" />		
+		</item>
+	</row>
+  <row index="5" count="3">
+    <item index="0" type="button" funckey="1" text="flash">
+      <none filename="/切图分类/界面/拨号盘/切图/闪断_none.png" />
+      <down filename="/切图分类/界面/拨号盘/切图/闪断_down.png" />
+      <focus filename="/切图分类/界面/拨号盘/切图/闪断_select.png" />
+      <disable filename="/切图分类/界面/拨号盘/切图/闪断_disable.png" />
+    </item>
+    <item index="1" type="button" funckey="1" text="contract">
+      <none filename="/切图分类/界面/拨号盘/切图/加入通讯录_none.png" />
+      <down filename="/切图分类/界面/拨号盘/切图/加入通讯录_down.png" />
+      <focus filename="/切图分类/界面/拨号盘/切图/加入通讯录_select.png" />
+      <disable filename="/切图分类/界面/拨号盘/切图/加入通讯录_disable.png" />
+    </item>
+    <item index="2" type="button" funckey="1" text="close">
+      <none filename="/切图分类/界面/拨号盘/数字键/隐藏_none.png" />
+      <down filename="/切图分类/界面/拨号盘/数字键/隐藏_down.png" />
+      <focus filename="/切图分类/界面/拨号盘/数字键/隐藏_select.png" />
+      <disable filename="/切图分类/界面/拨号盘/数字键/隐藏_disable.png" />
+    </item>
+  </row>
+</skin>

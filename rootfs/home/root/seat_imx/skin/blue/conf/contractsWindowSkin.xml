@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<skin name="ContractsWindow" left="0" top="0" width="1024" height="768" animatetime="500" background="/切图分类/界面/通讯录-通话记录-公共地址/Bg.png">
+	<navigator left="0" top="0" width="520" height="72">
+		<nagivatorbutton count="3" width="175" height="72" space="0" iconleft="15" icontop="13" iconwidth="39" iconheight="39" textleft="60" texttop="19" textsize="20" textcolor="255,255,255" textfocuscolor="255,255,255" >
+			<contracts width="180" text="用户通讯录" icon="/切图分类/icon/icon_通讯录.png" />
+			<talklog width="160" text="通话记录" icon="/切图分类/icon/icon_通话记录.png" />
+			<commonaddr width="180" text="公共通讯录" icon="/切图分类/icon/icon_公共地址.png" />
+		</nagivatorbutton>
+		<close left="917" top="2" />
+	</navigator>
+	<contracts left="0" top="80" width="1024" height="688">
+    <title left="5" top="35" textsize="28" maxwidth="270" />
+    <group left="15" top="20" width="105" height="65" textsize="20" text="群组" />
+    <groupadd left="15" top="20" width="105" height="65" textsize="20" text="新建" />
+    <groupedit left="120" top="20" width="105" height="65" textsize="20" text="编辑" />
+    <groupmember left="225" top="20" width="115" height="65" textsize="20" text="编辑成员" />
+    <groupdelete left="900" top="20" width="105" height="65" textsize="20" text="删除" />
+    <groupviewedit width="105" height="55" textsize="20"  text="编辑" />
+    <groupviewdelete width="105" height="55" textsize="20" text="删除" />
+    <groupviewmember width="115" height="55" textsize="20" text="编辑成员" />
+		<add left="120" top="20" width="105" height="65" textsize="20" text="新增" />
+    <update left="225" top="20" width="105" height="65" textsize="20" text="刷新" />
+    <findedit left="640" top="19" width="280" height="65" hborder="20" textsize="20" textcolor="255,255,255" hint="请输入姓名首字母" hintcolor="129,137,156" />
+    <findbutton left="910" top="20" width="100" height="65" textsize="20" textcolor="255,255,255" textpos="40,20" text="搜索" title="自定义" iconpos="15,20" iconsize="24,24" icon="/切图分类/界面/通讯录-通话记录-公共地址/搜索/切图/搜索图标.png" />
+    <backbutton left="15" top="20" width="105" height="65" border="20" space="5" >
+      <label textsize="20" textcolor="255,255,255" text="返回" />
+      <icon size="14,14" icon="/切图分类/界面/通讯录-通话记录-公共地址/page_back.png" />
+    </backbutton>
+    <view left="20" top="94" width="984" showitems="9">
+      <column index="1" width="250" sort="1" type="name" text="姓名" datatype="string" format="%1" />
+      <column index="2" width="250" sort="1" type="group" text="群组" datatype="string" format="%1" />
+      <column index="3" width="435" sort="1" type="remark" text="备注" datatype="string" format="%1" />
+		</view>
+    <groupview left="20" top="94" width="984" showitems="9">
+      <column index="1" width="250" type="name" datatype="string" />
+      <column index="2" width="540" type="null" datatype="string" />
+      <column index="3" width="142" type="icon" datatype="icon" />
+    </groupview>
+    <groupicon size="14,23" icon="/切图分类/界面/通讯录-通话记录-公共地址/通讯录/群组/按键.png" />
+    <detail left="0" top="0" width="1024" height="768"  background="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <mainpanel width="546" height="672" tborder="111" bborder="22" textcolor="255,255,255" scalegrid="55,135,485,615" background="/切图分类/界面/通讯录-通话记录-公共地址/通讯录子窗口/切图/BG-1.png" />
+      <title left="0" top="55" textsize="30" maxwidth="315"  />
+      <close left="400" top="35" />
+      <code left="53" top="22" width="439" height="302" scalegrid="20,20,418,280" background="/切图分类/界面/通讯录-通话记录-公共地址/通讯录子窗口/切图/BG-2.png" >
+        <button hborder="25" vborder="15" width="385" height="62" space="5" textsize="26" tagArea="0.36" />
+      </code>
+      <info left="53" top="15" width="439" height="100" space="18" scalegrid="20,20,418,280" background="/切图分类/界面/通讯录-通话记录-公共地址/通讯录子窗口/切图/BG-2.png" >
+        <label left="30" top="10" textsize="26">
+          <remark text="备注" />
+        </label>
+        <text left="110" top="10" width="300" textsize="26" />
+      </info>
+      <editor left="53" top="563" width="200" height="65" textsize="20" text="信息编辑" />
+      <shortcut left="293" top="563" width="200" height="65" textsize="20"  text="设置快捷键" />
+    </detail>
+    <friend left="0" top="0" width="1024" height="768" bgfilename="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <mainpanel width="631" height="661" tborder="111" bborder="22" textcolor="255,255,255" animatetime="200" scalegrid="55,135,575,615" background="/切图分类/界面/通讯录-通话记录-公共地址/通讯录/新建/切图/BG-1.png" />
+      <title left="0" top="55" textsize="30" text="新联系人" />
+      <close left="482" top="35" />
+      <ok left="121" top="535" width="170" height="75" textsize="20" text="确定" />
+      <cancel left="348" top="535" width="170" height="75" textsize="20" text="重置" />
+      <save left="121" top="535" width="170" height="75" textsize="20" text="保存" />
+      <remove left="348" top="535" width="170" height="75" textsize="20" text="删除" />
+      <info left="53" top="128" width="525" height="365" scalegrid="20,20,375,150" background="/切图分类/界面/通讯录-通话记录-公共地址/通讯录/新建/切图/BG-2.png" >
+        <namelabel left="17" top="14" width="150" height="40" hborder="10" textsize="22" textcolor="255,255,255" text="名称" scalegrid="5,5,138,35" background="/切图分类/界面/通讯录-通话记录-公共地址/通讯录/新建/切图/文字显示底框.png"  />
+        <nameedit left="166" top="6" width="295" height="56" hborder="20" textsize="22" textcolor="255,255,255" />
+        <namebutton left="455" top="7" width="60" height="54" textsize="18" textcolor="255,255,255" text="清除" />
+        <remarklabel left="17" top="64" width="150" height="40" hborder="10" textsize="22" textcolor="255,255,255" text="备注" scalegrid="5,5,138,35" background="/切图分类/界面/通讯录-通话记录-公共地址/通讯录/新建/切图/文字显示底框.png"  />
+        <remarkedit left="166" top="56" width="295" height="98" hborder="20" vborder="20" textsize="22" textcolor="255,255,255"  />
+        <remarkbutton left="455" top="57" width="60" height="54" textsize="18" textcolor="255,255,255" text="清除" />
+        <phonelabel_1 left="15" top="151" width="146" height="40" hborder="10" textsize="22" textcolor="255,255,255" />
+        <phoneedit_1 left="166" top="148" width="295" height="56" hborder="20" textsize="22" textcolor="255,255,255" />
+        <phonebutton_1 left="455" top="149" width="60" height="54" textsize="18" textcolor="255,255,255" text="清除" />
+        <phonelabel_2 left="15" top="201" width="146" height="40" hborder="10" textsize="22" textcolor="255,255,255" />
+        <phoneedit_2 left="166" top="198" width="295" height="56" hborder="20" textsize="22" textcolor="255,255,255" />
+        <phonebutton_2 left="455" top="199" width="60" height="54" textsize="18" textcolor="255,255,255" text="清除" />
+        <phonelabel_3 left="15" top="251" width="146" height="40" hborder="10" textsize="22" textcolor="255,255,255" />
+        <phoneedit_3 left="166" top="248" width="295" height="56" hborder="20" textsize="22" textcolor="255,255,255" />
+        <phonebutton_3 left="455" top="249" width="60" height="54" textsize="18" textcolor="255,255,255" text="清除" />
+        <phonelabel_4 left="15" top="301" width="146" height="40" hborder="10" textsize="22" textcolor="255,255,255" />
+        <phoneedit_4 left="166" top="298" width="295" height="56" hborder="20" textsize="22" textcolor="255,255,255" />
+        <phonebutton_4 left="455" top="299" width="60" height="54" textsize="18" textcolor="255,255,255" text="清除" />
+      </info>
+    </friend>
+    <friendadd left="0" top="0" width="1024" height="768" background="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <frame left="239" top="150" width="481" height="362" />
+      <title left="0"  top="26" textsize="28" textcolor="255,255,255" text="加入通讯录" />
+      <infopanel left="23" top="97" width="436" height="243" />
+      <create left="50" top="118" width="385" height="60" textsize="24" text="新建联系人" />
+      <add left="50" top="187" width="385" height="60" textsize="24" text="添加到现有联系人" />
+      <cancel left="50" top="258" width="385" height="60" textsize="24" text="取消" />
+    </friendadd>
+    <friendlist left="0" top="0" width="1024" height="768" background="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <frame left="239" top="50" width="481" height="600" />
+      <title left="0" top="26" textsize="26" textcolor="255,255,255" text="请选择联系人" />
+      <infopanel left="23" top="107" width="436" height="385" >
+        <button hborder="15" left="80" top="150" width="340" height="60" buttoncount="6" textsize="24" textcolor="255,255,255" />
+        <scrollbar left="407" top="107" width="51" height="385" hastile="0" />
+      </infopanel>
+      <buttonpanel left="0" top="510" width="481" height="90" />
+      <ok left="55" top="520" width="170" height="65" textsize="24" text="确定" />
+      <cancel left="259" top="520" width="170" height="65" textsize="24" text="取消" />
+    </friendlist>
+    <groupeditform  left="0" top="0" width="1024" height="768" background="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <frame left="239" top="10" width="481" height="362" />
+      <title left="0"  top="26" textsize="28" textcolor="255,255,255" edittext="编辑群组" newtext="新建群组" />
+      <infopanel left="23" top="107" width="436" height="120" />
+      <namelabel left="50" top="145" textsize="24" textcolor="255,255,255" text="名称" />
+      <nameedit left="105" top="125" width="330" height="65" border="15" textsize="24" textcolor="255,255,255"  />
+      <buttonpanel left="0" top="257" width="481" height="105" />
+      <ok left="55" top="270" width="170" height="75" textsize="24" text="确定" />
+      <cancel left="259" top="270" width="170" height="75" textsize="24" text="取消" />
+    </groupeditform>
+    <popupform left="0" top="0" width="1024" height="768" border="20" menuspace="10" animatetime="200" background="">
+      <menu width="210" showcount="5">
+        <item showicon="1" value="MoveToGroup" text="移动联系人至" />
+        <item showicon="0" value="DeleteFriend" text="删除联系人" />
+      </menu>
+      <group width="210" showcount="8" />
+    </popupform>
+	</contracts>
+	<talklog left="0" top="80" width="1024" height="688">
+		<buttons>
+			<all left="160" top="16" width="150" height="68">
+				<text left="58" top="20" size="20" text="全部" />
+			</all>
+			<received left="310" top="16" width="150" height="68">
+				<text left="58" top="20" size="20" text="呼入" />
+			</received>
+			<dialled left="460" top="16" width="150" height="68">
+				<text left="58" top="20" size="20" text="呼出" />
+			</dialled>
+			<missed left="610" top="16" width="180" height="68">
+				<text left="70" top="20" size="20" text="未接来电" />
+				<icon left="14" top="13" width="39" height="39" icon="/切图分类/icon/icon_未接电话.png" />
+			</missed>
+      <delete left="860" top="16" width="150" height="68">
+        <text left="58" top="20" size="20" text="删除" />
+      </delete>
+		</buttons>
+		<view left="20" top="94" width="984" showitems="9">
+			<column index="0" width="40" sort="1" type="type" text="类型" datatype="icon" format="%1" />
+      <column index="1" width="170" sort="1" type="code" text="号码" datatype="string" format="%1" />
+      <column index="2" width="260" sort="1" type="name" text="名称" datatype="string" format="%1" />
+			<column index="3" width="250" sort="1" type="datetime" text="开始时间" datatype="string" format="%1" />
+      <column index="4" width="110" sort="1" type="talklen" text="通话时长" datatype="string" format="%1秒" />
+      <column index="5" width="102" sort="0" type="recall" text="回拨" datatype="button" format="%1" />
+		</view>
+    <viewcolor noreadcallcolor="235,166,69" normalcolor="255,255,255" />
+    <recallbutton width="90" height="50" textsize="18" text="回拨"/>
+    <typeicon size="21,23">
+      <missed filename="/切图分类/界面/通讯录-通话记录-公共地址/通话记录/未接电话1.png" />
+      <received filename="/切图分类/界面/通讯录-通话记录-公共地址/通话记录/呼入1.png" />
+      <dialed filename="/切图分类/界面/通讯录-通话记录-公共地址/通话记录/呼出1.png" />
+    </typeicon>
+    <detail left="0" top="0" width="1024" height="768"  background="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <mainpanel width="546" height="482" textcolor="255,255,255" scalegrid="55,135,485,425" background="/切图分类/界面/通讯录-通话记录-公共地址/弹出的人1/弹出的人1Bg.png" />
+      <title left="0" top="55" textsize="30" maxwidth="315" />
+      <close left="400" top="35" />
+      <info left="53" top="134" width="439" height="187" scalegrid="20,20,415,165" background="/切图分类/界面/通讯录-通话记录-公共地址/弹出的人1/弹出的人1-1Bg.png" >
+        <lbstarttime left="15" top="20" textsize="22" textcolor="255,255,255" text="通话时间:" />
+        <edtstarttime left="122" top="20" textsize="22" textcolor="255,255,255" />
+        <lbtalklen left="15" top="60" textsize="22" textcolor="255,255,255" text="通话时长:" />
+        <edttalklen left="122" top="60" textsize="22" textcolor="255,255,255" />
+        <code left="15" top="138" textsize="28" textcolor="255,255,255" />
+      </info>
+      <recall left="50" top="345" width="140" height="75" textsize="20" text="回拨" />
+      <join left="202" top="345" width="140" height="75" textsize="20" text="加入通讯录" />
+      <delete left="354" top="345" width="140" height="75" textsize="20" text="删除" />
+    </detail>
+	</talklog>
+	<commonaddr left="0" top="80" width="1024" height="688">
+    <title left="5" top="35" textsize="24" text="公共通讯录" findformattext="按[%1]搜索结果" />
+    <findbyarms left="-1" top="20" width="1" height="1" textsize="20" text="按兵种搜索" />
+    <findedit left="640" top="19" width="280" height="65" hborder="20" textsize="20" textcolor="255,255,255" hint="请输入搜索内容首字母" hintcolor="129,137,156" />
+    <findbutton left="910" top="20" width="100" height="65" textsize="20" textcolor="255,255,255" textpos="40,20" text="搜索" title="自定义" iconpos="15,20" iconsize="24,24" icon="/切图分类/界面/通讯录-通话记录-公共地址/搜索/切图/搜索图标.png" />
+    <group left="20" top="94" width="984" showrows="9" col="3" />
+    <pagebutton left="15" top="20" width="100" height="65" maxwidth="300" border="20" space="5" >
+      <label textsize="19" textcolor="255,255,255" /> 
+      <icon size="14,14" icon="/切图分类/界面/通讯录-通话记录-公共地址/page_back.png" />
+    </pagebutton>
+    <findresult left="20" top="94" width="984" showitems="9" >
+      <column index="1" width="250" sort="1" type="name" text="名称" />
+      <column index="2" width="685" sort="1" type="parent" text="所属单位" />
+    </findresult>
+    <detail left="0" top="0" width="1024" height="768"  background="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <mainpanel width="546" height="579" tborder="111" bborder="22" textcolor="255,255,255" scalegrid="55,135,485,648" background="/切图分类/界面/通讯录-通话记录-公共地址/通讯录子窗口/切图/BG-1.png" />
+      <title left="0" top="55" textsize="30" maxwidth="315" />
+      <close left="400" top="35" />
+      <code left="53" top="22" width="439" height="302" scalegrid="20,20,418,280" background="/切图分类/界面/通讯录-通话记录-公共地址/通讯录子窗口/切图/BG-2.png" >
+        <button hborder="20" vborder="10" width="395" height="65" space="5" textsize="26" tagArea="0.36" />
+      </code>
+      <joinbutton left="53" top="453" width="200" height="75" textsize="20" textcolor="255,255,255" text="加入通讯录" />
+      <shortcut left="293" top="453" width="200" height="75" textsize="20" textcolor="255,255,255" text="设置快捷键" />
+    </detail>
+	</commonaddr>
+</skin>

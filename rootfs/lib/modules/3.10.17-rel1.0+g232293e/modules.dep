@@ -1,0 +1,74 @@
+kernel/fs/fat/msdos.ko:
+kernel/fs/nls/nls_iso8859-15.ko:
+kernel/fs/binfmt_misc.ko:
+kernel/fs/configfs/configfs.ko:
+kernel/fs/isofs/isofs.ko:
+kernel/fs/udf/udf.ko: kernel/lib/crc-itu-t.ko
+kernel/crypto/tcrypt.ko:
+kernel/block/deadline-iosched.ko:
+kernel/block/cfq-iosched.ko:
+kernel/drivers/net/wireless/ipw2x00/ipw2100.ko: kernel/drivers/net/wireless/ipw2x00/libipw.ko kernel/net/wireless/lib80211.ko
+kernel/drivers/net/wireless/ipw2x00/ipw2200.ko: kernel/drivers/net/wireless/ipw2x00/libipw.ko kernel/net/wireless/lib80211.ko
+kernel/drivers/net/wireless/ipw2x00/libipw.ko: kernel/net/wireless/lib80211.ko
+kernel/drivers/net/wireless/iwlwifi/iwlwifi.ko:
+kernel/drivers/net/wireless/iwlwifi/dvm/iwldvm.ko: kernel/drivers/net/wireless/iwlwifi/iwlwifi.ko
+kernel/drivers/net/wireless/iwlwifi/mvm/iwlmvm.ko: kernel/drivers/net/wireless/iwlwifi/iwlwifi.ko
+kernel/drivers/net/wireless/iwlegacy/iwlegacy.ko:
+kernel/drivers/net/wireless/iwlegacy/iwl3945.ko: kernel/drivers/net/wireless/iwlegacy/iwlegacy.ko
+kernel/drivers/net/ppp/ppp_generic.ko: kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/ppp_async.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/bsd_comp.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/ppp_deflate.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/ppp_mppe.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/ppp_synctty.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/pppox.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/pppoe.ko: kernel/drivers/net/ppp/pppox.ko kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/slip/slhc.ko:
+kernel/drivers/usb/gadget/libcomposite.ko: kernel/fs/configfs/configfs.ko
+kernel/drivers/usb/gadget/usb_f_acm.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/u_serial.ko
+kernel/drivers/usb/gadget/usb_f_ss_lb.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko
+kernel/drivers/usb/gadget/u_serial.ko:
+kernel/drivers/usb/gadget/usb_f_serial.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/u_serial.ko
+kernel/drivers/usb/gadget/usb_f_obex.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/u_serial.ko
+kernel/drivers/usb/gadget/g_zero.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko
+kernel/drivers/usb/gadget/g_ether.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko
+kernel/drivers/usb/gadget/g_mass_storage.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko
+kernel/drivers/usb/gadget/g_serial.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko
+kernel/drivers/input/touchscreen/elan_ts.ko:
+kernel/drivers/input/touchscreen/egalax_ts.ko:
+kernel/drivers/input/touchscreen/max11801_ts.ko:
+kernel/drivers/input/touchscreen/usbtouchscreen.ko:
+kernel/drivers/input/evbug.ko:
+kernel/drivers/i2c/algos/i2c-algo-pcf.ko:
+kernel/drivers/i2c/algos/i2c-algo-pca.ko:
+kernel/drivers/media/v4l2-core/videobuf2-memops.ko:
+kernel/drivers/media/v4l2-core/videobuf2-vmalloc.ko: kernel/drivers/media/v4l2-core/videobuf2-memops.ko
+kernel/drivers/media/platform/mxc/capture/fsl_csi.ko:
+kernel/drivers/media/platform/mxc/capture/csi_v4l2_capture.ko: kernel/drivers/media/platform/mxc/capture/fsl_csi.ko
+kernel/drivers/media/platform/mxc/capture/mxc_v4l2_capture.ko: kernel/drivers/media/platform/mxc/capture/ipu_bg_overlay_sdc.ko kernel/drivers/media/platform/mxc/capture/ipu_still.ko kernel/drivers/media/platform/mxc/capture/ipu_prp_enc.ko kernel/drivers/media/platform/mxc/capture/ipu_csi_enc.ko kernel/drivers/media/platform/mxc/capture/ipu_fg_overlay_sdc.ko
+kernel/drivers/media/platform/mxc/capture/ipu_fg_overlay_sdc.ko:
+kernel/drivers/media/platform/mxc/capture/ipu_bg_overlay_sdc.ko:
+kernel/drivers/media/platform/mxc/capture/ipu_prp_enc.ko:
+kernel/drivers/media/platform/mxc/capture/ipu_still.ko:
+kernel/drivers/media/platform/mxc/capture/ipu_csi_enc.ko:
+kernel/drivers/media/platform/mxc/capture/ov5640_camera.ko:
+kernel/drivers/media/platform/mxc/capture/ov5642_camera.ko:
+kernel/drivers/media/platform/mxc/capture/ov5640_camera_mipi.ko:
+kernel/drivers/media/platform/mxc/capture/adv7180_tvin.ko:
+kernel/drivers/media/usb/uvc/uvcvideo.ko: kernel/drivers/media/v4l2-core/videobuf2-vmalloc.ko kernel/drivers/media/v4l2-core/videobuf2-memops.ko
+kernel/drivers/media/usb/gspca/gspca_main.ko:
+kernel/drivers/mxc/mlb/mxc_mlb150.ko:
+kernel/drivers/hid/hid-generic.ko:
+kernel/drivers/hid/hid-multitouch.ko:
+kernel/sound/core/snd-hwdep.ko:
+kernel/sound/core/snd-rawmidi.ko:
+kernel/sound/usb/snd-usb-audio.ko: kernel/sound/usb/snd-usbmidi-lib.ko kernel/sound/core/snd-rawmidi.ko kernel/sound/core/snd-hwdep.ko
+kernel/sound/usb/snd-usbmidi-lib.ko: kernel/sound/core/snd-rawmidi.ko
+kernel/net/wireless/lib80211.ko:
+kernel/net/wireless/lib80211_crypt_wep.ko: kernel/net/wireless/lib80211.ko
+kernel/net/wireless/lib80211_crypt_ccmp.ko: kernel/net/wireless/lib80211.ko
+kernel/net/wireless/lib80211_crypt_tkip.ko: kernel/net/wireless/lib80211.ko
+kernel/lib/crc-itu-t.ko:
+kernel/lib/crc7.ko:
+kernel/lib/libcrc32c.ko:
+kernel/lib/xz/xz_dec.ko:

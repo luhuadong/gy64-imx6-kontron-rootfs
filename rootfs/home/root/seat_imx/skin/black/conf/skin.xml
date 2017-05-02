@@ -1,0 +1,1512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<skin name="Seat skins" >
+	<application debugItemRectangle="0" updatebytimer="0" updatefps="30" showcursor="0" animate="1" supperpassword="ff52b2fa86e5dcd4f7217be0407be446" />
+	<font unicodeboldmax="0" asciiboldmax="18" unicodefamily="LiHei Pro" asciifamily="Arial" color="255,255,255" disablecolor="102,100,108" />
+	<mouse background="/切图分类/公共控件/点击圆形/形状-1.png" timeout="300" width="213" height="213" fps="25" startscale="40">
+    <waiting width="200" height="200" start="200" progress="1100">
+      <image filename="/切图分类/公共控件/右键长按/右键0001.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0002.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0003.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0004.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0005.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0006.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0007.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0008.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0009.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0010.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0011.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0012.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0013.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0014.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0015.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0016.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0017.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0018.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0019.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0020.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0021.png" />
+      <image filename="/切图分类/公共控件/右键长按/右键0022.png" />
+    </waiting>
+  </mouse>
+	<background>
+		<translucence filename="/切图分类/公共控件/半透明背景/半透明黑色背景.png" scalegrid="0,0,1024,768" />
+	</background>
+	<forms>
+		<form name="main" bgfilename="/切图分类/界面/通播组/系统Bg.png" width="1024" height="768" >
+			<panel name="hotkeypage" left="6" top="50" width="1012" height="50" cellWidth="188" cellHeight="50" mincellwidth="100" radiowidth="197" dispatchwidth="190" rectifywidth="0"/>
+			<panel name="radiopage" left="820" top="50" width="180" height="50" cellWidth="188" cellHeight="50"  showname="对空话台" />
+			<panel name="dispatchpage" left="820" top="50" width="180" height="50" cellWidth="188" cellHeight="50" mincellwidth="100"  radiowidth="197" showname="导调" />
+			<panel name="morepage" left="820" top="50" width="143" height="50" >
+				<home  left="0" top="4" width="47" height="43" >
+					<tile scalegrid="5,5,40,35">
+						<none filename="/切图分类/界面/席位多页/首页_none.png" />
+						<down filename="/切图分类/界面/席位多页/首页_down.png" />
+						<focus filename="/切图分类/界面/席位多页/首页_select.png" />
+						<disable filename="/切图分类/界面/席位多页/首页_disable.png" />
+					</tile>
+				</home>
+				<more left="43" top="4" width="100" height="43" textleft="15" texttop="10" textsize="18" text="更多" >
+					<tile scalegrid="5,5,93,35">
+						<none filename="/切图分类/界面/席位多页/更多_none.png" />
+						<down filename="/切图分类/界面/席位多页/更多_down.png" />
+						<focus filename="/切图分类/界面/席位多页/更多_select.png" />
+						<disable filename="/切图分类/界面/席位多页/更多_disable.png" />
+					</tile>
+					<tile2 scalegrid="5,5,93,35">
+						<none filename="/切图分类/界面/席位多页/更多_none2.png" />
+						<down filename="/切图分类/界面/席位多页/更多_down2.png" />
+						<focus filename="/切图分类/界面/席位多页/更多_select2.png" />
+						<disable filename="/切图分类/界面/席位多页/更多_disable2.png" />
+					</tile2>
+				</more>
+			</panel>
+			<panel name="hotkey" left="-1008" top="99" width="3040" height="460" row="5" col="10" cellwidth="100" cellheight="90" animate="500">
+        <group prevleft="0" midleft="1016" nextleft="2032" top="0" width="1008" height="460" switchdistance="200" switchspeed="0.4" movestart="20" animationtime="2000" />
+      </panel>
+			<panel name="callin" left="11" top="570" width="1000" height="90" winktime="500" >
+				<max width="200" height="94" textsize="18" texttop="65" calltimetop="3" calltimesize="18" tagtextenable="0" icontop="10" iconleft="68" iconsize="64,64" signleft="160" signtop="0" signsize="40,40" animleft="5" animtop="5" animsize="21,84"  />
+        <maxtag width="200" height="94" textsize="18" texttop="65" calltimetop="3" calltimesize="18" tagtextsize="20" tagtexttop="40" tagtextenable="1" icontop="-2" iconleft="5" iconsize="52,52" signleft="160" signtop="0" signsize="40,40" animleft="5" animtop="5" animsize="21,84"  />
+				<middle width="100" height="94" textsize="14" texttop="65" calltimetop="3" calltimesize="14" tagtextenable="0" icontop="10" iconleft="18" iconsize="64,64" signleft="67" signtop="0" signsize="35,35" animleft="5" animtop="5" animsize="21,84"  />
+				<min width="68" height="94" textsize="10" texttop="65" calltimetop="3" calltimesize="10" tagtextenable="0" icontop="10" iconleft="8" iconsize="52,52"  signleft="43" signtop="5" signsize="30,30" animleft="5" animtop="5" animsize="21,84"  />
+				<speak width="200" height="94" textsize="18" texttop="65" tagtextenable="0" icontop="5" iconsize="64,64" signleft="150" signtop="10" signsize="40,30" animleft="5" animtop="5" animsize="21,84" />
+        <missedcall width="100" height="94" textsize="18" texttop="65" tagtextenable="0" icontop="18" iconsize="42,42" />
+        <video width="68" height="94" textsize="18" texttop="65" tagtextenable="0" icontop="5" iconsize="64,64" videosize="88,64" />
+        <phonevideo width="68" height="94" iconsize="52,52" border="-1" statetop="75" icon="/切图分类/icon/摄像头.png" />
+        <speakstart width="100" height="94" textsize="18" texttop="65" text="开始通播" icontop="10" iconsize="64,64" icon="/切图分类/icon/a4.png" />
+			</panel>
+			<panel name="function" left="13" top="673" width="908" height="95" >
+        <button left="5" top="5"  width="85" height="90" space="0" textsize="16" iconsize="42,42" maxbutton="5" />
+      </panel>
+			<panel name="setup" left="926" top="678" width="80" height="90" icon="/切图分类/公共控件/系统设置/菜单icon.png" text="菜单" />
+			<panel name="status" left="15" top="0" width="994" height="40">
+				<seatname left="0" top="12" textsize="20" textcolor="255,255,255" />
+        <seatcode left="15" top="12" textsize="20" textcolor="255,255,255" />
+        <systemtime left="400" top="12" textsize="20" textcolor="255,255,255" format="%1月%2日 %3 %4" />
+        <username left="5" top="0" textsize="20" textcolor="255,255,255" minwidth="70" height="43" hborder="15" findtext="查询用户信息" />
+        <logout left="0" top="0" width="70" height="43" textsize="18" textcolor="255,255,255" text="注销" logoutboxtitle="注销" logoutboxinfo="是否注销当前用户?" />
+        <s28logon  left="0" top="12" textsize="20" textcolor="255,255,255" text="指控登录" />
+        <systemstatus left="0" top="12" textsize="16" warncolor="237,149,0" infocolor="4,108,216" staytime="3000" scrolltick="100" scrollstep="20" />
+        <duty left="5" top="5" width="36" height="36" filename="/切图分类/icon/值班中.png" />
+			</panel>
+      <panel name="phonecallinanimation" left="0" top="0" width="1024" height="768" icon="state_phone_callin" />
+		</form>
+		<form name="radio" left="0" top="50" width="1024" height="550" animatetime="400">
+			<panel name="radiogroup" left="30" top="0" width="750" height="50" cellWidth="180" cellHeight="50" mincellwidth="100" />
+			<button name="close" left="825" top="0" width="180" height="50" textsize="20" text="返回" iconleft="140" icontop="7" iconsize="30,30" icon="/切图分类/icon_mark/耳机1.png" earicon="/切图分类/icon_mark/耳机21.png" >
+				<tile scalegrid="12,12,130,35">
+					<none filename="/切图分类/界面/电台/BtnE_None.png" />
+					<down filename="/切图分类/界面/电台/BtnE_Down.png" />
+					<focus filename="/切图分类/界面/电台/BtnE_Select.png" />
+					<disable filename="/切图分类/界面/电台/BtnE_Disable.png" />
+				</tile>
+			</button>
+			<button name="stop" left="635" top="" width="180" height="50" textsize="20" text="全部停止" iconleft="140" icontop="7" iconsize="30,30" icon="/切图分类/icon_mark/耳机1.png" earicon="/切图分类/icon_mark/耳机21.png" >
+				<tile scalegrid="12,12,130,35">
+					<none filename="/切图分类/界面/电台/BtnE_None.png" />
+					<down filename="/切图分类/界面/电台/BtnE_Down.png" />
+					<focus filename="/切图分类/界面/电台/BtnE_Select.png" />
+					<disable filename="/切图分类/界面/电台/BtnE_Disable.png" />
+				</tile>
+			</button>
+			<panel name="main" bgfilename="/切图分类/界面/电台/Bg01.png" left="0" top="30" width="1024" height="540" validarea="0,20,1024,500" />
+			<panel name="button" bgfilename="/切图分类/界面/电台/Bg02.png" width="231" height="434" left="54" top="55" animatein="200" animateout="200">
+				<item name="radiobutton" count="6" left="1" top="1" width="228" height="64" space="-4" >
+					<text Size="18" left="43" top="18" />
+					<icon left="14" top="15" filename="/切图分类/界面/电台/White-Air.png" />
+					<speaksign left="180" top="35" size="17" color="141,214,141" text="勤务" />
+					<voicevad left="200" top="8" size="24,24" />
+					<emptytile scalegrid="5,5,210,45" >
+						<disable filename="/切图分类/界面/电台/空白电台按钮底图.png" />
+					</emptytile>
+					<sendtile scalegrid="20,20,105,60">
+						<active filename="/切图分类/界面/电台/按钮A-None.png" />
+						<down filename="/切图分类/界面/电台/按钮A-Down.png" />
+						<disable filename="/切图分类/界面/电台/按钮A-Disable.png" />
+						<pttseat filename="/切图分类/界面/电台/按钮A-Sound-1.png" />
+						<pttstation filename="/切图分类/界面/电台/按钮A-Sound-2.png" />
+						<pttradio filename="/切图分类/界面/电台/按钮A-Sound-3.png" />
+					</sendtile>
+					<recvtile scalegrid="20,20,105,60">
+						<active filename="/切图分类/界面/电台/按钮B-None.png" />
+						<down filename="/切图分类/界面/电台/按钮B-Down.png" />
+						<disable filename="/切图分类/界面/电台/按钮B-Disable.png" />
+						<pttseat filename="/切图分类/界面/电台/按钮B-Sound-1.png" />
+						<pttstation filename="/切图分类/界面/电台/按钮B-Sound-2.png" />
+						<pttradio filename="/切图分类/界面/电台/按钮B-Sound-3.png" />
+					</recvtile>
+				</item>
+				<item name="pagebutton" left="1" top="375" width="228" height="55" space="-4">
+					<prev scalegrid="13,13,105,52">
+						<none filename="/切图分类/界面/电台/Before_none.png" />
+						<down filename="/切图分类/界面/电台/Before_down.png" />
+						<focus filename="/切图分类/界面/电台/Before_select.png" />
+						<disable filename="/切图分类/界面/电台/Before_disable.png" />
+					</prev>
+					<next scalegrid="13,13,105,52">
+						<none filename="/切图分类/界面/电台/After_none.png" />
+						<down filename="/切图分类/界面/电台/After_down.png" />
+						<focus filename="/切图分类/界面/电台/After_select.png" />
+						<disable filename="/切图分类/界面/电台/After_disable.png" />
+					</next>
+				</item>
+				<item name="pagesign" left="5" top="363" width="220" height="15" />
+			</panel>
+			<panel name="info" left="290" top="55" space="6" width="681" height="104" count="4" animatein="400" animateout="300" bgfilename="/切图分类/界面/电台/Bg03.png">
+				<buttons>
+					<close left="-5" top="-4" height="113" width="60" icon="/切图分类/界面/电台/Before02.png" />
+					<squelch left="210" top="39" width="120" height="55" text="静噪" textsize="16" textcolor="102,100,108" />
+					<channel left="325" top="5" width="120" height="90" text="波道" textsize="16" textnormalsize="22" texttop="52" textcolor="102,100,108" channelsize="34" channeltop="30" />
+					<direct left="325" top="5" width="120" height="90" text="参数" textsize="22" textcolor="255,255,255" />
+					<recv left="440" top="5" width="120" height="90" text="收话" textsize="22" >
+						<activetile scalegrid="20,20,105,60">
+							<active filename="/切图分类/界面/电台/按钮B-None.png" />
+							<down filename="/切图分类/界面/电台/按钮B-Down.png" />
+							<disable filename="/切图分类/界面/电台/按钮B-Disable.png" />
+							<pttseat filename="/切图分类/界面/电台/按钮B-Sound-1.png" />
+							<pttstation filename="/切图分类/界面/电台/按钮B-Sound-2.png" />
+							<pttradio filename="/切图分类/界面/电台/按钮B-Sound-3.png" />
+						</activetile>
+						<voicevad left="85" top="10" size="24,24" />
+					</recv>
+					<send left="555" top="5" width="120" height="90" text="发话" textsize="22" >
+						<activetile scalegrid="20,20,105,60">
+							<active filename="/切图分类/界面/电台/按钮A-None.png" />
+							<down filename="/切图分类/界面/电台/按钮A-Down.png" />
+							<disable filename="/切图分类/界面/电台/按钮A-Disable.png" />
+							<pttseat filename="/切图分类/界面/电台/按钮A-Sound-1.png" />
+							<pttstation filename="/切图分类/界面/电台/按钮A-Sound-2.png" />
+							<pttradio filename="/切图分类/界面/电台/按钮A-Sound-3.png" />
+						</activetile>
+						<speaksign top="60" size="17" color="141,214,141" text="勤务" />
+					</send>
+				</buttons>
+				<info left="55" top="10" width="375" height="95">
+					<normal>
+						 <name size="24" color="255,255,255" top="0"  text="(未知)" />
+						 <frequency size="14" color="102,100,108" top="35" text="频率: %1" /> 
+						 <type size="14" color="102,100,108" top="50" text="类型: %1" />
+						 <param size="14" color="102,100,100" top="65" text="参数: %1"  />
+					</normal>
+					<network>
+						<name size="24" color="255,255,255" top="5" text="话音组网通道" />
+						<location size="14" color="102,100,100" top="55" text="位置: %1" />
+						<air icon="/切图分类/界面/电台/fly.png" left="200" top="5" width="195" height="89" />
+					</network>
+					<shortware>
+						 <name size="24" color="255,255,255" top="0" text="(未知)" />
+						 <sender size="14" color="102,100,108" top="35" text="发: %1" /> 
+						 <receiver size="14" color="102,100,108" top="50" text="收: %1" />
+						 <controller size="14" color="102,100,100" top="65" text="控: %1" />
+					</shortware>
+				</info>
+			</panel>
+		</form>
+		<form name="radio channel adjust" left="0" top="0" width="1024" height="768" kbleft="370" kbtop="220" animate="500" bgfilename="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png" >
+			<info left="300" top="60" width="490" height="140" bgfilename="/切图分类/界面/电台/adbg.png" scalegrid="10,10,480,65" nametop="30" channeltop="80" namesize="24" channelsize="36" format="请输入%1-%2的波道号"  />
+		</form>
+		<form name="shortware radio adjust" left="0" top="0" width="1024" height="768" animate="500" bgfilename="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png" >
+			<frame left="270" top="55" width="475" height="660" />
+      <title left="0"  top="55" textsize="28" textcolor="255,255,255" />
+      <close left="315" top="36"/>
+      <controller left="53" top="125" width="355" text="控制器">
+				<workemode>
+					<label left="75" top="160" textsize="18" text="工作方式" />
+					<combobox left="158" top="145" width="242" height="45" textsize="20" textcolor="0,0,0" >						
+						<item text="扫描2" value="1" />
+						<item text="扫描5" value="2" />
+						<item text="直接" value="3" />
+						<item text="闲置" value="4" />
+						<item text="人工" value="5" />
+					</combobox>
+				</workemode>
+				<!--sendmode>
+					<label left="458" top="205" textsize="18" text="声码话" />
+					<combobox left="546" top="195" width="242" height="45" textsize="20" textcolor="0,0,0" >
+						<item text="模拟话" value="0" />
+						<item text="明话" value="1" />
+						<item text="密话1" value="2" />
+						<item text="密话2" value="3" />
+					</combobox>
+				</sendmode-->
+				<sendmode>
+					<label left="75" top="205" textsize="18" text="声码话" />
+					<combobox left="158" top="195" width="242" height="45" textsize="20" textcolor="0,0,0" >
+						<item text="模拟话" value="0" />
+						<item text="明话" value="1" />
+						<!--item text="密话1" value="2" />
+						<item text="密话2" value="3" /-->
+					</combobox>
+				</sendmode>
+			</controller>
+      <receiver left="53" top="255" width="355" text="收信机">
+				<frequency>
+					<label left="75" top="290" textsize="18" text="接收频率" />
+					<edit left="154" top="275" width="260" height="56" textsize="20" textcolor="0,0,0" />
+				</frequency>
+				<!--channel>
+					<label left="458" top="290" textsize="18" text="波道" />
+					<edit left="542" top="275" width="260" height="56" textsize="18" textcolor="0,0,0" />
+				</channel-->
+				<channel>
+					<label left="-458" top="-290" textsize="18" text="" />
+					<edit left="-542" top="-275" width="0" height="0" textsize="0" textcolor="0,0,0" />
+				</channel>
+				<worktype>
+					<label left="75" top="335" textsize="18" text="工作种类" />
+					<combobox left="158" top="325" width="242" height="45" textsize="20" textcolor="0,0,0">
+						<item text="AM" value="1" />
+						<item text="USB" value="2" />
+						<item text="LSB" value="3" />
+						<item text="CW" value="4" />
+						<item text="ISB" value="5" />
+					</combobox>
+				</worktype>
+				<!--workmode>
+					<label left="458" top="335" textsize="18" text="工作模式" />
+					<combobox left="546" top="325" width="242" height="45" textsize="20" textcolor="0,0,0" >
+						<item text="单工" value="0" />
+						<item text="双工" value="1" />
+						<item text="半双工" value="2" />
+					</combobox>
+				</workmode-->
+				<workmode>
+					<label left="-458" top="-335" textsize="18" text="" />
+					<combobox left="-546" top="-325" width="0" height="0" textsize="0" textcolor="0,0,0" >
+					</combobox>
+				</workmode>
+			</receiver>
+      <sender left="53" top="385" width="355" text="发信机">
+				<frequency>
+					<label left="75" top="420" textsize="18" text="发射频率" />
+					<edit left="154" top="405" width="260" height="56" textsize="20" textcolor="0,0,0" />
+				</frequency>
+				<!--channel>
+					<label left="458" top="420" textsize="18" text="波道" />
+					<edit left="542" top="405" width="260" height="56" textsize="20" textcolor="0,0,0" />
+				</channel-->
+				<channel>
+					<label left="-458" top="-420" textsize="18" text="" />
+					<edit left="-542" top="-405" width="0" height="0" textsize="0" textcolor="0,0,0" />
+				</channel>
+				<worktype>
+					<label left="75" top="465" textsize="18" text="工作种类" />
+					<combobox left="158" top="455" width="242" height="45" textsize="20" textcolor="0,0,0">
+						<item text="AM" value="1" />
+						<item text="USB" value="2" />
+						<item text="LSB" value="3" />
+						<item text="CW" value="4" />
+						<item text="ISB" value="5" />
+					</combobox>
+				</worktype>
+				<!--workmode>
+					<label left="458" top="465" textsize="18" text="工作模式" />
+					<combobox left="546" top="455" width="242" height="45" textsize="20" textcolor="0,0,0" >
+						<item text="单工" value="0" />
+						<item text="双工" value="1" />
+						<item text="半双工" value="2" />
+					</combobox>
+				</workmode-->
+				<workmode>
+					<label left="-458" top="-465" textsize="18" text="" />
+					<combobox left="-546" top="-455" width="0" height="0" textsize="0" textcolor="0,0,0" >
+					</combobox>
+				</workmode>
+				<sendpower>
+					<label left="75" top="515" textsize="18" text="发射功率" />
+					<combobox left="158" top="505" width="242" height="45" textsize="20" textcolor="0,0,0" >
+						<item text="高功率" value="0" />
+						<item text="中功率" value="1" />
+						<item text="低功率" value="2" />
+					</combobox>
+				</sendpower>
+				<!--powerswitch>
+					<label left="458" top="485" textsize="18" text="开/关机" />
+					<button left="546" top="475" width="250" height="52" textsize="20" textcolor="0,0,0" text="开机"/>
+				</powerswitch!-->
+				<powerswitch>
+					<label left="-458" top="-485" textsize="18" text="" />
+					<button left="-546" top="-475" width="0" height="0" textsize="0" textcolor="0,0,0" text=""/>
+				</powerswitch>
+			</sender>
+			<frequencylist left="435" top="125" width="450" framewidth="475" text="频率表">
+				<showbutton left="70" top="565" width="340" height="50" textsize="18" showtext="打开频率表" closetext="关闭频率表" />
+				<pagebutton left="430" top="155" width="80" height="50" space="-4" textsize="18" text="第%1页" />	
+				<view left="435" top="220" width="450" showitems="6">
+					<column index="0" width="50" sort="0" type="index" text="序号" datatype="string" format="%1" />
+      		<column index="1" width="150" sort="1" type="recvfreq" text="接收频率" datatype="string" format="%1" />
+      		<column index="2" width="150" sort="1" type="sendfreq" text="发射频率" datatype="string" format="%1" />
+      		<column index="3" width="100" sort="0" type="choose" text="选择" datatype="button" format="%1" />
+				</view>
+    		<choosebutton width="90" height="50" textsize="18" text="选择"/>
+			</frequencylist>	
+		</form>
+		<form name="dialtray" left="0" top="50" width="1024" height="718" history="3">
+			<dialtray left="28,40" right="624,40" animatetime="700" leftmove="503,160" rightmove="503,320" />
+			<movebutton left="470,420" middle="450,420" right="470,420" animatetime="700" />
+		</form>
+		<form name="system" left="0" top="0" width="1024" height="768" bgfilename="/切图分类/公共控件/半透明背景/半透明黑色背景.png" buttonwidth="110" buttonheight="110" animatetime="500">
+			<skinsetup left="7" top="93" text="更换主题" icon="/切图分类/icon/icon_更换主题.png" />
+			<advancesetup left="107" top="93" text="高级设置" icon="/切图分类/icon/高级设置.png" />
+      <seatsetup left="207" top="93" text="席位调整" icon="/切图分类/icon/席位调整.png" />
+      <toolsetup left="307" top="93" text="功能键设置" icon="/切图分类/icon/工具栏设置.png" />
+      <volumn left="407" top="93" text="音量调节" icon="/切图分类/icon/icon_音量.png" />
+      <ringno left="507" top="93" text="铃声设置" icon="/切图分类/icon/铃声设置.png" />
+      <bright left="607" top="93" text="亮度调节" icon="/切图分类/icon/icon_亮度.png" />
+      <microphone left="707" top="93" text="耳麦设置" icon="/切图分类/icon/耳麦设置.png" />
+      <listenvoc left="807" top="93" text="上传话音" icon="/切图分类/icon/上传话音_设置.png" />
+      <duty left="907" top="93" text="代班" icon="/切图分类/icon/值班室.png" />
+      <screenlock left="900" top="455" text="锁定屏幕" icon="/切图分类/icon/icon_屏幕锁定.png" />
+      <close left="900" top="565" text="返回主界面" icon="/切图分类/icon/返回.png" />
+      <recordplayer left="800" top="565" text="录音检索" icon="/切图分类/icon/icon_录音检索.png" />
+      <nightservice left="700" top="565" text="席位转移" icon="/切图分类/icon/icon_夜服.png"  />
+      <unanswercall left="600" top="565" text="未接来电" icon="/切图分类/icon/icon_未接电话.png" />
+      <talkrecord left="500" top="565" text="通话记录" icon="/切图分类/icon/icon_通话记录.png" />
+      <commonaddress left="400" top="565" text="公共通讯录" icon="/切图分类/icon/icon_公共地址.png" />
+      <contacts left="300" top="565" text="用户通讯录" icon="/切图分类/icon/icon_通讯录.png" />
+      <logon left="170" top="565" text="用户登录" icon="/切图分类/icon/用户登录icon.png" />
+      <exit left="24" top="565" text="退出系统" icon="/切图分类/icon/icon_关闭.png" />
+      <ring left="-512" top="-512" text="铃声开" icon="/切图分类/icon/icon_铃声.png" />
+      <ringclose left="-512" top="-512" text="铃声关" icon="/切图分类/icon/静音.png" />
+
+      <!--seattransfer left="900" top="345" text="席位转移" icon="/切图分类/icon/icon_席位转移.png"-->
+      <!--volumn left="700" top="455" text="音量调节" icon="/切图分类/icon/icon_音量.png" -->
+      <!--recordplayer left="500" top="565" text="录音检索" icon="/切图分类/icon/icon_录音检索.png" -->
+		</form>
+		<form name="prompt" left="0" top="0" width="1024" height="768" bgfilename="" timeout="3000" animatetime="300">
+			<mainpanel left="349" top="180"  width="326" height="230" scale="55,55,480,425" bgfilename="/切图分类/界面/提示框/提示框Bg.png">
+				<title top="25" textsize="18" textcolor="0,0,0" text="提示" />
+				<info left="35" top="50" width="255" height="150" iconborder="70" scalegrid="6,6,430,175" bgfilename="/切图分类/界面/提示框/弹出的人2-2Bg .png">
+					<text color="255,255,255" size="18" border="5" />
+					<icon left="-5" top="0" width="85" height="85">
+						<info filename="/切图分类/界面/提示框/信息提示.png" />
+						<warn filename="/切图分类/界面/提示框/警告提示.png" />
+						<error filename="/切图分类/界面/提示框/错误提示.png" />
+					</icon>
+				</info>
+			</mainpanel>
+		</form>
+		<form name="video normal" left="0" top="39" width="1024" height="609" validheight="580" animatetime="400" bgfilename="/切图分类/界面/视频界面/视频-Bg.png">
+			<view left="0" top="95" width="476" height="357" border="10" scale="10,10,362,242" tile="/切图分类/界面/视频界面/BG-1.png" />
+			<fullscreen left="0" top="0" width="58" height="58" >
+				<iconactive filename="/切图分类/界面/视频界面/icon/全屏图标.png" />
+			</fullscreen>
+			<hangup left="214" top="465" width="80" height="80" text="挂断" textsize="16">
+				<iconactive filename="/切图分类/界面/视频界面/icon/挂断.png" />
+			</hangup>
+      <switch left="434" top="465" width="80" height="80" text="双向视频" textsize="16">
+        <iconactive filename="/切图分类/界面/视频界面/icon/切换.png" />
+      </switch>
+      <!--
+			<volumn left="414" top="465" width="80" height="80" text="音量" textsize="16"> 
+				<iconactive filename="/切图分类/界面/视频界面/icon/音量.png" />
+				<icondisable filename="/切图分类/界面/视频界面/icon/静音.png" />
+			</volumn>
+			<microphone left="534" top="465" width="80" height="80" text="麦克风" textsize="16">
+				<iconactive filename="/切图分类/界面/视频界面/icon/麦克风.png" />
+				<icondisable filename="/切图分类/界面/视频界面/icon/麦克风无声音.png" />
+			</microphone>
+      -->
+			<minimize left="734" top="465" width="80" height="80" text="最小化" textsize="16">
+				<iconactive filename="/切图分类/界面/视频界面/icon/最小化.png" />
+			</minimize>
+      <icon left="20" top="45" width="52" height="52" />
+			<title left="0" top="45" textsize="24">
+				<talk prefix="与 " postfix=" 视频通话中" />
+				<monitor prefix="查看 " postfix=" 的视频" />
+				<upload prefix="向 " postfix=" 上传视频" />
+				<preview prefix="" postfix="" />
+			</title>
+		</form>
+		<form name="video fullscreen" left="0" top="0" width="1024" height="768" animatetime="500" bgfilename="/切图分类/公共控件/半透明背景/半透明黑色背景.png">
+			<miniature width="264" height="198" border="10" scale="10,10,362,242" tile="/切图分类/界面/视频界面/BG-1.png" />
+			<exit left="485" top="25" width="136" height="42" text="退出全屏" textsize="18" />
+		</form>
+    <form name="video miniature" left="0" top="0" width="380" height="354" animatetime="300" bgfilename="/切图分类/界面/视频界面/切图/BG.png">
+      <icon left="15" top="15" width="42" height="42" />
+      <hangup left="275" top="15" width="42" height="42" icon="/切图分类/界面/视频界面/icon/挂断.png" />
+      <maximize left="324" top="15" width="42" height="42" icon="/切图分类/界面/视频界面/icon/最大化icon.png" />
+      <view left="13" top="64" width="354" height="275" border="6" scale="10,10,362,242" tile="/切图分类/界面/视频界面/BG-1.png" />
+      <title left="0" top="20" textsize="20" />
+    </form>
+		<form name="video request" width="364" height="275" animatetime="300" bgfilename="">
+			<mainpanel width="364" height="275" bgfilename="/切图分类/界面/视频界面/视频提示框/Bg.png">
+				<title top="34" textsize="18" textcolor="0,0,0" text="提示" />
+				<info left="36" top="56" width="292" height="119" iconborder="54" bgfilename="/切图分类/界面/提示框/弹出的人2-2Bg .png">
+					<text color="255,255,255" size="18" border="6" />
+					<icon left="-10" top="0" width="85" height="85">
+						<info filename="/切图分类/界面/提示框/信息提示.png" />
+						<warn filename="/切图分类/界面/提示框/警告提示.png" />
+						<error filename="/切图分类/界面/提示框/错误提示.png" />	
+					</icon>
+				</info>
+			</mainpanel>
+			<buttonpanel left="21" top="190" width="321" height="66" scalegrid="25,0,455,95" bgfilename="/切图分类/界面/提示框/bottomBg.png">
+				<accept left="53" top="9" width="81" height="48" textsize="18" text="接受"/>
+				<reject left="186" top="9" width="81" height="48" textsize="18" text="拒绝"/>
+			</buttonpanel>
+		</form>
+    <form name="speak video" left="0" top="39" width="1024" height="609" validheight="580" animatetime="500" bgfilename="/切图分类/界面/视频界面/视频-Bg.png">
+      <view left="0" top="95" width="476" height="357" border="10" scale="10,10,362,242" tile="/切图分类/界面/视频界面/BG-1.png"  />
+      <fullscreen left="0" top="0" width="60" height="60" >
+        <iconactive filename="/切图分类/界面/视频界面/icon/全屏图标.png" />
+      </fullscreen>
+      <hangup left="214" top="465" width="80" height="80" text="关闭" textsize="16">
+        <iconactive filename="/切图分类/界面/视频界面/icon/关闭.png" />
+      </hangup>
+      <minimize left="464" top="465" width="80" height="80" text="最小化" textsize="16">
+        <iconactive  filename="/切图分类/界面/视频界面/icon/最小化.png" />
+      </minimize>
+      <list left="734" top="465" width="80" height="80" text="刷新" textsize="16">
+        <iconactive filename="/切图分类/界面/视频界面/icon/刷新icon.png" />
+      </list>
+      <icon left="20" top="45" width="58" height="58" />
+      <title left="0" top="45" textsize="24" />
+      <memberlist left="530" top="95" width="458" height="357" bgfilename="/切图分类/界面/视频界面/列表/切图/BG-1.png">
+        <title left="0" top="20" textsize="24" text="通播成员列表" />
+        <group left="10" top="64" width="438" showrows="7" col="2" >
+          <item index="0" type="icon" width="40" />
+          <item index="1" type="text" width="158" />
+        </group>
+        <callstate>
+        	<camera  textcolor="255,255,255" iconsize="24,24" icon="state_camera" />
+        	<calling textcolor="120,120,120" iconsize="24,24" icon="state_callout" />
+        	<ringing textcolor="120,120,120" iconsize="24,24" icon="state_ringing" />
+        	<talking textcolor="255,255,255" iconsize="24,24" icon="state_speak" />
+        	<busying textcolor="120,120,120" iconsize="24,24" icon="state_busy" />
+        	<bye textcolor="120,120,120" iconsize="24,24" icon="state_hangup" />
+          <noopen textcolor="120,120,120" iconsize="24,24" icon="state_noopen" />
+          <nologon textcolor="120,120,120" iconsize="24,24" icon="state_nologon" />
+        	<idle textcolor="120,120,120" iconsize="24,24" icon="state_idle" />
+        </callstate>
+      </memberlist>
+    </form>
+    <form name="speak member" left="0" top="39" width="1024" height="609" validheight="580" animatetime="500" bgfilename="/切图分类/界面/视频界面/视频-Bg.png" >
+      <hint left="20" top="480" textsize="20" />
+      <close left="400" top="475" width="80" height="80" text="关闭" textsize="16">
+        <iconactive filename="/切图分类/界面/视频界面/icon/关闭.png" />
+      </close>
+      <refresh left="750" top="475" width="80" height="80" text="刷新" textsize="16">
+        <iconactive filename="/切图分类/界面/视频界面/icon/刷新icon.png" />
+      </refresh>
+   		<memberlist left="7" top="25" width="1010" height="445" bgfilename="/切图分类/界面/视频界面/列表/切图/BG-1.png">
+        <title left="0" top="20" textsize="24" text="通播成员状态列表" />
+        <group left="25" top="64" width="966" showrows="9" col="3" >
+          <item index="0" type="icon" width="60" />
+          <item index="1" type="name" width="255" />
+          <!--item index="2" type="state" width="80" /-->
+        </group>
+      </memberlist>
+      <callstate>
+        <calling textcolor="120,120,120" iconsize="32,32" icon="state_callout" />
+        <ringing textcolor="120,120,120" iconsize="32,32" icon="state_ringing" />
+        <talking textcolor="255,255,255" iconsize="32,32" icon="state_speak" />
+        <busying textcolor="120,120,120" iconsize="32,32" icon="state_busy" />
+        <bye textcolor="120,120,120" iconsize="32,32" icon="state_hangup" />
+        <noopen textcolor="120,120,120" iconsize="32,32" icon="state_noopen" />
+        <nologon textcolor="120,120,120" iconsize="32,32" icon="state_nologon" />
+        <idle textcolor="120,120,120" iconsize="32,32" icon="state_idle" />
+      </callstate>
+   	</form>
+		<form name="logon" left="0" top="0" width="1024" height="768" timeout="1" resend="3" query="6" historycount="5" animatetime="500" bgfilename="/切图分类/公共控件/半透明背景/半透明黑色背景.png">
+			<logonpanel left="256" top="35" width="546" height="378" scalegrid="60,60,485,315" bgfilename="/切图分类/界面/登录/登录Bg.png">
+				<user left="45" top="50" width="440" height="65" maxtextcount="20" hborder="25" textsize="28" textcolor="0,0,0" hintcolor="132,136,158" hint="用户名" />
+				<password left="45" top="140" width="455" height="75" maxtextcount="19" hborder="25" textsize="28" textcolor="0,0,0" hintcolor="132,136,158" hint="密码" passwordchar="*" />
+				<cancel left="50" top="254" width="174" height="72" textsize="24" text="取消" />
+				<logon left="320" top="254" width="174" height="72" textsize="24" text="登录" />
+			</logonpanel>
+      <progress logonformat="正在登录中" queryformat="查询用户信息中" buttontext="退出登录" />
+		</form>
+    <form name="phone function" left="0" top="98" width="1024" height="570" animatetime="500" scalegrid="0,35,1024,520" bgfilename="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png" >
+			<button width="105" height="85" row="1" col="1" space="10" showadvance="10" icontop="14" iconwidth="42" iconheight="42" texttop="57" textsize="16" >
+				<tile scalegrid="15,15,190,170">
+					<none filename="/切图分类/界面/通播组/01_none.png" />
+					<down filename="/切图分类/界面/通播组/01_down.png" />
+					<focus filename="/切图分类/界面/通播组/01_select.png" />
+					<disable filename="/切图分类/界面/通播组/01_disable.png" />
+				</tile>
+			</button>
+			<function>
+				<ringgrouprering text="重新振铃" icon="/切图分类/icon/重新振铃.png" />
+				<transfer text="呼叫转移" icon="/切图分类/icon/电话转接.png" />
+				<startlistenvoc text="上传话音" icon="/切图分类/icon/上传话音_启动.png" />
+				<stoplistenvoc text="停止上传" icon="/切图分类/icon/上传话音_暂停.png" />
+			</function>
+		</form>
+    <form name="speak function" left="0" top="98" width="1024" height="570" animatetime="500" scalegrid="0,35,1024,520" bgfilename="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <button width="105" height="85" row="1" col="2" space="10" showadvance="10" icontop="14" iconwidth="42" iconheight="42" texttop="57" textsize="16" >
+        <tile scalegrid="15,15,190,170">
+          <none filename="/切图分类/界面/通播组/01_none.png" />
+          <down filename="/切图分类/界面/通播组/01_down.png" />
+          <focus filename="/切图分类/界面/通播组/01_select.png" />
+          <disable filename="/切图分类/界面/通播组/01_disable.png" />
+        </tile>
+      </button>
+      <function>
+        <hangup text="挂断全部" icon="/切图分类/界面/更多功能/Icon-挂断.png" />
+        <member text="通播状态" icon="/切图分类/界面/更多功能/成员状态.png" />
+        <video text="视频列表" icon="/切图分类/界面/更多功能/Icon-视频.png" />				
+        <startlistenvoc text="上传通播" icon="/切图分类/icon/上传话音_启动.png" />
+				<stoplistenvoc text="停止上传" icon="/切图分类/icon/上传话音_暂停.png" />
+      </function>
+    </form>
+    <form name="ring function" left="0" top="0" width="1024" height="768" animatetime="500" scalegrid="0,0,1024,768" bgfilename="" >
+      <button width="105" height="85" row="1" col="1" space="10" showadvance="10" icontop="14" iconwidth="42" iconheight="42" texttop="57" textsize="16" >
+        <tile scalegrid="15,15,190,170">
+          <none filename="/切图分类/界面/通播组/01_none.png" />
+          <down filename="/切图分类/界面/通播组/01_down.png" />
+          <focus filename="/切图分类/界面/通播组/01_select.png" />
+          <disable filename="/切图分类/界面/通播组/01_disable.png" />
+        </tile>
+      </button>
+      <function>
+        <closering text="关闭铃声" icon="/切图分类/icon/静音.png" />
+      </function>
+    </form>
+    <form name="progress" left="0" top="0" width="1024" height="768" timeout="10" animatetime="500" background="/切图分类/界面/录音检索/录音检索中/黑色Bg.png">
+      <conductbar left="0" top="275" width="581" height="29" />
+      <info left="0" top="330" textsize="20" textformat="%1. 耗时: %2" />
+      <stop left="0" top="375" width="145" height="65" textsize="20" text="取消" />
+    </form>
+    <form name="message box" left="0" top="0" width="1024" height="768" animatetime="500" bgfilename="">
+      <mainpanel width="364" height="320" scale="55,55,480,425" bgfilename="/切图分类/界面/提示框/提示框Bg.png">
+        <title top="33" textsize="18" textcolor="0,0,0" text="提示" />
+        <info left="37" top="60" width="292" height="151" iconborder="70" scalegrid="6,6,430,175" bgfilename="/切图分类/界面/提示框/弹出的人2-2Bg .png">
+          <text color="255,255,255" size="18" border="5" />
+          <icon left="-5" top="0" width="85" height="85">
+            <info filename="/切图分类/界面/提示框/信息提示.png" />
+            <warn filename="/切图分类/界面/提示框/警告提示.png" />
+            <error filename="/切图分类/界面/提示框/错误提示.png" />
+          </icon>
+        </info>
+      </mainpanel>
+      <buttonpanel left="22" top="222" width="321" height="78" scalegrid="25,0,455,95" bgfilename="/切图分类/界面/提示框/bottomBg.png">
+        <ok left="40" top="13" width="106" height="53" textsize="18" text="确定"/>
+        <cancel left="180" top="13" width="106" height="53" textsize="18" text="取消"/>
+        <close left="80" top="13" width="160" height="53" textsize="18" text="确定"/>
+      </buttonpanel>
+    </form>
+    <form name="base frame" leftborder="32" topborder="32" rightborder="33" bottomborder="33" scalegrid="55,135,490,525" background="/切图分类/公共控件/信息窗口/BG-1.png">
+      <infopanel scalegrid="7,7,385,160"  background="/切图分类/公共控件/信息窗口/BG-2.png" />
+      <buttonpanel scalegrid="25,0,455,95" background="/切图分类/公共控件/信息窗口/bottomBg.png" />
+    </form>
+    <form name="night service" left="0" top="0" width="1024" height="768" animatetime="500" bgfilename="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <title left="0" top="575" textsize="34" textcolor="255,255,255" text="席位转移至" />
+      <code left="0" top="625" textsize="30" textcolor="255,255,255" />
+      <button left="18" top="580" width="135" height="75" textsize="24" textcolor="255,255,255" text="取消转移" />
+    </form>
+    <form name="night service code" left="0" top="0" width="1024" height="768" animatetime="500" keyboardtext="转移" bgfilename="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <mainpanel  width="560" height="610" scalegrid="55,135,595,580" bgfilename="/切图分类/界面/夜服号码/BG.png" />
+      <title top="55" textsize="26" textcolor="255,255,255" text="席位转移设置" />
+      <close left="420" top="41" />
+      <view left="57" top="133" width="445" showitems="8" textsize="20" checksize="24,24" checkicon="/切图分类/公共控件/显示框/Check.png">
+        <column index="0" width="35" sort="1" type="active" text="" datatype="icon" />
+        <column index="2" width="175" sort="1" type="name" text="名称" datatype="string" />
+        <column index="1" width="183" sort="1" type="code" text="号码" datatype="string" />
+      </view>
+      <select left="80" top="500" width="180" height="65" textsize="20" textcolor="255,255,255" text="选择转移目的" />
+      <enter left="300" top="500" width="180" height="65" textsize="20" textcolor="255,255,255" text="开始席位转移" />
+      <phonekeypanel left="0" top="0" width="1024" height="768" animatetime="500" background="/切图分类/界面/席位编辑/席位编辑/切图/席位编辑BG.png">
+        <pagepanel left="10" top="50" width="1004" height="50" cellWidth="208" cellHeight="50" />
+        <hotkeypanel left="11" top="105" width="998" height="448" cellleft="-3" celltop="-6" cellwidth="100" cellheight="90" background="/切图分类/界面/席位编辑/席位编辑/切图/格子.png" />
+        <hintpanel left="262" top="590" width="500" height="50" textsize="22" textcolor="255,255,255" text="请选择席位转移目的" scalegrid="15,0,345,30" background="/切图分类/界面/席位编辑/席位编辑/切图/提示-BG.png" />
+        <funcpanel left="50" top="680" width="924" height="80" background="/切图分类/界面/席位编辑/席位编辑/切图/2.png" >
+          <ok left="290" top="5" width="150" height="60" textsize="20" text="确定" />
+          <cancel left="387" top="10" width="150" height="60" textsize="20" text="退出" />
+        </funcpanel>
+      </phonekeypanel>
+    </form>
+    <form name="duty" left="0" top="0" width="1024" height="768" animatetime="500" background="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <mainpanel  width="745" height="185" scalegrid="55,135,490,525" background="/切图分类/公共控件/信息窗口/BG-1.png" />
+      <title top="55" textsize="26" textcolor="255,255,255" text="总值班员" />
+      <close left="605" top="41" />
+      <infopanel left="48" top="133" width="655" height="55" row="3" col="4" scalegrid="7,7,385,160"  background="/切图分类/公共控件/信息窗口/BG-2.png">
+        <button left="20" top="35" width="125" height="120" rowspace="50" colspace="40" iconsize="72,72" icon="/切图分类/icon/pn.png" />
+        <currentduty left="0" top="-20" textcolor="122,125,130" textsize="20" text="值班中" />
+        <name left="0" top="120" textcolor="255,255,255" textsize="24" />
+      </infopanel>
+    </form>
+    <form  name="duty change" left="0" top="0" width="1024" height="768" animatetime="500" background="">
+      <frame width="480" height="390" />
+      <title left="0"  top="26" textsize="26" textcolor="255,255,255" text="换班提醒" />
+      <infopanel left="23" top="107" width="430" height="160" />
+      <dutyinfo left="60" top="140" textsize="20" textcolor="255,255,255" text="总值班员将由: %1 更换为 %2" />
+      <label left="230" top="198" textsize="20" textcolor="255,255,255" text="后再次弹出换班提醒" />
+      <combobox left="55" top="185" width="160" height="45" textsize="20" textcolor="0,0,0" itemcount="6" >
+        <item text="5分钟" value="300000" />
+        <item text="10分钟" value="600000" />
+        <item text="20分钟" value="1200000" />
+        <item text="30分钟" value="1800000" />
+        <item text="1小时" value="3600000" />
+        <item text="2小时" value="7200000" />
+      </combobox>
+      <buttonpanel left="0" top="287" width="480" height="105" />
+      <ok left="23" top="300" width="130" height="75" textsize="20" text="立即换班" />
+      <delay left="176" top="300" width="130" height="75" textsize="20" text="推迟换班" />
+      <cancel left="329" top="300" width="130" height="75" textsize="20" text="取消换班" />
+    </form>
+    <form name="user info" left="0" top="0" width="1024" height="768" animatetime="500" background="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <mainpanel width="584" height="560" textcolor="255,255,255" scalegrid="55,130,525,535" background="/切图分类/界面/用户资料/用户资料/切图/BG-1.png" />
+      <title left="235" top="55" maxwidth="240" textsize="30" />
+      <close left="445" top="40" />
+      <editor left="53" top="45" width="80" height="55" textsize="20" text="编辑" />
+      <update left="135" top="45" width="80" height="55" textsize="20" text="刷新" />
+      <info left="53" top="133" width="485" height="365" scalegrid="5,5,388,163" background="/切图分类/界面/用户资料/用户资料/切图/BG-2.png" >
+        <dutylabel left="14" top="20" width="118" height="40" hborder="12" textsize="22" textcolor="255,255,255" text="职务" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png"  />
+        <dutyedit left="141" top="20" width="329" height="40" hborder="12" textsize="22" textcolor="255,255,255" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png" />
+        <!--levellabel left="14" top="67" width="118" height="40" hborder="12" textsize="22"  textcolor="255,255,255" text="级别" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png" -->
+        <!--leveledit left="141" top="67" width="329" height="40" hborder="12" textsize="22" textcolor="255,255,255" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png" -->
+        <unitlabel left="14" top="67" width="118" height="40" hborder="12" textsize="22" textcolor="255,255,255" text="单位" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png" />
+        <unitedit left="141" top="67" width="329" height="82" hborder="12" vborder="7" textcolor="255,255,255" textsize="22" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png" />
+        <phonelabel_1 left="14" top="160" width="118" height="40" hborder="12" textsize="22" textcolor="255,255,255" text="号码" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png" />
+        <phoneedit_1 left="141"  top="160" width="329" height="40" hborder="12" textsize="22" textcolor="255,255,255" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png"/>
+        <phonelabel_2 left="14" top="210" width="118" height="40" hborder="12" textsize="22" textcolor="255,255,255" text="号码" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png" />
+        <phoneedit_2 left="141" top="210" width="329" height="40" hborder="12" textsize="22" textcolor="255,255,255" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png"/>
+        <phonelabel_3 left="14" top="260" width="118" height="40" hborder="12" textsize="22" textcolor="255,255,255" text="号码" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png" />
+        <phoneedit_3 left="141" top="260" width="329" height="40" hborder="12" textsize="22" textcolor="255,255,255" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png"/>
+        <phonelabel_4 left="14" top="310" width="118" height="40" hborder="12" textsize="22" textcolor="255,255,255" text="号码"  scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png" />
+        <phoneedit_4 left="141" top="310" width="329" height="40" hborder="12" textsize="22" textcolor="255,255,255" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png"/>
+      </info>
+    </form>
+    <form name="user info editor" left="0" top="0" width="1024" height="768" animatetime="500" >
+      <mainpanel width="631" height="585" animatetime="200" textcolor="255,255,255" scalegrid="55,135,575,575" background="/切图分类/界面/用户资料/编辑/切图/BG-1.png" />
+      <close left="485" top="40" />
+      <ok left="53" top="45" width="80" height="55" textsize="20" text="确定" />
+      <cancel left="140" top="45" width="80" height="55" textsize="20" text="重置" />
+      <info left="53" top="128" width="525" height="400" scalegrid="5,5,388,163" background="/切图分类/界面/用户资料/用户资料/切图/BG-2.png" >
+        <namelabel left="22" top="14" width="150" height="40" hborder="10" textsize="22" textcolor="255,255,255" text="名称" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png"  />
+        <nameedit left="180" top="14" width="325" height="40" hborder="10" textsize="22" textcolor="255,255,255" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png"/>
+        <dutylabel left="22" top="64" width="150" height="40" hborder="10" textsize="22" textcolor="255,255,255" text="职务" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png"  />
+        <dutyedit left="180" top="64" width="325" height="40" hborder="10" textsize="22" textcolor="255,255,255" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png"/>
+        <!--levellabel left="22" top="114" width="150" height="40" hborder="10" textsize="22" textcolor="255,255,255" text="级别" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png" -->
+        <!--leveledit left="180" top="114" width="325" height="40" hborder="10" textsize="22" textcolor="255,255,255" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png"-->
+        <unitlabel left="22" top="114" width="150" height="40" hborder="10" textsize="22" textcolor="255,255,255" text="单位" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png" />
+        <unitedit left="180" top="114" width="325" height="70" hborder="10" vborder="7" textsize="22" textcolor="255,255,255" scalegrid="5,5,138,35" background="/切图分类/界面/用户资料/用户资料/切图/文字显示底框.png"/>
+        <phonelabel_1 left="20" top="191" width="146" height="40" hborder="10" textsize="22" textcolor="0,0,0" />
+        <phoneedit_1 left="171" top="188" width="290" height="56" hborder="20" textsize="22" textcolor="0,0,0" />
+        <phonebutton_1 left="450" top="188" width="60" height="54" textsize="18" text="清除" />
+        <phonelabel_2 left="20" top="241" width="146" height="40" hborder="10" textsize="22" textcolor="0,0,0" />
+        <phoneedit_2 left="171" top="238" width="290" height="56" hborder="20" textsize="22" textcolor="0,0,0" />
+        <phonebutton_2 left="450" top="238" width="60" height="54" textsize="18" text="清除" />
+        <phonelabel_3 left="20" top="291" width="146" height="40" hborder="10" textsize="22" textcolor="0,0,0" />
+        <phoneedit_3 left="171" top="288" width="290" height="56" hborder="20" textsize="22" textcolor="0,0,0" />
+        <phonebutton_3 left="450" top="288" width="60" height="54" textsize="18" text="清除" />
+        <phonelabel_4 left="20" top="341" width="146" height="40" hborder="10" textsize="22" textcolor="0,0,0" />
+        <phoneedit_4 left="171" top="338" width="290" height="56" hborder="20" textsize="22" textcolor="0,0,0" />
+        <phonebutton_4 left="450" top="338" width="60" height="54" textsize="18" text="清除" />
+      </info>
+    </form>
+    <form name="password box" left="0" top="0" width="1024" height="768" animatetime="500" bgfilename="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <mainpanel left="0" top="20" width="546" height="378" bgfilename="/切图分类/界面/密码输入局/密码输入局Bg.png">
+        <title left="0"  top="78" textsize="24" textcolor="0,0,0" />
+        <edit  left="55" top="130" width="435" height="75" maxtextcount="16" hborder="25" textsize="28" textcolor="0,0,0" hintcolor="132,136,158" hint="密码" passwordchar="*" />
+        <cancel left="60" top="255" width="175" height="75" textsize="24" text="取消"/>
+        <ok left="310" top="255" width="175" height="75" textsize="24" text="确定"/>
+      </mainpanel>
+    </form>
+    <form name="callin label form" left="0" top="0" width="1024" height="768" animatetime="200" >
+      <mainpanel left="0" top="0" hborder="15" vborder="10" vspace="0" scalegrid="5,0,216,57" background="/切图分类/界面/电话接听/BG.png" />
+      <label height="32" space="10" textsize="17" iconsize="32,32" timeout="20000" textColor="255,255,255" />
+    </form>
+    <form name="dynamic speak edit panel" left="7" top="50" width="1004" height="510" animatetime="500" scalegrid="0,0,1000,460" background="/切图分类/界面/通播组/席位编辑BG.png">
+      <title left="0" top="8" textsize="24" textcolor="255,255,255" text="编辑动态通播" />
+      <shortcut left="2" top="50" width="450" height="360" scrollbarwidth="51">
+        <button row="4" col="4" width="104" height="95" cellwidth="99" cellheight="90"  textborder="10" textsize="14" icontop="15" iconsize="64,64"  />
+      </shortcut>
+      <list left="453" top="50" width="550" height="360">
+        <pagepanel left="0" top="2" width="550" height="73" scalegrid="5,5,550,70" background="/切图分类/界面/通播组/BG2.png" >
+          <title left="0" top="25" textsize="20" textcolor="255,255,255" minwidth="150" text="搜索结果" />
+          <button left="10" top="10" width="100" height="55" maxwidth="170" border="15" space="5" textsize="18" textcolor="255,255,255" text="返回" iconsize="14,14" icon="/切图分类/界面/通讯录-通话记录-公共地址/page_back.png" />
+          <findedit left="150" top="7" width="300" height="60" hborder="20" textsize="20" textcolor="0,0,0" hint="请输入搜索内容首字母" hintcolor="129,137,156" />
+          <findbutton left="440" top="10" width="100" height="55" textsize="20" text="搜索" />
+          <buttonpanel left="10" top="65" scalegrid="7,7,320,37" background="/切图分类/公共控件/标题栏/蓝色框BG.png" />
+          <more left="10" top="10" width="60" height="55" border="15" space="5"  iconsize="16,16" icon="/切图分类/界面/通播组/箭头.png" />
+        </pagepanel>
+        <listgroup left="0" top="38" width="550" showrows="7" itemheight="40" col="3" textsize="18" />
+        <listview left="0" top="75" width="550" showitems="6" itemheight="40" textsize="18" >
+          <column index="1" width="200" sort="1" type="name" text="名称" />
+          <column index="2" width="300" sort="1" type="parent" text="所属单位" />
+        </listview>
+      </list>
+      <function left="2" top="410" width="1002" height="100" scalegrid="10,0,435,87" background="/切图分类/界面/通播组/下拉框BG.png">
+        <remove left="45" top="20" width="155" height="55" textsize="20" text="删除选中" />
+        <clear left="220" top="20" width="155" height="55" textsize="20" text="删除全部" />
+        <exit left="795" top="20" width="155" height="55" textsize="20" text="退出编辑" />
+      </function>
+    </form>
+    <form name="dynamic speak panel" left="2" top="0" width="1000" height="455" scalegrid="0,0,1000,460" background="/切图分类/界面/通播组/席位编辑BG.png">
+      <shortcut left="0" top="0" width="992" height="360" scrollbarwidth="51">
+        <button row="4" col="9" width="107" height="97" cellwidth="104" cellheight="90" textborder="10" textsize="14" icontop="15" iconsize="64,64"  />
+      </shortcut>
+      <function left="2" top="370" width="1000" height="85" scalegrid="10,10,985,75" background="/切图分类/界面/通播组/菜单栏.png">
+        <selectall left="45" top="15" width="155" height="55" textsize="20" text="全部通播" />
+        <edit left="795" top="15" width="155" height="55" textsize="20" text="编辑" />
+      </function>
+    </form>
+    <form name="speak voice panel" left="1024" top="600" width="250" height="765" animatein="500" animateout="500" scalegrid="10,10,190,85" background="/切图分类/公共控件/半透明背景/Touming_Bg.png">
+    	<label hspace="20" height="55" width="200" iconleft="0" iconsize="36,36" textleft="45" textsize="28" textcolor="108,215,255" />
+    </form>
+    <form name="unanswer call" left="0" top="98" width="1024" height="570" animatetime="500" scalegrid="0,35,1024,520" bgfilename="">
+      <button width="85" height="85" row="1" col="2" space="5" showadvance="10" icontop="14" iconwidth="42" iconheight="42" texttop="57" textsize="16" >
+        <tile scalegrid="15,15,190,170">
+          <none filename="/切图分类/界面/通播组/01_none.png" />
+          <down filename="/切图分类/界面/通播组/01_down.png" />
+          <focus filename="/切图分类/界面/通播组/01_select.png" />
+          <disable filename="/切图分类/界面/通播组/01_disable.png" />
+        </tile>
+      </button>
+      <function>
+        <call text="重拨" icon="/切图分类/icon/右免提.png" />
+        <show text="查看" icon="/切图分类/icon/icon_未接电话.png" />
+      </function>
+      <info left="10" top="25" width="203" height="85" scalegrid="5,5,300,40" background="/切图分类/公共控件/显示框/文字底图.png">
+      	<name left="7" top="7" width="203" height="16" textsize="16" textcolor="255,255,255" text="名称:%1" />
+      	<code left="7" top="33" width="203" height="16" textsize="16" textcolor="255,255,255" text="号码:%1" />
+      	<datetime left="7" top="59" width="203" height="16" textsize="16" textcolor="255,255,255" text="时间:%1" />
+      </info>
+    </form>
+    <form name="dispatch" left="0" top="50" width="1024" height="505" subheight="160" animatetime="400">
+			<mainpanel left="0" top="0" width="1024" height="535"  scalegrid="45,105,990,565" background="/切图分类/界面/导调功能/png/windows_导调.png">
+				<close left="825" top="2" width="160" height="45" textsize="20" text="返回" iconleft="120" icontop="7" iconsize="30,30" icon="/切图分类/icon_mark/耳机1.png" earicon="/切图分类/icon_mark/耳机21.png" >
+					<tile scalegrid="12,12,130,35">
+						<none filename="/切图分类/界面/电台/BtnE_None.png" />
+						<down filename="/切图分类/界面/电台/BtnE_Down.png" />
+						<focus filename="/切图分类/界面/电台/BtnE_Select.png" />
+						<disable filename="/切图分类/界面/电台/BtnE_Disable.png" />
+					</tile>
+				</close>
+				<objectpanel left="75" top="60" width="872" height="330" vspace="-5" hspace="0" row="2" col="4" animationtime="400">
+					<object width="219" height="165" none="/切图分类/界面/导调功能/png/导调对象_ktj.png" disable="/切图分类/界面/导调功能/png/导调对象_ktj.png" scalegrid="10,27,206,195" >
+						<tag left="160" top="5" width="28" height="28" phone="/切图分类/界面/导调功能/png/icon_电话.png" speak="/切图分类/界面/导调功能/png/icon_对讲.png" radio="/切图分类/界面/导调功能/png/icon_对空.png" />
+						<title left="12" top="28" width="194" height="43" scalegrid="10,10,185,35" background="/切图分类/界面/导调功能/png/bg_name.png">
+							<name top="10" textsize="20" nonecolor="255,255,255" disablecolor="71,73,76" />
+						</title>
+						<send left="110" top="70" width="95" height="77" texttop="55" textsize="14" textcolor="255,255,255" text="发话" icontop="5" iconwidth="48" iconheight="48" icon="/切图分类/界面/导调功能/png/icon_发话.png" >
+							<tile scalegrid="10,10,85,60">
+								<none filename="/切图分类/界面/导调功能/png/收发话_wjh.png" />
+								<down filename="/切图分类/界面/导调功能/png/收发话_wjh_按下.png" />
+								<focus filename="/切图分类/界面/导调功能/png/收发话_jh.png" />
+								<disable filename="/切图分类/界面/导调功能/png/收发话_wjh_不可用.png" />
+							</tile>
+						</send>
+						<recv left="15" top="70" width="95" height="77" texttop="55" textsize="14" textcolor="255,255,255" text="收话" icontop="5" iconwidth="48" iconheight="48" icon="/切图分类/界面/导调功能/png/icon_收话.png" >
+							<tile scalegrid="10,10,85,60">
+								<none filename="/切图分类/界面/导调功能/png/收发话_wjh.png" />
+								<down filename="/切图分类/界面/导调功能/png/收发话_wjh_按下.png" />
+								<focus filename="/切图分类/界面/导调功能/png/收发话_jh.png" />
+								<disable filename="/切图分类/界面/导调功能/png/收发话_wjh_不可用.png" />
+							</tile>
+							<voicevad left="68" top="3" size="24,24" />
+						</recv>
+						<volumn left="10" top="125" width="93" height="18" hborder="5" vborder="5" space="2" knobwidth="3" background="/切图分类/界面/导调功能/png/bg_音量.png" scalegrid="5,5,88,10">
+							<select filename="/切图分类/界面/导调功能/png/1_音量.png" />
+							<none filename="/切图分类/界面/导调功能/png/2_音量.png" />
+						</volumn>
+						<addvol left="10" top="145" width="52" height="40">
+							<tile scalegrid="10,10,42,28">
+          			<none filename="/切图分类/界面/导调功能/png/音量加_none.png" />
+          			<down filename="/切图分类/界面/导调功能/png/音量加_down.png" />
+          			<focus filename="/切图分类/界面/导调功能/png/音量加_over.png" />
+          			<disable filename="/切图分类/界面/导调功能/png/音量加_disable.png" />
+        			</tile>
+						</addvol>
+						<subvol left="58" top="145" width="52" height="40">
+							<tile scalegrid="10,10,42,28">
+          			<none filename="/切图分类/界面/导调功能/png/音量减_none.png" />
+          			<down filename="/切图分类/界面/导调功能/png/音量减_down.png" />
+          			<focus filename="/切图分类/界面/导调功能/png/音量减_over.png" />
+          			<disable filename="/切图分类/界面/导调功能/png/音量减_disable.png" />
+        			</tile>
+						</subvol>
+					</object>
+				</objectpanel>
+				<pagepanel left="73" top="382" width="882" height="15" />
+				<funcpanel left="73" top="396" width="882" height="85" scalegrid="15,15,896,102" background="/切图分类/界面/导调功能/png/bg_菜单栏.png">
+					<allrecv left="10" top="5" width="80" height="80" texttop="55" textsize="14" text="所有收话" iconleft="19" icontop="10" iconwidth="42" iconheight="42" icon="/切图分类/界面/导调功能/png/icon_所有收话.png" />
+					<stoprecv left="100" top="5" width="80" height="80" texttop="55" textsize="14" text="取消收话" iconleft="19" icontop="10" iconwidth="42" iconheight="42" icon="/切图分类/界面/导调功能/png/icon_取消收话.png" />
+					<allsend left="190" top="5" width="80" height="80" texttop="55" textsize="14" text="所有发话" iconleft="19" icontop="10" iconwidth="42" iconheight="42" icon="/切图分类/界面/导调功能/png/icon_所有发话.png" />
+					<stopsend left="280" top="5" width="80" height="80" texttop="55" textsize="14" text="取消发话" iconleft="19" icontop="10" iconwidth="42" iconheight="42" icon="/切图分类/界面/导调功能/png/icon_取消发话.png" />
+					<stopdispatch left="780" top="5" width="80" height="80" texttop="55" textsize="14" text="停止导调" iconleft="19" icontop="10" iconwidth="42" iconheight="42" icon="/切图分类/界面/导调功能/png/icon_停止导调.png" />
+				</funcpanel>
+      	<prevpage left="42" top="230" width="30" height="50" >
+        	<tile scalegrid="0,0,30,50">
+          	<none filename="/切图分类/界面/导调功能/png/前一页_none_1.png" />
+          	<down filename="/切图分类/界面/导调功能/png/前一页_down_1.png" />
+          	<disable filename="/切图分类/界面/导调功能/png/前一页_disable_1.png" />
+        	</tile>
+      	</prevpage>
+      	<nextpage left="953" top="230" width="30" height="50" >
+        	<tile scalegrid="0,0,30,50">
+          	<none filename="/切图分类/界面/导调功能/png/后一页_none_1.png" />
+          	<down filename="/切图分类/界面/导调功能/png/后一页_down_1.png" />
+          	<disable filename="/切图分类/界面/导调功能/png/后一页_disable_1.png" />
+        	</tile>
+      	</nextpage>
+			</mainpanel>
+		</form>
+		<form name="more page" left="4" top="95" hborder="0" vborder="7" buttonwidth="188" buttonheight="50" maxwidth="1012" nonescalegrid="5,5,190,148" nonetile="/切图分类/界面/席位多页/BG_席位多页" selectscalegrid="5,5,90,55" selecttile="/切图分类/界面/席位多页/BG_选中.png" />
+		<form name="crypto choice" left="0" top="0" width="1024" height="768" animatetime="500" scalegrid="0,0,1024,768" bgfilename="" >
+    	<button width="105" height="95" row="1" col="1" space="10" showadvance="10" icontop="14" iconwidth="42" iconheight="42" texttop="62" textsize="16" >
+      	<tile scalegrid="15,15,190,170">
+        	<none filename="/切图分类/界面/通播组/01_none.png" />
+        	<down filename="/切图分类/界面/通播组/01_down.png" />
+        	<focus filename="/切图分类/界面/通播组/01_select.png" />
+        	<disable filename="/切图分类/界面/通播组/01_disable.png" />
+      	</tile>
+    	</button>
+    	<function>
+      	<analog text="转到江河台" icon="/切图分类/icon/人工台_icon.png" />
+      	<digital text="转到密话机" icon="/切图分类/icon/电话机_icon.png" />
+    	</function>
+  	</form>
+  	<form name="screen lock" left="0" top="0" width="1024" height="768" animatetime="500" background="/切图分类/公共控件/半透明背景/半透明黑色背景.png">
+  		<title left="280" top="50" textsize="30" textcolor="255,255,255" text="席位已锁定，请输入密码解锁"/>
+  		<password left="250" top="100" width="455" height="75" maxtextcount="19" hborder="25" textsize="28" textcolor="0,0,0" hintcolor="132,136,158" hint="密码" passwordchar="*" />
+			<unlock left="720" top="100" width="150" height="75" text="解锁席位" textsize="26" />
+			<logo left="380" top="200" width="263" height="161" filename="/切图分类/界面/Logo启动/载入界面icon.png" />
+		</form>
+  	<form name="hint window" left="0" top="0" width="1024" height="50" animatetime="500" background="/切图分类/公共控件/半透明背景/半透明黑色背景.png">
+  		<title left="20" top="12" textsize="20" textcolor="255,161,91" />
+      <ok left="800" top="5" width="100" height="40" textsize="18" text="确定"/>
+      <cancel left="920" top="5" width="100" height="40" textsize="18" text="取消"/>
+		</form>
+	</forms>
+	<buttons>
+		<button name="hotkey" >
+			<category name="max" width="204" height="188" leftborder="13" rightborder="13" topborder="13" bottomborder="15" icontop="15" iconsize="128,128" ltextsize="22" rtextsize="44" btextsize="22" signpos="147,20" signsize="42,29" statepos="150,30" statesize="24,24" />
+			<category name="middling" width="204" height="98" leftborder="7" rightborder="7" topborder="7" bottomborder="7" icontop="12" iconsize="64,64" ltextsize="14" rtextsize="32" btextsize="18" signpos="152,10" signsize="42,29" statepos="125,15" statesize="16,16" />
+			<category name="min" width="104" height="98" leftborder="7" rightborder="7" topborder="7" bottomborder="10" icontop="12" iconsize="64,64" ltextsize="14" rtextsize="32" btextsize="14"  signpos="64,10" signsize="28,19" statepos="75,15" statesize="16,16" />
+			<tile scalegrid="15,15,190,170">
+				<activation filename="/切图分类/界面/通播组/01_down.png" />
+				<down filename="/切图分类/界面/通播组/01_disable.png" />
+				<none filename="/切图分类/界面/通播组/01_none.png" />
+				<strong filename="/切图分类/界面/通播组/01_select.png" />
+			</tile>
+			<icons name="speak" type="kongjun" >
+				<big>
+					<localmember filename="/切图分类/icon/a2.png" />
+					<remotemember filename="/切图分类/icon/a1.png" />
+					<localgroup filename="/切图分类/icon/a5.png" />
+					<remotegroup filename="/切图分类/icon/a6.png" />
+					<listen filename="/切图分类/icon/a3.png" />
+					<speak filename="/切图分类/icon/a4.png" />
+          <folder filename="/切图分类/icon_small/文件夹icon.png" />
+				</big>
+				<small>
+					<localmember filename="/切图分类/icon_small/a1.png" />
+					<remotemember filename="/切图分类/icon_small/a2.png" />
+					<localgroup filename="/切图分类/icon_small/a5.png" />
+					<remotegroup filename="/切图分类/icon_small/a6.png" />
+					<listen filename="/切图分类/icon_small/a3.png" />
+					<speak filename="/切图分类/icon_small/a4.png" />
+          <folder filename="/切图分类/icon_small/文件夹icon.png" />
+				</small>
+			</icons>
+			<icons name="phone" type="kongjun" >
+				<big>
+					<unknow filename="/切图分类/icon/未知.png" />
+					<seat filename="/切图分类/icon/pn.png" />
+					<magnet filename="/切图分类/icon/a11.png" />
+					<telephonist filename="/切图分类/icon/a10.png" />
+					<trunk filename="/切图分类/icon/a7.png" />
+					<satellite filename="/切图分类/icon/a8.png" />
+					<subscriber filename="/切图分类/icon/a12.png" />
+					<special filename="/切图分类/icon/a9.png" />
+          <user filename="/切图分类/icon_small/a-用户号码.png" />
+          <serve filename="/切图分类/icon_small/a-军线固话.png" />
+          <civil filename="/切图分类/icon_small/a-民线固话.png" />
+          <mobile filename="/切图分类/icon_small/a-手机.png" />
+          <sip filename="/切图分类/icon_small/a-IP电话.png" />
+          <folder filename="/切图分类/icon_small/文件夹icon.png" />
+					<crypto filename="/切图分类/icon_small/密话.png" />
+				</big>
+				<small>
+					<unknow filename="/切图分类/icon/未知.png" />
+					<seat filename="/切图分类/icon_small/a13.png" />
+					<magnet filename="/切图分类/icon_small/a11.png" />
+					<telephonist filename="/切图分类/icon_small/a10.png" />
+					<trunk filename="/切图分类/icon_small/a7.png" />
+					<satellite filename="/切图分类/icon_small/a8.png" />
+					<subscriber filename="/切图分类/icon_small/a12.png" />
+					<special filename="/切图分类/icon_small/a9.png" />
+          <user filename="/切图分类/icon_small/a-用户号码.png" />
+          <serve filename="/切图分类/icon_small/a-军线固话.png" />
+          <civil filename="/切图分类/icon_small/a-民线固话.png" />
+          <mobile filename="/切图分类/icon_small/a-手机.png" />
+          <sip filename="/切图分类/icon_small/a-IP电话.png" />
+          <folder filename="/切图分类/icon_small/文件夹icon.png" />
+					<crypto filename="/切图分类/icon_small/密话.png" />
+				</small>
+			</icons>
+			<icons name="video"  type="kongjun" >
+				<big>
+					<preview filename="/切图分类/icon/a-本地预览png.png" />
+					<sendonly filename="/切图分类/icon/a-上传视频.png" />
+					<recvonly filename="/切图分类/icon/a-监控视频.png" />
+					<sendrecv filename="/切图分类/icon/a-视频监控.png" />
+				</big>
+				<small>
+					<preview filename="/切图分类/icon/a-本地预览png.png" />
+					<sendonly filename="/切图分类/icon/a-上传视频.png" />
+					<recvonly filename="/切图分类/icon/a-监控视频.png" />
+					<sendrecv filename="/切图分类/icon/a-视频监控.png" />
+				</small>
+			</icons>
+			<icons name="speak" type="haijun" >
+				<big>
+					<localmember filename="/切图分类/icon/a2h.png" />
+					<remotemember filename="/切图分类/icon/a1h.png" />
+					<localgroup filename="/切图分类/icon/a5h.png" />
+					<remotegroup filename="/切图分类/icon/a6h.png" />
+					<listen filename="/切图分类/icon/a3.png" />
+					<speak filename="/切图分类/icon/a4.png" />
+          <folder filename="/切图分类/icon_small/文件夹icon.png" />
+				</big>
+				<small>
+					<localmember filename="/切图分类/icon_small/a1h.png" />
+					<remotemember filename="/切图分类/icon_small/a2h.png" />
+					<localgroup filename="/切图分类/icon_small/a5h.png" />
+					<remotegroup filename="/切图分类/icon_small/a6h.png" />
+					<listen filename="/切图分类/icon_small/a3.png" />
+					<speak filename="/切图分类/icon_small/a4.png" />
+          <folder filename="/切图分类/icon_small/文件夹icon.png" />
+				</small>
+			</icons>
+			<icons name="phone" type="haijun" >
+				<big>
+					<unknow filename="/切图分类/icon/未知.png" />
+					<seat filename="/切图分类/icon/pn.png" />
+					<magnet filename="/切图分类/icon/a11.png" />
+					<telephonist filename="/切图分类/icon/a10h.png" />
+					<trunk filename="/切图分类/icon/a7.png" />
+					<satellite filename="/切图分类/icon/a8.png" />
+					<subscriber filename="/切图分类/icon/a12.png" />
+					<special filename="/切图分类/icon/a9.png" />
+          <user filename="/切图分类/icon_small/a-用户号码h.png" />
+          <serve filename="/切图分类/icon_small/a-军线固话h.png" />
+          <civil filename="/切图分类/icon_small/a-民线固话.png" />
+          <mobile filename="/切图分类/icon_small/a-手机.png" />
+          <sip filename="/切图分类/icon_small/a-IP电话.png" />
+          <folder filename="/切图分类/icon_small/文件夹icon.png" />
+					<crypto filename="/切图分类/icon_small/密话.png" />
+				</big>
+				<small>
+					<unknow filename="/切图分类/icon/未知.png" />
+					<seat filename="/切图分类/icon_small/a13.png" />
+					<magnet filename="/切图分类/icon_small/a11.png" />
+					<telephonist filename="/切图分类/icon_small/a10h.png" />
+					<trunk filename="/切图分类/icon_small/a7.png" />
+					<satellite filename="/切图分类/icon_small/a8.png" />
+					<subscriber filename="/切图分类/icon_small/a12.png" />
+					<special filename="/切图分类/icon_small/a9.png" />
+          <user filename="/切图分类/icon_small/a-用户号码h.png" />
+          <serve filename="/切图分类/icon_small/a-军线固话h.png" />
+          <civil filename="/切图分类/icon_small/a-民线固话.png" />
+          <mobile filename="/切图分类/icon_small/a-手机.png" />
+          <sip filename="/切图分类/icon_small/a-IP电话.png" />
+          <folder filename="/切图分类/icon_small/文件夹icon.png" />
+					<crypto filename="/切图分类/icon_small/密话.png" />
+				</small>
+			</icons>
+			<icons name="video"  type="haijun">
+				<big>
+					<preview filename="/切图分类/icon/a-本地预览pngh.png" />
+					<sendonly filename="/切图分类/icon/a-上传视频.png" />
+					<recvonly filename="/切图分类/icon/a-监控视频.png" />
+					<sendrecv filename="/切图分类/icon/a-视频监控.png" />
+				</big>
+				<small>
+					<preview filename="/切图分类/icon/a-本地预览pngh.png" />
+					<sendonly filename="/切图分类/icon/a-上传视频.png" />
+					<recvonly filename="/切图分类/icon/a-监控视频.png" />
+					<sendrecv filename="/切图分类/icon/a-视频监控.png" />
+				</small>
+			</icons>
+			<icons name="speak" type="lujun" >
+				<big>
+					<localmember filename="/切图分类/icon/a2l.png" />
+					<remotemember filename="/切图分类/icon/a1l.png" />
+					<localgroup filename="/切图分类/icon/a5l.png" />
+					<remotegroup filename="/切图分类/icon/a6l.png" />
+					<listen filename="/切图分类/icon/a3.png" />
+					<speak filename="/切图分类/icon/a4.png" />
+          <folder filename="/切图分类/icon_small/文件夹icon.png" />
+				</big>
+				<small>
+					<localmember filename="/切图分类/icon_small/a1l.png" />
+					<remotemember filename="/切图分类/icon_small/a2l.png" />
+					<localgroup filename="/切图分类/icon_small/a5l.png" />
+					<remotegroup filename="/切图分类/icon_small/a6l.png" />
+					<listen filename="/切图分类/icon_small/a3.png" />
+					<speak filename="/切图分类/icon_small/a4.png" />
+          <folder filename="/切图分类/icon_small/文件夹icon.png" />
+				</small>
+			</icons>
+			<icons name="phone" type="lujun" >
+				<big>
+					<unknow filename="/切图分类/icon/未知.png" />
+					<seat filename="/切图分类/icon/pn.png" />
+					<magnet filename="/切图分类/icon/a11.png" />
+					<telephonist filename="/切图分类/icon/a10l.png" />
+					<trunk filename="/切图分类/icon/a7.png" />
+					<satellite filename="/切图分类/icon/a8.png" />
+					<subscriber filename="/切图分类/icon/a12.png" />
+					<special filename="/切图分类/icon/a9.png" />
+          <user filename="/切图分类/icon_small/a-用户号码l.png" />
+          <serve filename="/切图分类/icon_small/a-军线固话l.png" />
+          <civil filename="/切图分类/icon_small/a-民线固话.png" />
+          <mobile filename="/切图分类/icon_small/a-手机.png" />
+          <sip filename="/切图分类/icon_small/a-IP电话.png" />
+          <folder filename="/切图分类/icon_small/文件夹icon.png" />
+					<crypto filename="/切图分类/icon_small/密话.png" />
+				</big>
+				<small>
+					<unknow filename="/切图分类/icon/未知.png" />
+					<seat filename="/切图分类/icon_small/a13.png" />
+					<magnet filename="/切图分类/icon_small/a11.png" />
+					<telephonist filename="/切图分类/icon_small/a10l.png" />
+					<trunk filename="/切图分类/icon_small/a7.png" />
+					<satellite filename="/切图分类/icon_small/a8.png" />
+					<subscriber filename="/切图分类/icon_small/a12.png" />
+					<special filename="/切图分类/icon_small/a9.png" />
+          <user filename="/切图分类/icon_small/a-用户号码l.png" />
+          <serve filename="/切图分类/icon_small/a-军线固话l.png" />
+          <civil filename="/切图分类/icon_small/a-民线固话.png" />
+          <mobile filename="/切图分类/icon_small/a-手机.png" />
+          <sip filename="/切图分类/icon_small/a-IP电话.png" />
+          <folder filename="/切图分类/icon_small/文件夹icon.png" />
+					<crypto filename="/切图分类/icon_small/密话.png" />
+				</small>
+			</icons>
+			<icons name="video"  type="lujun">
+				<big>
+					<preview filename="/切图分类/icon/a-本地预览pngl.png" />
+					<sendonly filename="/切图分类/icon/a-上传视频.png" />
+					<recvonly filename="/切图分类/icon/a-监控视频.png" />
+					<sendrecv filename="/切图分类/icon/a-视频监控.png" />
+				</big>
+				<small>
+					<preview filename="/切图分类/icon/a-本地预览pngl.png" />
+					<sendonly filename="/切图分类/icon/a-上传视频.png" />
+					<recvonly filename="/切图分类/icon/a-监控视频.png" />
+					<sendrecv filename="/切图分类/icon/a-视频监控.png" />
+				</small>
+			</icons>
+      <icons name="sign">
+        <big>
+          <talk filename="/切图分类/icon_mark/025.png" />
+          <hold filename="/切图分类/icon_mark/026.png" />
+        </big>
+        <small>
+          <talk filename="/切图分类/icon_mark/025.png" />
+          <hold filename="/切图分类/icon_mark/026.png" />
+        </small>
+      </icons>
+		</button>
+		<button name="hotkeypage" fontsize="20" minfontsize="14" >
+			<tile scalegrid="10,10,190,35">
+				<none filename="/切图分类/公共控件/页按键/BtnA_None.png" />
+				<down filename="/切图分类/公共控件/页按键/BtnA_Down.png" />
+				<focus filename="/切图分类/公共控件/页按键/BtnA_Select.png" />
+				<disable filename="/切图分类/公共控件/页按键/按钮_Disable.png" />
+			</tile>
+		</button>
+		<button name="radiopage" fontsize="20" iconleft="140" icontop="8" iconsize="30,30" icon="/切图分类/icon_mark/耳机1.png" earicon="/切图分类/icon_mark/耳机21.png" >
+			<idle scalegrid="10,10,190,35">
+				<none filename="/切图分类/公共控件/页按键/BtnA_None.png" />
+				<down filename="/切图分类/公共控件/页按键/BtnA_Down.png" />
+			</idle>
+			<send scalegrid="20,20,105,60">
+				<none filename="/切图分类/界面/电台/按钮A-None.png" />
+				<down filename="/切图分类/界面/电台/按钮A-Down.png" />
+			</send>
+			<recv scalegrid="20,20,105,60">
+				<none filename="/切图分类/界面/电台/按钮B-None.png" />
+				<down filename="/切图分类/界面/电台/按钮B-Down.png" />
+			</recv>
+		</button>
+		<button name="close">
+			<tile>
+				<none filename="/切图分类/公共控件/关闭按钮/close_none.png" />
+				<down filename="/切图分类/公共控件/关闭按钮/close_down.png" />
+				<disable filename="/切图分类/公共控件/关闭按钮/close_disable.png" />
+			</tile>
+		</button>
+		<button name="warn">
+			<tile scalegrid="15,15,110,55">
+				<none filename="/切图分类/公共控件/红色按钮/按钮2_none.png" />
+				<down filename="/切图分类/公共控件/红色按钮/按钮2_down.png" />
+				<focus filename="/切图分类/公共控件/红色按钮/按钮2_select.png" />
+				<disable filename="/切图分类/公共控件/红色按钮/按钮2_disable.png" />
+			</tile>
+		</button>
+		<button name="focus">
+			<tile scalegrid="15,15,110,55">
+				<none filename="/切图分类/公共控件/蓝色焦点按钮/焦点1-none.png" />
+				<down filename="/切图分类/公共控件/蓝色焦点按钮/焦点1-down.png" />
+				<focus filename="/切图分类/公共控件/蓝色焦点按钮/焦点1-select.png" />
+				<disable filename="/切图分类/公共控件/蓝色焦点按钮/焦点1-disable.png" />
+			</tile>
+		</button>
+		<button name="general">
+			<tile scalegrid="11,11,118,67">
+				<none filename="/切图分类/公共控件/普通按钮/按钮_none.png" />
+				<down filename="/切图分类/公共控件/普通按钮/按钮_down.png" />
+				<focus filename="/切图分类/公共控件/普通按钮/按钮_select.png" />
+				<disable filename="/切图分类/公共控件/普通按钮/按钮_disable.png" />
+			</tile>
+		</button>
+		<button name="crypto">
+			<tile scalegrid="0,0,92,92">
+				<none filename="/切图分类/界面/电话接听/加密/button_none.png" />
+				<down filename="/切图分类/界面/电话接听/加密/button_down.png" />
+				<focus filename="/切图分类/界面/电话接听/加密/button_select.png" />
+				<disable filename="/切图分类/界面/电话接听/加密/button_disable.png" />
+			</tile>
+		</button>
+		<button name="navigator">
+			<tile scalegrid="15,15,110,50">
+				<none filename="/切图分类/公共控件/导航按钮/焦点2_none.png" />
+				<down filename="/切图分类/公共控件/导航按钮/焦点2_down.png" />
+				<focus filename="/切图分类/公共控件/导航按钮/焦点2_select.png" />
+				<disable filename="/切图分类/公共控件/导航按钮/焦点2_disable.png" />
+			</tile>
+		</button>
+		<button name="leftphone" left="228" top="8" width="150" height="80" chnlidleelapsed="150" textpos="45,23" textsize="24" textcolor="255,255,255" normaltext="左电话" leadertext="  电 话" >
+			<keyright left="12" top="23" width="25" height="32" filename="/切图分类/公共控件/左电话-右电话/左电话.png" />
+			<mute left="105" top="45" width="36" height="31" filename="/切图分类/公共控件/左电话-右电话/静音.png" />
+			<tile scalegrid="10,10,175,75">
+				<none filename="/切图分类/公共控件/左电话-右电话/left-call02_none.png" />
+				<down filename="/切图分类/公共控件/左电话-右电话/left-call02_down.png" />
+				<focus filename="/切图分类/公共控件/左电话-右电话/left-call02_select.png" />
+			</tile>
+		</button>
+		<button name="cryptophone" left="228" top="8" width="150" height="80" chnlidleelapsed="150" textpos="45,23" textsize="24" textcolor="255,255,255" normaltext="左电话" leadertext="  电 话" >
+			<keyright left="12" top="23" width="25" height="32" filename="/切图分类/公共控件/左电话-右电话/保密电话.png" />
+			<mute left="105" top="45" width="36" height="31" filename="/切图分类/公共控件/左电话-右电话/静音.png" />
+			<tile scalegrid="10,10,175,75">
+				<none filename="/切图分类/公共控件/左电话-右电话/crypto-call02_none.png" />
+				<down filename="/切图分类/公共控件/左电话-右电话/crypto-call02_down.png" />
+				<focus filename="/切图分类/公共控件/左电话-右电话/crypto-call02_select.png" />
+			</tile>
+		</button>
+		<button name="rightphone" left="530" top="8" width="150" height="80" chnlidleelapsed="150" textpos="45,23"  textsize="24" textcolor="255,255,255" normaltext="右电话" leadertext="  电 话">
+			<keyright left="12" top="23" width="25" height="32" filename="/切图分类/公共控件/左电话-右电话/右电话.png" />
+			<mute left="105" top="45" width="36" height="31" filename="/切图分类/公共控件/左电话-右电话/静音.png" />
+			<tile scalegrid="10,10,175,75">
+				<none filename="/切图分类/公共控件/左电话-右电话/right-call02_none.png" />
+				<down filename="/切图分类/公共控件/左电话-右电话/right-call02_down.png" />
+				<focus filename="/切图分类/公共控件/左电话-右电话/right-call02_select.png" />
+			</tile>
+		</button>
+    <button name="lefthandfreeon" left="0" top="5"  width="85" height="90" textsize="16" iconsize="42,42" normaltext="左免提" leadertext="免 提"  icon="/切图分类/icon/左免提.png" />
+    <button name="righthandfreeon" left="0" top="5" width="85" height="90" textsize="16" iconsize="42,42" normaltext="右免提" leadertext="免 提" icon="/切图分类/icon/右免提.png" />
+    <button name="lefthandfreeoff" left="0" top="5" width="85" height="90" textsize="16" iconsize="42,42" normaltext="左挂机" leadertext="挂 机" icon="/切图分类/icon/挂断.png" />
+    <button name="righthandfreeoff" left="0" top="5" width="85" height="90" textsize="16" iconsize="42,42" normaltext="右挂机" leadertext="挂 机" icon="/切图分类/icon/挂断.png" />
+    <button name="leftmicrophoneon" left="0" top="5"  width="85" height="90" textsize="16" iconsize="42,42" normaltext="左耳麦" leadertext="耳 麦"  icon="/切图分类/icon/耳麦.png" />
+    <button name="rightmicrophoneon" left="0" top="5" width="85" height="90" textsize="16" iconsize="42,42" normaltext="右耳麦" leadertext="耳 麦" icon="/切图分类/icon/耳麦.png" />
+    <button name="analogcryptophone" left="0" top="5" width="85" height="90" textsize="16" iconsize="42,42" normaltext="江河台" leadertext="江河台" icon="/切图分类/icon/人工台_icon.png" />
+    <button name="digitalcryptophone" left="0" top="5" width="85" height="90" textsize="16" iconsize="42,42" normaltext="密话机" leadertext="密话机" icon="/切图分类/icon/电话机_icon.png" />
+    <button name="speakhandfreeon" left="0" top="5"  width="85" height="90" textsize="16" iconsize="42,42" normaltext="通播免提" leadertext="通播免提"  icon="/切图分类/icon/通播免提.png" />
+    <button name="speakhandfreeoff" left="0" top="5"  width="85" height="90" textsize="16" iconsize="42,42" normaltext="取消免提" leadertext="取消免提"  icon="/切图分类/icon/通播取消免提.png" />
+    <button name="speaktransmitteron" left="0" top="5"  width="85" height="90" textsize="16" iconsize="42,42" normaltext="通播占用" leadertext="通播占用"  icon="/切图分类/icon/送话器.png" />
+    <button name="radiotransmitteron" left="0" top="5"  width="85" height="90" textsize="16" iconsize="42,42" normaltext="电台占用" leadertext="电台占用"  icon="/切图分类/icon/送话器.png" />
+    <button name="speaktransmitteroff" left="0" top="5"  width="85" height="90" textsize="16" iconsize="42,42" normaltext="通 播" leadertext="通 播"  icon="/切图分类/icon/送话器.png" />
+    <button name="radiotransmitteroff" left="0" top="5"  width="85" height="90" textsize="16" iconsize="42,42" normaltext="电 台" leadertext="电 台"  icon="/切图分类/icon/送话器.png" />
+		<button name="phonecallin" scalegrid="9,7,195,83">
+      <signicon icon="/切图分类/icon_mark/呼入.png" />
+			<ring>
+				<leftphone filename="/切图分类/界面/电话接听/Left_Connect_None.png" />
+				<rightphone filename="/切图分类/界面/电话接听/Right_Connect_None.png" />
+				<cryptophone filename="/切图分类/界面/电话接听/Crypto_Connect_None.png" />
+			</ring>
+			<talk>
+				<leftphone filename="/切图分类/界面/电话接听/Left_Connect_Select.png" />
+				<rightphone filename="/切图分类/界面/电话接听/Right_Connect_Select.png" />
+				<cryptophone filename="/切图分类/界面/电话接听/Crypto_Connect_Select.png" />
+			</talk>
+			<down>
+				<leftphone  filename="/切图分类/界面/电话接听/Left_Connect_Down.png" />
+				<rightphone  filename="/切图分类/界面/电话接听/Right_Connect_Down.png" />
+				<cryptophone  filename="/切图分类/界面/电话接听/Crypto_Connect_Down.png" />
+			</down>
+		</button>
+    <button name="phonedialout" scalegrid="9,7,195,83">
+      <signicon icon="/切图分类/icon_mark/呼出.png" />
+      <ring>
+        <leftphone filename="/切图分类/界面/电话接听/Left_Connect_None.png" />
+        <rightphone filename="/切图分类/界面/电话接听/Right_Connect_None.png" />
+				<cryptophone filename="/切图分类/界面/电话接听/Crypto_Connect_None.png" />
+      </ring>
+      <talk>
+        <leftphone filename="/切图分类/界面/电话接听/Left_Connect_Select.png" />
+        <rightphone filename="/切图分类/界面/电话接听/Right_Connect_Select.png" />
+				<cryptophone filename="/切图分类/界面/电话接听/Crypto_Connect_Select.png" />
+      </talk>
+      <down>
+        <leftphone  filename="/切图分类/界面/电话接听/Left_Connect_Down.png" />
+        <rightphone  filename="/切图分类/界面/电话接听/Right_Connect_Down.png" />
+				<cryptophone  filename="/切图分类/界面/电话接听/Crypto_Connect_Down.png" />
+      </down>
+    </button>
+		<button name="speakcallin">
+      <signicon  left="150" top="10" size="40,30" filename="/切图分类/icon_mark/振铃.png" />
+      <signicon2 left="150" top="10" size="30,30" filename="/切图分类/icon_mark/耳机1.png" />
+      <earicon left="150" top="10" size="30,30" filename="/切图分类/icon_mark/耳机21.png" />
+			<icon bigicon="/切图分类/icon/a4.png" smallicon="/切图分类/icon/a-通播主持人.png" />
+			<tile scalegrid="15,15,190,170">
+				<down filename="/切图分类/界面/通播组/01_disable.png" />
+				<none filename="/切图分类/界面/通播组/01_none.png" />
+				<focus filename="/切图分类/界面/通播组/01_select.png" />
+      </tile>
+		</button>
+		<button name="videoshortcut">
+			<tile scalegrid="15,15,190,170">
+				<down filename="/切图分类/界面/视频界面/01_disable.png" />
+				<none filename="/切图分类/界面/视频界面/01_none.png" />
+				<focus filename="/切图分类/界面/视频界面/01_down.png" />
+			</tile>
+		</button>
+		<button name="icon" textsize="16" space="5">
+			<tile scalegrid="11,11,118,67">
+				<down filename="/切图分类/公共控件/普通按钮/按钮_down.png" />
+        <focus filename="/切图分类/公共控件/普通按钮/按钮_select.png" />
+			</tile>
+		</button>
+		<button name="keyboard">
+			<tile scalegrid="0,0,54,50">
+				<none filename="/切图分类/界面/高级设置/高级设置-席位/Key_None.png" />
+				<down filename="/切图分类/界面/高级设置/高级设置-席位/Key_Down.png" />
+				<focus filename="/切图分类/界面/高级设置/高级设置-席位/Key_Select.png" />
+				<disable filename="/切图分类/界面/高级设置/高级设置-席位/Key_Disable.png" />
+			</tile>
+		</button>
+    <button name="play" >
+      <tile scalegrid="15,15,74,22">
+        <none filename="/切图分类/公共控件/播放按钮/start_none.png" />
+        <down filename="/切图分类/公共控件/播放按钮/start_down.png" />
+        <focus filename="/切图分类/公共控件/播放按钮/stop_select.png" />
+        <disable filename="/切图分类/公共控件/播放按钮/start_disable.png" />
+      </tile>
+    </button>
+    <button name="missedcall" >
+      <icon signwidth="25" signheight="25" text="未接来电" icon="/切图分类/icon/icon_未接电话.png" />
+      <tile scalegrid="15,15,190,170">
+        <down filename="/切图分类/界面/通播组/01_disable.png" />
+        <none filename="/切图分类/界面/通播组/01_none.png" />
+        <focus filename="/切图分类/界面/通播组/01_select.png" />
+      </tile>
+    </button>
+	</buttons>
+	<edits>
+		<edit name="general" hborder="16">
+			<tile scalegrid="15,15,124,63">
+				<none filename="/切图分类/公共控件/输入框/输入框01_none.png" />
+				<down filename="/切图分类/公共控件/输入框/输入框01_down.png" />
+				<focus filename="/切图分类/公共控件/输入框/输入框01_down.png" />
+        <disable filename="/切图分类/公共控件/输入框/输入框01_none.png" />
+			</tile>
+		</edit>
+	</edits>
+	<listbox bgfilename="/切图分类/公共控件/下拉菜单/下拉框bg.png" scalegrid="25,25,170,170"  border="9" showcount="5" itemheight="40" itemwidth="192" itemspace="0" fontSize="20" nonecolor="39,43,53" selectcolor="255,255,255">
+		<tile>
+			<none scalegrid="15,15,175,20">
+				<top filename="/切图分类/公共控件/下拉菜单/下拉框none-up.png" />
+				<middle filename="/切图分类/公共控件/下拉菜单/下拉框none-middle.png" />
+				<bottom filename="/切图分类/公共控件/下拉菜单/下拉框none-down.png" />
+			</none>
+			<select scalegrid="15,15,175,20">
+				<top filename="/切图分类/公共控件/下拉菜单/下拉框select-up.png" />
+				<middle filename="/切图分类/公共控件/下拉菜单/下拉框select-middle.png" />
+				<bottom filename="/切图分类/公共控件/下拉菜单/下拉框select-down.png" />
+			</select>
+		</tile>
+		<pagebutton top="5" width="192" height="55" space="-3">
+			<prev scalegrid="15,15,75,35">
+				<none filename="/切图分类/公共控件/下拉菜单/before_none.png" />
+				<down filename="/切图分类/公共控件/下拉菜单/before_down.png" />
+				<focus filename="/切图分类/公共控件/下拉菜单/before_select.png" />
+				<disable filename="/切图分类/公共控件/下拉菜单/before_disable.png" />
+			</prev>
+			<next scalegrid="15,15,75,35">
+				<none filename="/切图分类/公共控件/下拉菜单/after_none.png" />
+				<down filename="/切图分类/公共控件/下拉菜单/after_down.png" />
+				<focus filename="/切图分类/公共控件/下拉菜单/after_select.png" />
+				<disable filename="/切图分类/公共控件/下拉菜单/after_disable.png" />
+			</next>
+		</pagebutton>
+    <itemicon rightborder="15" width="12" height="18" icon="/切图分类/公共控件/下拉菜单/小三角形.png" />
+	</listbox>
+  <listbox_black border="0" showcount="5" itemheight="60" itemwidth="317" itemspace="0" fontSize="32" nonecolor="255,255,255" selectcolor="255,255,255">
+    <tile>
+      <none scalegrid="15,15,300,45">
+        <top filename="/切图分类/公共控件/黑色下拉菜单/BG02.png" />
+        <middle filename="/切图分类/公共控件/黑色下拉菜单/BG02.png" />
+        <bottom filename="/切图分类/公共控件/黑色下拉菜单/BG03.png" />
+      </none>
+      <select scalegrid="15,15,300,45">
+        <top filename="/切图分类/公共控件/黑色下拉菜单/选中2-02.png" />
+        <middle filename="/切图分类/公共控件/黑色下拉菜单/选中2-02.png" />
+        <bottom filename="/切图分类/公共控件/黑色下拉菜单/选中3.png" />
+      </select>
+    </tile>
+  </listbox_black>
+	<combobox buttonwidth="35" border="5" bottomspace="4" topspace="-4" textsize="20" textcolor="39,43,53">
+		<tile scalegrid="15,15,160,40">
+			<none filename="/切图分类/公共控件/下拉按钮/下拉按钮_none.png" />
+			<down filename="/切图分类/公共控件/下拉按钮/下拉按钮_down.png" />
+		</tile>
+	</combobox>
+  <dropdownbox buttonwidth="56" border="5" bottomspace="-2" topspace="0" textsize="20" textcolor="39,43,53" >
+    <tile scalegrid="15,15,160,60">
+      <none filename="/切图分类/公共控件/下拉框/下拉_none.png" />
+      <down filename="/切图分类/公共控件/下拉框/下拉_down.png" />
+    </tile>
+  </dropdownbox>
+	<scrollbar background="/切图分类/公共控件/滚动条/滚动条_bg.png" scalegrid="2,65,47,300" starttime="250" repeattime="50" topborder="44" bottomborder="41" width="51">
+		<button width="51">
+			<up none="/切图分类/公共控件/滚动条/up_none.png" down="/切图分类/公共控件/滚动条/up_down.png" />
+			<down none="/切图分类/公共控件/滚动条/down_none.png" down="/切图分类/公共控件/滚动条/down_down.png" />
+		</button>
+		<slider scalegrid="5,20,46,185" left="0" width="51" minheight="75">
+			<none filename="/切图分类/公共控件/滚动条/滚动条按钮_none.png" />
+			<down filename="/切图分类/公共控件/滚动条/滚动条按钮_down.png" />
+		</slider>
+	</scrollbar>
+	<listview>
+		<head background="/切图分类/公共控件/显示列表/1Bg.png" textsize="16" textcolor="90,92,95" height="40" down="/切图分类/公共控件/显示列表/录音检索标题栏的按下效果图.png" scalegrid="5,5,325,25" />
+		<item oddcolor="0,0,0" evencolor="8,8,13" height="40" textsize="16" textcolor="255,255,255" hborder="0" vborder="0" selectLeft="-2" selectHeight="48" animatetime="500" select="/切图分类/公共控件/显示列表/选中条.png" />
+		<scrollbar width="51" />
+	</listview>
+	<playbar height="38">
+		<tile height="19" scalegrid="6,6,124,11" filename="/切图分类/公共控件/播放条/播放器bg.png" />
+		<progress height="20" validheight="18" scalegrid="9,5,130,9" filename="/切图分类/公共控件/播放条/播放器进度条.png" />
+		<roundtracker width="100" height="56" border="10" none="/切图分类/公共控件/播放条/播放器进度按钮_none.png" down="/切图分类/公共控件/播放条/播放器进度按钮_down.png" />
+    <circletracker width ="31" height="31" border="5" none="/切图分类/公共控件/播放条/播放圆形按钮.png" down="/切图分类/公共控件/播放条/播放圆形按钮.png" />
+    <label textborder="-1" textsize="16" textcolor="255,255,255" text="%1/%2" />
+	</playbar>
+  <replaybar height="55" space="2" border="5">
+    <bartile left="0"  top="10" height="19" scalegrid="6,6,124,11" filename="/切图分类/公共控件/重演进度条/空记录显示.png" />
+    <barinfo left="0" top="11" height="20"  scalegrid="9,5,130,9" filename="/切图分类/公共控件/重演进度条/有记录录音显示.png" />
+    <tracker top="3" border="-1" width="14" height="26" filename="/切图分类/公共控件/重演进度条/时刻.png" />
+    <time border="23" space="20" texttop="40" textsize="12" textcolor="102,100,108" text="hh:mm:ss"  rulertop="30" rulersize="1,6" ruler="/切图分类/公共控件/重演进度条/刻度.png"  />
+  </replaybar>
+	<volumnbar height="33" hborder="7" vborder="5" space="2" knobwidth="5" textsize="18" background="/切图分类/公共控件/音量条/调节-Bg.png" scalegrid="6,6,210,25">
+		<select filename="/切图分类/公共控件/音量条/调节-select.png" />
+		<none filename="/切图分类/公共控件/音量条/调节-none.png" />
+	</volumnbar>
+	<exclusivebutton width="39" height="40">
+		<select filename="/切图分类/公共控件/单选按钮/Raido_Down.png" />
+		<none filename="/切图分类/公共控件/单选按钮/Raido_None.png" />
+	</exclusivebutton>
+	<checkbox width="49" height="48" scalegrid="12,10,36,36">
+		<select filename="/切图分类/公共控件/复选框/Check_Box2_Down.png" />
+		<none filename="/切图分类/公共控件/复选框/Check_Box2_None.png" />
+	</checkbox>
+	<cpuusage width="80" height="20" textsize="14" textcolor="0,255,0" updatetime="2000" bgfilename="/切图分类/公共控件/标签/tile_min_down.png" />
+	<conductbar width="581" height="29" fps="25" scalegrid="15,0,566,29" background="/切图分类/公共控件/进行条/Bg-01.png" knobwidth="48" knobspace="40" knobadvance="4" knob="/切图分类/公共控件/进行条/02.png" />
+	<progressbar width="334" height="24" scalegrid="15,0,329,24" background="/切图分类/公共控件/进度条/载入条Bg.png" >
+		<progress left="1" top="3" width="324" height="22" vborder="1" hborder="1" scalegrid="15,0,329,22" background="/切图分类/公共控件/进度条/载入条进度.png" />
+	</progressbar>   
+	<listgroup>
+		<head height="40" textsize="18" textcolor="90,92,95" background="/切图分类/公共控件/显示框/1Bg.png" />
+		<item oddcolor="0,0,0" evencolor="8,8,13" height="40" hborder="0" vborder="0"  animatetime="500" select="/切图分类/公共控件/显示框/选中条.png" selectLeft="-2" selectHeight="48"  >
+			<text size="18" noneColor="255,255,255" checkColor="91,130,10" />
+			<icon size="20,20" />
+			<check filename="/切图分类/公共控件/显示框/Check.png" />
+		</item>
+		<scrollbar width="51" />
+	</listgroup>
+	<addrgroup>
+		<head height="40" textsize="16" textcolor="90,92,95" background="/切图分类/公共控件/显示框/1Bg.png" />
+		<item oddcolor="0,0,0" evencolor="8,8,13" height="58" hborder="6" vborder="6" animatetime="500" tile="/切图分类/公共控件/显示框/文字底图.png" select="/切图分类/公共控件/显示框/选中条.png" selectLeft="-2" selectHeight="58"  >
+			<text size="22" noneColor="255,255,255" checkColor="91,130,10" />
+      <icon size="35,35" />
+      <select filename="/切图分类/公共控件/复选框/Check_Box2_Down.png" />
+      <unselect filename="/切图分类/公共控件/复选框/Check_Box2_None.png" />
+		</item>
+		<scrollbar width="51" />
+	</addrgroup>
+  <dynamicspeakgroup>
+    <head height="40" textsize="16" textcolor="90,92,95" background="/切图分类/公共控件/显示框/1Bg.png" />
+    <item oddcolor="0,0,0" evencolor="8,8,13" height="40" hborder="5" vborder="5" animatetime="500" tile="/切图分类/公共控件/显示框/文字底图.png" select="/切图分类/公共控件/显示框/选中条.png" selectLeft="-2" selectHeight="40"  >
+      <text size="20" noneColor="255,255,255" checkColor="91,130,10" />
+      <icon size="35,35" />
+      <select filename="/切图分类/公共控件/复选框/Check_Box2_Down.png" />
+      <unselect filename="/切图分类/公共控件/复选框/Check_Box2_None.png" />
+    </item>
+    <scrollbar width="51" />
+  </dynamicspeakgroup>
+	<addrview>
+		<head background="/切图分类/公共控件/显示列表/1Bg.png" textsize="16" textcolor="90,92,95" height="40" down="/切图分类/公共控件/显示列表/录音检索标题栏的按下效果图.png" scalegrid="5,5,325,25" />
+		<item oddcolor="0,0,0" evencolor="8,8,13" height="58" textsize="24" textcolor="255,255,255" hborder="6" vborder="6" tile="/切图分类/公共控件/显示框/文字底图.png" 
+          select="/切图分类/公共控件/显示列表/选中条.png" selectLeft="-2" selectHeight="58" animatetime="500"
+        iconsize="24,24" selectcheck="/切图分类/公共控件/复选框/Check_Box2_Down.png" unselectcheck="/切图分类/公共控件/复选框/Check_Box2_None.png" />
+		<scrollbar width="51" />
+	</addrview>
+  <dynamicspeakview>
+    <head background="/切图分类/公共控件/显示列表/1Bg.png" textsize="18" textcolor="90,92,95" height="40" down="/切图分类/公共控件/显示列表/录音检索标题栏的按下效果图.png" scalegrid="5,5,325,25" />
+    <item oddcolor="0,0,0" evencolor="8,8,13" height="40" textsize="20" textcolor="255,255,255" hborder="5" vborder="5" tile="/切图分类/公共控件/显示框/文字底图.png"
+          select="/切图分类/公共控件/显示列表/选中条.png" selectLeft="-2" selectHeight="40" animatetime="500"
+           iconsize="35,35" selectcheck="/切图分类/公共控件/复选框/Check_Box2_Down.png" unselectcheck="/切图分类/公共控件/复选框/Check_Box2_None.png" />
+    <scrollbar width="51" />
+  </dynamicspeakview>
+  <hintitem textleft="25" texttop="0" textsize="16" width="980" height="19" scalegrid="10,0,960,19" bgfilename="/切图分类/公共控件/提示条/06Bg.png" />
+  <memo  vborder="7" hborder="12">
+    <tile scalegrid="15,15,124,63">
+      <none filename="/切图分类/公共控件/输入框/输入框01_none.png" />
+      <down filename="/切图分类/公共控件/输入框/输入框01_down.png" />
+      <focus filename="/切图分类/公共控件/输入框/输入框01_down.png" />
+    </tile>
+  </memo>
+  <missedcallsign width="31" height="31" textcolor="255,255,255" tile="/切图分类/公共控件/数字图标/数字-BG.png" />
+  <titlememo  vborder="7" hborder="7">
+    <tile scalegrid="7,7,320,37">
+      <none filename="/切图分类/公共控件/标题栏/蓝色框BG.png" />
+      <down filename="/切图分类/公共控件/标题栏/蓝色框BG.png" />
+      <focus filename="/切图分类/公共控件/标题栏/蓝色框BG.png" />
+    </tile>
+  </titlememo>
+  <icons>
+    <video>
+      <sendrecv filename="/切图分类/icon/视频通话1.png" />
+      <sendonly filename="/切图分类/icon/上传视频1.png" />
+      <recvonly filename="/切图分类/icon/监控录像1.png" />
+      <preview filename="/切图分类/icon/本地预览3.png" />
+    </video>
+  </icons>
+  <popuppanel vborder="15" >
+    <uparrowhead hborder="10" width="31" height="19" filename="/切图分类/公共控件/弹出面板/向上箭头.png" />
+    <downarrowhead hborder="10" width="31" height="19" filename="/切图分类/公共控件/弹出面板/向下箭头.png" />
+    <tile width="282" height="131" scalegrid="18,18,268,116" filename="/切图分类/公共控件/弹出面板/文件夹Bg.png" />
+    <button border="15" space="5" row="1" column="2" />
+  </popuppanel>
+  <folder>
+    <button>
+      <tile scalegrid="12,12,192,172">
+        <none filename="/切图分类/界面/文件夹/文件夹_none.png" />
+        <down filename="/切图分类/界面/文件夹/文件夹_down.png" />
+        <focus filename="/切图分类/界面/文件夹/文件夹_select.png" />
+        <disable filename="/切图分类/界面/文件夹/文件夹_disable.png" />
+      </tile>
+      <knob scalegrid="5,5,30,18">
+        <none filename="/切图分类/界面/文件夹/小框-none.png" />
+        <down filename="/切图分类/界面/文件夹/小框-down.png" />
+        <focus filename="/切图分类/界面/文件夹/小框-focus.png" />
+      </knob>
+      <size>
+        <max width="204" height="186" hborder="10" top="15" knobrow="3" knobcol="3" knobcount="9" knobwidth="56" knobheight="40" knobhborder="7" knobvborder="5" iconsize="36,36" textsize="22" textborder="13" />
+        <min width="104" height="96" hborder="8" top="12" knobrow="2" knobcol="2" knobcount="4" knobwidth="41" knobheight="27" knobhborder="4" knobvborder="3" iconsize="28,28" textsize="14" textborder="10" />
+     </size>
+    </button>
+    <form  left="0" top="98" width="1024" height="470" animatetime="500" bgfilename="/切图分类/公共控件/半透明背景/夜服半透明黑色背景.png">
+      <button width="104" height="98" space="10" />
+    </form>
+  </folder>
+  <progresstag iconsize="13,13" iconspace="5" iconcount="3" animation="500" none="/切图分类/公共控件/呼叫进行/点-1.png" active="/切图分类/公共控件/呼叫进行/点-2.png" />
+  <pagesign>
+		<select filename="/切图分类/公共控件/页指示/01.png" />
+		<none filename="/切图分类/公共控件/页指示/02.png" />
+		<send filename="/切图分类/公共控件/页指示/04.png" />
+		<recv filename="/切图分类/公共控件/页指示/03.png" />
+	</pagesign>
+</skin>

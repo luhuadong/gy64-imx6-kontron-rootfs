@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<skin name="Advanced setup skin" background="/切图分类/界面/高级设置/高级设置-席位/高级设置BG.png" left="0" top="0" width="1024" height="768" animatetime="500" >
+	<info width="980" height="19" scalegrid="8,0,976,19" bgfilename="/切图分类/界面/高级设置/高级设置-席位/06Bg.png" textleft="25" texttop="0" textsize="16" />
+	<navigatorpanel left="5" top="5" width="416" height="75">
+		<navigatorbutton count="4" width="108" height="75" space="0" textleft="35" texttop="20" textsize="20">
+			<seat text="席位" />
+			<ring text="铃声" />
+			<radio text="电台" />
+      <screen text="显示" />
+      <cryptomac text="密话" />
+      <skin text="壁纸"/>
+		</navigatorbutton>
+		<closebutton left="910" top="5" />
+	</navigatorpanel>
+	<seatpanel left="0" top="80" width="1024" height="685">
+		<basic left="20" top="28" width="984" height="170" text="基本">
+			<localip>
+				<label left="45" top="70" textsize="18" text="本机地址" />
+				<combobox left="120" top="57" width="180" height="42" textsize="18" textcolor="255,255,255" />
+			</localip>
+      <gatewayip>
+        <label left="390" top="70" textsize="18" text="网关内网" />
+        <ipedit left="470" top="57" width="195" height="53" textsize="18" textcolor="255,255,255"/>
+        <keyboard left="660" top="63" width="46" height="43"/>
+      </gatewayip>
+			<autorun>
+				<label left="800" top="75" textsize="18" text="开机自动运行程序" />
+				<check left="750" top="62" width="42" height="42" />
+			</autorun>
+      <gatewaypubaddr>
+        <label left="45" top="135" textsize="18" text="外网地址" />
+        <ipedit left="120" top="122" width="195" height="53" textsize="18" textcolor="255,255,255"/>
+        <keyboard left="310" top="128" width="46" height="43"/>
+      </gatewaypubaddr>
+      <gatewaypubnetmask>
+        <label left="390" top="135" textsize="18" text="外网掩码" />
+        <ipedit left="470" top="122" width="205" height="53" textsize="18" textcolor="255,255,255"/>
+        <keyboard left="660" top="128" width="46" height="43"/>
+      </gatewaypubnetmask>
+      <rebootgateway>
+				<button left="750" top="123" width="195" height="53" textsize="18" text="重启席位网关" />
+			</rebootgateway>
+      <gatewaypubgateway>
+        <label left="45" top="200" textsize="18" text="外网网关" />
+        <ipedit left="120" top="187" width="195" height="53" textsize="18" textcolor="255,255,255"/>
+        <keyboard left="310" top="193" width="46" height="43"/>
+      </gatewaypubgateway>
+		</basic>
+		<channelparam left="20" top="250" width="984" height="300" text="通道参数">
+			<common>
+				<channeltype width="125" height="42" textsize="18" textcolor="0,0,0" itemcount="3" >
+					<item text="电话通道" value="0" />
+					<item text="通播通道" value="1" />
+					<item text="电台通道" value="2" />
+				</channeltype>
+				<loudhailer width="125" height="42" textsize="18" textcolor="0,0,0" itemcount="2" >
+					<item text="扬声器3" value="4" />
+					<item text="扬声器4" value="8" />
+				</loudhailer>
+        <phonetalkdev width="140" height="42" textsize="18" textcolor="0,0,0" itemcount="2">
+          <item text="手柄" value="0" />
+          <item text="耳麦" value="16" />
+        </phonetalkdev>
+        <talkdev width="140" height="42" textsize="18" textcolor="0,0,0" itemcount="2">
+          <item text="耳麦" value="16" />
+          <item text="送话器" value="33" />
+        </talkdev>
+        <talkduplex width="45" height="45" />
+        <sidetone width="45" height="45" />
+        <sidetonevol width="90" height="42" textsize="18" textcolor="0,0,0" itemcount="5" >
+          <item text="静音" value="0" />
+          <item text="1" value="1" />
+          <item text="2" value="2" />
+          <item text="3" value="3" />
+          <item text="4" value="4" />
+          <item text="5" value="5" />
+          <item text="6" value="6" />
+          <item text="7" value="7" />
+          <item text="8" value="8" />
+          <item text="9" value="9" />
+          <item text="10" value="10" />
+          <item text="11" value="11" />
+          <item text="12" value="12" />
+          <item text="13" value="13" />
+          <item text="14" value="14" />
+          <item text="15" value="15" />
+          <item text="16" value="16" />
+          <item text="17" value="17" />
+          <item text="18" value="18" />
+          <item text="19" value="19" />
+          <item text="20" value="20" />
+          <item text="21" value="21" />
+          <item text="22" value="22" />
+          <item text="23" value="23" />
+          <item text="24" value="24" />
+          <item text="25" value="25" />
+          <item text="26" value="26" />
+          <item text="27" value="27" />
+          <item text="28" value="28" />
+          <item text="29" value="29" />
+          <item text="30" value="30" />
+          <item text="31" value="31" />
+				</sidetonevol>
+				<ringtime width="90" height="42" textsize="18" textcolor="0,0,0" itemcount="3">
+					<item text="3秒" value="3" />
+					<item text="6秒" value="6" />
+					<item text="关闭" value="0" />
+					<item text="手动" value="255" />
+				</ringtime>
+				<sendvol width="90" height="42" textsize="18" textcolor="0,0,0" itemcount="8">
+					<item text="静音" value="0" />
+					<item text="1" value="1" />
+					<item text="2" value="2" />
+					<item text="3" value="3" />
+					<item text="4" value="4" />
+					<item text="5" value="5" />
+					<item text="6" value="6" />
+					<item text="7" value="7" />
+					<item text="8" value="8" />
+					<item text="9" value="9" />
+					<item text="10" value="10" />
+					<item text="11" value="11" />
+					<item text="12" value="12" />
+					<item text="13" value="13" />
+					<item text="14" value="14" />
+					<item text="15" value="15" />
+					<item text="16" value="16" />
+					<item text="17" value="17" />
+					<item text="18" value="18" />
+					<item text="19" value="19" />
+					<item text="20" value="20" />
+					<item text="21" value="21" />
+					<item text="22" value="22" />
+					<item text="23" value="23" />
+					<item text="24" value="24" />
+					<item text="25" value="25" />
+					<item text="26" value="26" />
+					<item text="27" value="27" />
+					<item text="28" value="28" />
+					<item text="29" value="29" />
+					<item text="30" value="30" />
+					<item text="31" value="31" />
+				</sendvol>
+				<default width="90" height="50" textsize="18" text="默认" />
+			</common>
+			<title textsize="18">
+				<channeltype left="135" top="290" text="通道类型" />
+				<loudhailer left="260" top="290" text="话路扬声器" />
+				<talkdev left="410" top="290" text="通话设备" />
+				<talkduplex left="525" top="290" text="双工通话" />
+				<sidetonevol left="610" top="290" text="侧音音量" />
+        <sidetone left="610" top="290" text="侧音开关" />
+				<ringtime left="710" top="290" text="振铃时长" />
+				<sendvolumn left="815" top="290" text="发送音量" />
+			</title>
+			<channel_1 index="0">
+				<label left="45" top="337" textsize="18" text="通道1" />
+				<channeltype left="100" top="325" >
+					<normaldef value="0" />
+					<leaderdef value="0" />
+					<tpd4391def value="0" />
+					<tpd521def value="0" />
+				</channeltype>
+				<loudhailer left="240" top="325" >
+					<normaldef value="4" />
+					<leaderdef value="4" />
+					<tpd4391def value="4" />
+					<tpd521def value="4" />
+				</loudhailer>
+				<talkdev left="380" top="325" >
+					<normaldef value="0" />
+					<leaderdef value="0" />
+					<tpd4391def value="0" />
+					<tpd521def value="0" />
+				</talkdev>
+				<talkduplex left="540" top="325" >
+					<normaldef value="1" />
+					<leaderdef value="1" />
+					<tpd4391def value="1" />
+					<tpd521def value="1" />
+				</talkduplex>
+        <sidetone left="620" top="325" >
+					<normaldef value="1" />
+					<leaderdef value="1" />
+					<tpd4391def value="0" />
+					<tpd521def value="1" />
+				</sidetone>
+				<sidetonevol left="595" top="325" >
+					<normaldef value="16" />
+					<leaderdef value="16" />
+					<tpd4391def value="16" />
+					<tpd521def value="16" />
+				</sidetonevol>
+				<ringtime left="700" top="325" >
+					<normaldef value="254" />
+					<leaderdef value="254" />
+					<tpd4391def value="254" />
+					<tpd521def value="254" />
+				</ringtime>
+				<sendvol left="805" top="325"  >
+					<normaldef value="3" />
+					<leaderdef value="28" />
+					<tpd4391def value="19" />
+					<tpd521def value="9" />
+				</sendvol>
+				<default left="913" top="325" />
+			</channel_1>
+			<channel_2 index="1">
+				<label left="45" top="397" textsize="18" text="通道2" />
+				<channeltype left="100" top="385" >
+					<normaldef value="0" />
+					<leaderdef value="0" />
+					<tpd4391def value="0" />
+					<tpd521def value="0" />
+				</channeltype>
+        <loudhailer left="240" top="385" >
+					<normaldef value="8" />
+					<leaderdef value="8" />
+					<tpd4391def value="8" />
+					<tpd521def value="8" />
+				</loudhailer>
+        <talkdev left="380" top="385"  >
+					<normaldef value="0" />
+					<leaderdef value="0" />
+					<tpd4391def value="0" />
+					<tpd521def value="0" />
+				</talkdev>
+        <talkduplex left="540" top="385"  >
+					<normaldef value="1" />
+					<leaderdef value="1" />
+					<tpd4391def value="1" />
+					<tpd521def value="1" />
+				</talkduplex>
+        <sidetone left="620" top="385" >
+					<normaldef value="1" />
+					<leaderdef value="1" />
+					<tpd4391def value="1" />
+					<tpd521def value="1" />
+				</sidetone>
+        <sidetonevol left="595" top="385" >
+					<normaldef value="16" />
+					<leaderdef value="16" />
+					<tpd4391def value="16" />
+					<tpd521def value="16" />
+				</sidetonevol>
+        <ringtime left="700" top="385"  >
+					<normaldef value="254" />
+					<leaderdef value="254" />
+					<tpd4391def value="254" />
+					<tpd521def value="254" />
+				</ringtime>
+        <sendvol left="805" top="385" >
+					<normaldef value="3" />
+					<leaderdef value="28" />
+					<tpd4391def value="19" />
+					<tpd521def value="9" />
+				</sendvol>
+				<default left="913" top="385" />
+			</channel_2>
+			<channel_3 index="2">
+				<label left="45" top="459" textsize="18" text="通道3" />
+				<channeltype left="100" top="447" >
+					<normaldef value="1" />
+					<leaderdef value="1" />
+					<tpd4391def value="1" />
+					<tpd521def value="1" />
+				</channeltype>
+        <loudhailer left="240" top="447" >
+					<normaldef value="4" />
+					<leaderdef value="4" />
+					<tpd4391def value="4" />
+					<tpd521def value="4" />
+				</loudhailer>
+        <talkdev left="380" top="447" >
+					<normaldef value="33" />
+					<leaderdef value="33" />
+					<tpd4391def value="33" />
+					<tpd521def value="33" />
+				</talkdev>
+        <talkduplex left="540" top="447" >
+					<normaldef value="0" />
+					<leaderdef value="1" />
+					<tpd4391def value="0" />
+					<tpd521def value="1" />
+				</talkduplex>
+        <sidetone left="620" top="447" >
+					<normaldef value="1" />
+					<leaderdef value="1" />
+					<tpd4391def value="1" />
+					<tpd521def value="1" />
+				</sidetone>
+        <sidetonevol left="595" top="447" >
+					<normaldef value="16" />
+					<leaderdef value="16" />
+					<tpd4391def value="16" />
+					<tpd521def value="16" />
+				</sidetonevol>
+        <ringtime left="700" top="447" >
+					<normaldef value="6" />
+					<leaderdef value="6" />
+					<tpd4391def value="6" />
+					<tpd521def value="6" />
+				</ringtime>
+        <sendvol left="805" top="447" >
+					<normaldef value="4" />
+					<leaderdef value="4" />
+					<tpd4391def value="4" />
+					<tpd521def value="4" />
+				</sendvol>
+				<default left="913" top="447" />
+			</channel_3>
+			<channel_4 index="3">
+				<label left="45" top="519" textsize="18" text="通道4" />
+				<channeltype left="100" top="507" >
+					<normaldef value="2" />
+					<leaderdef value="2" />
+					<tpd4391def value="2" />
+					<tpd521def value="2" />
+				</channeltype>
+        <loudhailer left="240" top="507" >
+					<normaldef value="8" />
+					<leaderdef value="4" />
+					<tpd4391def value="8" />
+					<tpd521def value="8" />
+				</loudhailer>
+        <talkdev left="380" top="507" >
+					<normaldef value="33" />
+					<leaderdef value="33" />
+					<tpd4391def value="33" />
+					<tpd521def value="33" />
+				</talkdev>
+        <talkduplex left="540" top="507" >
+					<normaldef value="0" />
+					<leaderdef value="1" />
+					<tpd4391def value="0" />
+					<tpd521def value="0" />
+				</talkduplex>
+        <sidetone left="620" top="507" >
+					<normaldef value="1" />
+					<leaderdef value="1" />
+					<tpd4391def value="1" />
+					<tpd521def value="1" />
+				</sidetone>
+        <sidetonevol left="595" top="507"  >
+					<normaldef value="16" />
+					<leaderdef value="16" />
+					<tpd4391def value="16" />
+					<tpd521def value="16" />
+				</sidetonevol>
+        <ringtime left="700" top="507"  >
+					<normaldef value="254" />
+					<leaderdef value="254" />
+					<tpd4391def value="254" />
+					<tpd521def value="254" />
+				</ringtime>
+        <sendvol left="805" top="507" >
+					<normaldef value="10" />
+					<leaderdef value="10" />
+					<tpd4391def value="10" />
+					<tpd521def value="10" />
+				</sendvol>
+				<default left="913" top="507" />
+			</channel_4>
+		</channelparam>
+    <seatversion left="45" top="650" textsize="20" text="席位界面版本:%1" />
+	</seatpanel>
+	<ringpanel left="0" top="80" width="1024" height="685">
+		<listgroup left="21" top="27" width="984" check="1" row="12" col="2" head="铃声" >
+			<itemparam>
+				<item index="0" type="text" width="150" />
+				<item index="1" type="check" width="70" />
+				<item index="2" type="text" width="150" />
+			</itemparam>
+			<items>
+				<item index="2" text="铃声1" value="0" />
+				<item index="2" text="铃声2" value="1" />
+				<item index="2" text="铃声3" value="2" />
+				<item index="2" text="铃声4" value="3" />
+				<item index="2" text="铃声5" value="4" />
+				<item index="2" text="铃声6" value="5" />
+				<item index="2" text="铃声7" value="6" />
+				<item index="2" text="铃声8" value="7" />
+				<item index="2" text="铃声9" value="8" />
+				<item index="2" text="铃声10" value="9" />
+				<item index="2" text="铃声11" value="10" />
+				<item index="2" text="铃声12" value="11" />
+				<item index="2" text="铃声13" value="12" />
+				<item index="2" text="铃声14" value="13" />
+				<item index="2" text="铃声15" value="14" />
+        <item index="2" text="个性铃声" value="254" />
+			</items>
+		</listgroup>
+		<decrease left="283" top="580" width="104" height="73" textsize="28" text="-" />
+		<increase left="635" top="580" width="104" height="73" textsize="28" text="+" />
+		<volumntext left="477" top="572" textsize="18" text="音量调节" />
+		<volumnbar left="393" top="598" width="235" height="33" />
+	</ringpanel>
+	<radiopanel left="0" top="80" width="1024" height="685">
+		<mode left="20" top="28" width="980" height="200" text="电台模式" control="singlecontrol" listen="listen">
+			<controltext left="45" top="72" textsize="18" text="控制模式:"/>
+			<controlbutton>
+				<multicontrol left="45" top="100" width="33" height="34">
+					<label left="80" top="106" textsize="18" text="多控模式" />
+				</multicontrol>
+				<singlecontrol left="180" top="100" width="33" height="34">
+					<label left="220" top="106" textsize="18" text="单控模式" />
+				</singlecontrol>
+			</controlbutton>
+			<listentext left="45" top="152" textsize="18" text="取消控制时是否取消监听:" />
+			<listenbutton>
+				<nolisten left="45" top="178" width="33" height="34">
+					<label left="80" top="186" textsize="18" text="取消" />
+				</nolisten>
+				<listen left="180" top="178" width="33" height="34">
+					<label left="220" top="186" textsize="18" text="不取消" />
+				</listen>
+			</listenbutton>
+		</mode>
+		<default left="20" top="230" width="980" height="110" text="恢复默认">
+			<button left="45" top="270" width="150" height="60" textsize="18" text="恢复默认" />
+		</default>
+	</radiopanel>
+  <screenpanel left="0" top="80" width="1024" height="685">
+    <screen left="20" top="28" width="980" height="200" text="屏保设置">
+      <timelabel left="45" top="65" textsize="18" text="屏保时间" />
+      <timeedit left="120" top="52" width="205" height="53" textsize="18" textcolor="0,0,0" textformat="%1分钟" />
+      <timekeyboard left="320" top="56" width="46" height="43"/>
+    </screen>
+    <screenlock left="20" top="120" width="1024" height="685" text="锁屏设置">
+      <locktimelabel left="45" top="157" textsize="18" text="锁屏时间" />
+      <locktimeedit left="120" top="144" width="205" height="53" textsize="18" textcolor="0,0,0" textformat="%1分钟" />
+      <locktimekeyboard left="320" top="148" width="46" height="43"/>
+      <passwordlabel left="45" top="212" textsize="18" text="解锁密码" />
+      <passwordedit left="120" top="199" width="205" height="53" textsize="18" textcolor="0,0,0" passwordchar="*" />
+   	</screenlock>
+  </screenpanel> 
+  <cryptomacpanel lef="0" top="80" width="1024" height="685">
+    <analog left="20" top="28" width="980" height="200" text="江河台" password="123456">
+      <label left="45" top="65" textsize="18" text="销毁密钥密码" />
+      <edit left="155" top="52" width="205" height="53" textsize="18" textcolor="255,255,255" />
+      <button left="360" top="52" width="120" height="53" textsize="18" text="销毁密钥" />
+      <callouttext left="45" top="132" textsize="18" text="呼出模式"/>
+			<autocallout left="45" top="160" width="33" height="34">
+				<label left="80" top="166" textsize="18" text="人工台" />
+			</autocallout>
+			<dialcallout left="180" top="160" width="33" height="34">
+				<label left="220" top="166" textsize="18" text="自动号" />
+			</dialcallout>
+			<dialtraytext left="45" top="222" textsize="18" text="拨号盘控制方式" />
+			<hasdialtray left="180" top="210" width="42" height="42" >
+				<label left="230" top="222" textsize="18" text="启用拨号盘" />
+			</hasdialtray>
+			<autopopup left="45" top="255" width="33" height="34">
+				<label left="80" top="263" textsize="18" text="自动弹出" />
+			</autopopup>
+			<manualpopup left="180" top="255" width="33" height="34">
+				<label left="220" top="263" textsize="18" text="点击弹出" />
+			</manualpopup>
+    </analog>
+    <digital left="20" top="328" width="980" height="200" text="密话机" password="123456">
+      <label left="45" top="365" textsize="18" text="销毁密钥密码" />
+      <edit left="155" top="352" width="205" height="53" textsize="18" textcolor="255,255,255" />
+      <button left="360" top="352" width="120" height="53" textsize="18" text="销毁密钥" />
+      <callouttext left="45" top="432" textsize="18" text="呼出模式"/>
+			<autocallout left="45" top="460" width="33" height="34">
+				<label left="80" top="466" textsize="18" text="人工台" />
+			</autocallout>
+			<dialcallout left="180" top="460" width="33" height="34">
+				<label left="220" top="466" textsize="18" text="自动号" />
+			</dialcallout>
+			<dialtraytext left="45" top="522" textsize="18" text="拨号盘控制方式" />
+			<hasdialtray left="180" top="510" width="42" height="42" >
+				<label left="230" top="522" textsize="18" text="启用拨号盘" />
+			</hasdialtray>
+			<autopopup left="45" top="555" width="33" height="34">
+				<label left="80" top="563" textsize="18" text="自动弹出" />
+			</autopopup>
+			<manualpopup left="180" top="555" width="33" height="34">
+				<label left="220" top="563" textsize="18" text="点击弹出" />
+			</manualpopup>
+    </digital>
+    <rightphone left="20" top="608" width="980" height="200" text="右电话拨号盘">
+			<autopopup left="45" top="638" width="33" height="34">
+				<label left="80" top="650" textsize="18" text="自动弹出" />
+			</autopopup>
+			<manualpopup left="180" top="638" width="33" height="34">
+				<label left="220" top="650" textsize="18" text="点击弹出" />
+			</manualpopup>
+    </rightphone>
+  </cryptomacpanel>	
+  <skinpanel left="0" top="80" width="1024" height="685">
+    <style left="20" top="28" width="980" height="200" text="主题设置">
+      <blackskin left="120" top="90" width="315" height="242" image="/切图分类/界面/主题设置/预览图1.png"/>
+      <blackbutton left="190" top="350" width="175" height="55" textsize="22" text="应用"/>
+      <blueskin left="589" top="90" width="315" height="242" image="/切图分类/界面/主题设置/预览图2.png"/>
+      <bluebutton left="659" top="350" width="175" height="55" textsize="22" text="应用"/>
+    </style>
+	</skinpanel>
+</skin>

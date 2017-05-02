@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin name="tool bar window skin" left="0" top="0" width="1024" height="768" animatetime="500" background="/切图分类/界面/底部工具栏/切图/BG.png" >
+  <navigatorpanel left="8" top="8" width="416" height="75">
+    <navigatorbutton count="1" width="142" height="70" space="0" textleft="20" texttop="20" textsize="20" setup="功能键设置" />
+    <closebutton left="920" top="5" />
+  </navigatorpanel>
+  <hintitem left="20" top="106" width="985" height="19" text="功能键" />
+  <functionbutton left="40" top="153" width="115" height="130" space="-4" row="3" col="8" textsize="20" texttop="92" iconsize="52,52" icontop="25" animatetime="500">
+    <nightservice text="席位转移" icon="/切图分类/icon/icon_夜服.png" />
+    <!--seattransfer text="席位转移" icon="/切图分类/icon/icon_席位转移.png" -->
+    <recordplayer text="录音检索" icon="/切图分类/icon/icon_录音检索.png" />
+    <volumn text="音量调节" icon="/切图分类/icon/icon_音量.png" />
+    <ring text="铃声开关" icon="/切图分类/icon/icon_铃声.png" />
+    <ringno text="铃声设置" icon="/切图分类/icon/铃声设置.png" />
+    <bright text="亮度调节" icon="/切图分类/icon/icon_亮度.png" />
+    <microphone  text="耳麦设置" icon="/切图分类/icon/耳麦设置.png" />
+    <contacts text="用户通讯录" icon="/切图分类/icon/icon_通讯录.png" />
+    <commonaddress text="公共通讯录" icon="/切图分类/icon/icon_公共地址.png" />
+    <talkrecord text="通话记录" icon="/切图分类/icon/icon_通话记录.png" />
+    <!--listenvoc text="上传通话" icon="/切图分类/icon/上传话音_设置.png" /-->
+    <duty text="代班" icon="/切图分类/icon/值班室.png" />
+    <!--unanswercall text="未接来电" icon="/切图分类/icon/icon_未接电话.png"-->
+  </functionbutton>
+  <toolbutton width="75" height="90" textsize="14"  iconsize="42,42" space="5" animatetime="200" >
+    <up left="330" top="590" text="向上" icon="/切图分类/界面/底部工具栏/切图/Icon-向上.png" />
+    <down left="400" top="590" text="向下" icon="/切图分类/界面/底部工具栏/切图/Icon-向下.png" />
+    <left left="470" top="590" text="向左" icon="/切图分类/界面/底部工具栏/切图/Icon-向左.png" />
+    <right left="540" top="590" text="向右" icon="/切图分类/界面/底部工具栏/切图/Icon-向右.png" />
+    <ok left="610" top="590" text="确定" icon="/切图分类/界面/底部工具栏/切图/确定.png" />
+  </toolbutton>
+  <shortcut  left="45" top="678" width="420" height="88" maxbutton="5" scalegrid="15,15,865,80" animatetime="300" background="/切图分类/界面/底部工具栏/切图/工具栏显示区.png">
+    <button left="10" top="5"  width="80" height="85" space="0" textsize="14" iconsize="42,42"  />
+  </shortcut>
+</skin>
