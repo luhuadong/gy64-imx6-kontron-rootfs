@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#!/bin/sh
 #
 # rc.local
 #
@@ -12,6 +12,18 @@
 # By default this script does nothing.
 
 ### Launch eGTouchD daemon while boot-up ###
+
+# Enable GPIO0, configure direction=out, value=0
+echo 64 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio64/direction
+echo 0 > /sys/class/gpio/gpio64/value
+
+# Enable GPIO5, configure direction=in, edge=both
+echo 69 > /sys/class/gpio/export
+echo in > /sys/class/gpio/gpio69/direction
+echo both > /sys/class/gpio/gpio69/edge
+
+
 /opt/resistive/gpio0_set.sh &
 /usr/bin/eGTouchD
 /opt/resistive/detectTouch.sh &
